@@ -1,0 +1,9 @@
+Loading Qwen/Qwen3-8B in BF16, native chat template. 0/2 cases already saved.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:26<01:45, 26.35s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:45<01:06, 22.10s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:05<00:42, 21.01s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:22<00:19, 19.50s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:30<00:00, 15.36s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:30<00:00, 18.08s/it]
+CASE 1/2 [Long context] context-32768-depth-0 starting
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+CASE 1/2 context-32768-depth-0: PASS; input=32067 output=42 time=18.4s; Exact/constraint-based scoring
+CASE 2/2 [Long context] context-32768-depth-1 starting
+CASE 2/2 context-32768-depth-1: PASS; input=32067 output=41 time=18.1s; Exact/constraint-based scoring
+DIAGNOSTICS_COMPLETE {"Long context": {"passed": 2, "total": 2, "pass_rate": 1.0}}

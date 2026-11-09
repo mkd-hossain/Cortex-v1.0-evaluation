@@ -1,0 +1,25 @@
+2026-11-09:14:52:46 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:14:52:46 INFO     [config.evaluate_config:307] Using default fewshot_as_multiturn=True.
+2026-11-09:14:52:49 INFO     [_cli.run:388] Selected Tasks: ['hellaswag']
+2026-11-09:14:52:50 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:14:52:50 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B', 'revision': 'b968826d9c46dd6066d109eabc6255188de91218', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}
+2026-11-09:14:52:51 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:14:52:52 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:30<02:00, 30.08s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:53<01:18, 26.08s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:17<00:50, 25.34s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:38<00:23, 23.43s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:47<00:00, 18.29s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:47<00:00, 21.50s/it]
+2026-11-09:14:54:44 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:14:54:44 INFO     [evaluator_utils:480] Task: hellaswag (hellaswag/hellaswag.yaml)
+2026-11-09:14:54:44 WARNING  [evaluator:333] Overwriting default num_fewshot of hellaswag from None to 0
+2026-11-09:14:54:44 INFO     [api.task:312] Building contexts for hellaswag on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 957.23it/s]
+2026-11-09:14:54:44 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/40 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 40/40 [00:00<00:00, 7693.50it/s]
+Running loglikelihood requests:   0%|          | 0/40 [00:00<?, ?it/s]Running loglikelihood requests:   2%|▎         | 1/40 [00:00<00:22,  1.73it/s]Running loglikelihood requests:  22%|██▎       | 9/40 [00:00<00:02, 15.43it/s]Running loglikelihood requests:  42%|████▎     | 17/40 [00:00<00:00, 26.37it/s]Running loglikelihood requests:  62%|██████▎   | 25/40 [00:01<00:00, 34.23it/s]Running loglikelihood requests:  82%|████████▎ | 33/40 [00:01<00:00, 39.54it/s]Running loglikelihood requests: 100%|██████████| 40/40 [00:01<00:00, 33.93it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:14:54:46 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:14:54:46 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/qwen-chat-07/results/Qwen__Qwen3-8B/*.jsonl
+hf ({'pretrained': 'Qwen/Qwen3-8B', 'revision': 'b968826d9c46dd6066d109eabc6255188de91218', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
+|  Tasks  |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|---------|------:|------|-----:|--------|---|----:|---|-----:|
+|hellaswag|      1|none  |     0|acc     |↑  |  0.3|±  |0.1528|
+|         |       |none  |     0|acc_norm|↑  |  0.5|±  |0.1667|
+

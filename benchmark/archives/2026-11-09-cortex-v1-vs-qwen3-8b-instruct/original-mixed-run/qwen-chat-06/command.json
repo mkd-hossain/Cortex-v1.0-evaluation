@@ -1,0 +1,23 @@
+[
+  "/home/BENCHMARK_USER/cortex-benchmark/.venv/bin/python",
+  "-m",
+  "lm_eval",
+  "--model",
+  "hf",
+  "--model_args",
+  "pretrained=Qwen/Qwen3-8B,revision=b968826d9c46dd6066d109eabc6255188de91218,dtype=bfloat16,max_length=32768,enable_thinking=False",
+  "--tasks",
+  "mmlu_computer_security,mmlu_world_religions,mmlu_high_school_geography",
+  "--batch_size",
+  "8",
+  "--num_fewshot",
+  "5",
+  "--seed",
+  "0,1234,1234,1234",
+  "--log_samples",
+  "--output_path",
+  "runs-short-all-v1/qwen-chat-06/results",
+  "--limit",
+  "10",
+  "--apply_chat_template"
+]

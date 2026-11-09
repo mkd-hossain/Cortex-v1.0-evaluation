@@ -1,0 +1,19 @@
+[Unit]
+Description=Keural Cortex benchmark dashboard and evaluator
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/cortex-benchmark
+ExecStart=%h/cortex-benchmark/.venv/bin/python -u controller.py --plan pilot.json --data runs-pilot --ready-file provenance/ready
+Environment=PYTHONUNBUFFERED=1
+Environment=TOKENIZERS_PARALLELISM=false
+Environment=HF_DATASETS_TRUST_REMOTE_CODE=1
+Environment=OMP_NUM_THREADS=8
+Restart=on-failure
+RestartSec=5
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target

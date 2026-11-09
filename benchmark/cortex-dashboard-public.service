@@ -1,0 +1,13 @@
+[Unit]
+Description=Benchmark Evaluation Lab public read-only dashboard
+After=cortex-benchmark.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/cortex-benchmark
+ExecStart=%h/cortex-benchmark/.dashboard-venv/bin/python -u dashboard_web.py --port 8766
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

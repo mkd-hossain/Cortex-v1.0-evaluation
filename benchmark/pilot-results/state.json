@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "jobs": [
+    {
+      "id": "m0-kobest_boolq",
+      "model": "mkd-hossain/Keural-Cortex-8B-v1.0",
+      "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+      "task": "kobest_boolq",
+      "fewshot": 0,
+      "limit": 20,
+      "status": "completed",
+      "started": 1794195470.2410586,
+      "pid": 232067,
+      "exit_code": 0,
+      "ended": 1794195638.8597004
+    },
+    {
+      "id": "m0-arc_challenge",
+      "model": "mkd-hossain/Keural-Cortex-8B-v1.0",
+      "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+      "task": "arc_challenge",
+      "fewshot": 0,
+      "limit": 20,
+      "status": "completed",
+      "started": 1794195639.3648088,
+      "pid": 235382,
+      "exit_code": 0,
+      "ended": 1794195764.4669888
+    },
+    {
+      "id": "m1-kobest_boolq",
+      "model": "Qwen/Qwen3-8B-Base",
+      "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+      "task": "kobest_boolq",
+      "fewshot": 0,
+      "limit": 20,
+      "status": "completed",
+      "started": 1794195764.9684641,
+      "pid": 238313,
+      "exit_code": 0,
+      "ended": 1794195906.1020977
+    },
+    {
+      "id": "m1-arc_challenge",
+      "model": "Qwen/Qwen3-8B-Base",
+      "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+      "task": "arc_challenge",
+      "fewshot": 0,
+      "limit": 20,
+      "status": "completed",
+      "started": 1794195906.6075692,
+      "pid": 240985,
+      "exit_code": 0,
+      "ended": 1794196038.2177851
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+2026-11-09:14:08:09 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:14:08:11 INFO     [_cli.run:388] Selected Tasks: ['gsm8k']
+2026-11-09:14:08:12 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:14:08:12 WARNING  [evaluator:226] generation_kwargs: {'max_gen_toks': 512, 'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-11-09:14:08:12 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}
+2026-11-09:14:08:13 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:14:08:14 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:28<01:54, 28.52s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:48<01:10, 23.43s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:07<00:43, 21.52s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:24<00:19, 19.68s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:32<00:00, 15.36s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:32<00:00, 18.44s/it]
+2026-11-09:14:09:50 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:14:09:50 INFO     [evaluator_utils:480] Task: gsm8k (gsm8k/gsm8k.yaml)
+2026-11-09:14:09:50 INFO     [evaluator:314] gsm8k: Using gen_kwargs: {'until': ['Question:', '</s>', '<|im_end|>'], 'do_sample': False, 'temperature': 0.0, 'max_gen_toks': 512}
+2026-11-09:14:09:50 WARNING  [evaluator:333] Overwriting default num_fewshot of gsm8k from 5 to 5
+2026-11-09:14:09:50 INFO     [api.task:312] Building contexts for gsm8k on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 841.89it/s]
+2026-11-09:14:09:50 INFO     [evaluator:585] Running generate_until requests
+Running generate_until requests:   0%|          | 0/10 [00:00<?, ?it/s]Both `max_new_tokens` (=2048) and `max_length`(=1608) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Running generate_until requests:  10%|█         | 1/10 [00:33<05:04, 33.78s/it]Both `max_new_tokens` (=2048) and `max_length`(=1551) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Running generate_until requests:  50%|█████     | 5/10 [00:56<00:48,  9.77s/it]Both `max_new_tokens` (=2048) and `max_length`(=1311) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Running generate_until requests:  90%|█████████ | 9/10 [01:07<00:05,  5.97s/it]Running generate_until requests: 100%|██████████| 10/10 [01:07<00:00,  6.75s/it]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:14:10:58 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:14:10:58 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/base-completion-10/results/Qwen__Qwen3-8B-Base/*.jsonl
+hf ({'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({'max_gen_toks': 512, 'do_sample': False}), limit: 10.0, num_fewshot: 5, batch_size: 4
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  |  0.8|±  |0.1333|
+|     |       |strict-match    |     5|exact_match|↑  |  0.8|±  |0.1333|
+

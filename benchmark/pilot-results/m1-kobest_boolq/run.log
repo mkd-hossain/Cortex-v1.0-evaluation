@@ -1,0 +1,28 @@
+2026-11-09:12:42:45 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:12:42:48 INFO     [_cli.run:388] Selected Tasks: ['kobest_boolq']
+2026-11-09:12:42:49 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:12:42:49 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16'}
+2026-11-09:12:42:50 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:12:42:52 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:24<01:38, 24.52s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:43<01:03, 21.33s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:03<00:41, 20.56s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:21<00:19, 19.53s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:29<00:00, 15.50s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:29<00:00, 17.91s/it]
+2026-11-09:12:44:26 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:12:44:26 INFO     [evaluator_utils:480] Task: kobest_boolq (kobest/kobest_boolq.yaml)
+2026-11-09:12:44:26 WARNING  [evaluator:333] Overwriting default num_fewshot of kobest_boolq from None to 0
+2026-11-09:12:44:26 INFO     [api.task:312] Building contexts for kobest_boolq on rank 0...
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 4084.63it/s]
+2026-11-09:12:44:26 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/40 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 40/40 [00:00<00:00, 4505.28it/s]
+Running loglikelihood requests:   0%|          | 0/40 [00:00<?, ?it/s]Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Running loglikelihood requests:   2%|▎         | 1/40 [00:37<24:32, 37.76s/it]Running loglikelihood requests: 100%|██████████| 40/40 [00:37<00:00,  1.06it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:12:45:04 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:12:45:04 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-pilot/m1-kobest_boolq/results/Qwen__Qwen3-8B-Base/*.jsonl
+hf ({'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16'}), gen_kwargs: ({}), limit: 20.0, num_fewshot: 0, batch_size: auto:4 (64,64,64,64)
+|   Tasks    |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|-----:|------|---|-----:|---|------|
+|kobest_boolq|      1|none  |     0|acc   |↑  |0.6500|±  |0.1094|
+|            |       |none  |     0|f1    |↑  |0.5611|±  |   N/A|
+

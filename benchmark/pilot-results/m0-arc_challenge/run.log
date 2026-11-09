@@ -1,0 +1,30 @@
+2026-11-09:12:40:39 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:12:40:42 INFO     [_cli.run:388] Selected Tasks: ['arc_challenge']
+2026-11-09:12:40:43 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:12:40:43 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16'}
+2026-11-09:12:40:44 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:12:40:45 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Generating train split:   0%|          | 0/1119 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 1119/1119 [00:00<00:00, 83711.03 examples/s]
+Generating test split:   0%|          | 0/1172 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1172/1172 [00:00<00:00, 355079.77 examples/s]
+Generating validation split:   0%|          | 0/299 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 299/299 [00:00<00:00, 123035.11 examples/s]
+2026-11-09:12:42:26 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:12:42:26 INFO     [evaluator_utils:480] Task: arc_challenge (arc/arc_challenge.yaml)
+2026-11-09:12:42:26 WARNING  [evaluator:333] Overwriting default num_fewshot of arc_challenge from None to 0
+2026-11-09:12:42:26 INFO     [api.task:312] Building contexts for arc_challenge on rank 0...
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 782.30it/s]
+2026-11-09:12:42:26 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/80 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 80/80 [00:00<00:00, 7127.87it/s]
+Running loglikelihood requests:   0%|          | 0/80 [00:00<?, ?it/s]Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Running loglikelihood requests:   1%|▏         | 1/80 [00:16<21:42, 16.48s/it]Running loglikelihood requests:  88%|████████▊ | 70/80 [00:16<00:01,  5.95it/s]Running loglikelihood requests: 100%|██████████| 80/80 [00:16<00:00,  4.80it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:12:42:43 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:12:42:43 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-pilot/m0-arc_challenge/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
+hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16'}), gen_kwargs: ({}), limit: 20.0, num_fewshot: 0, batch_size: auto:4 (64,64,64,64,64)
+|    Tasks    |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|-------------|------:|------|-----:|--------|---|----:|---|-----:|
+|arc_challenge|      1|none  |     0|acc     |↑  | 0.35|±  |0.1094|
+|             |       |none  |     0|acc_norm|↑  | 0.35|±  |0.1094|
+

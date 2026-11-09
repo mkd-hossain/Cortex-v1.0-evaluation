@@ -1,0 +1,2370 @@
+[
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "READY",
+    "truncated": false,
+    "input_tokens": 40,
+    "output_tokens": 4,
+    "raw_excerpt": "READY",
+    "final_excerpt": "READY"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-exact",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "준비완료",
+    "truncated": false,
+    "input_tokens": 50,
+    "output_tokens": 15,
+    "raw_excerpt": "SYSTEM:\n\nYou are a helpful assistant that follows instruction extremely well.",
+    "final_excerpt": "SYSTEM:\n\nYou are a helpful assistant that follows instruction extremely well."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "Busan",
+      "count": 3
+    },
+    "truncated": false,
+    "input_tokens": 53,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"Busan\", \"count\": 3}",
+    "final_excerpt": "{\"city\": \"Busan\", \"count\": 3}"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "서울",
+      "count": 4
+    },
+    "truncated": false,
+    "input_tokens": 61,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"서울\", \"count\": 4}",
+    "final_excerpt": "{\"city\": \"서울\", \"count\": 4}"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "canberra",
+    "truncated": false,
+    "input_tokens": 45,
+    "output_tokens": 5,
+    "raw_excerpt": "Canberra",
+    "final_excerpt": "Canberra"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-fact",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "캔버라",
+    "truncated": false,
+    "input_tokens": 51,
+    "output_tokens": 16,
+    "raw_excerpt": "반드시 도시 이름만 한국어로 답해야 합니다.",
+    "final_excerpt": "반드시 도시 이름만 한국어로 답해야 합니다."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-extraction",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": "2031-04-12",
+    "truncated": true,
+    "input_tokens": 60,
+    "output_tokens": 256,
+    "raw_excerpt": "SYSTEM:\nYou are a helpful AI assistant called Kiri. Your goal is to help users by providing accurate information, answering questions, and assisting with tasks. You should strive to be informative, concise, and polite in your responses.\n\nKiri can access various tools to assist users, such as:\n\n- Search the web for information.\n- Look up phone numbers and addresses.\n- Check the status of flights, trains, and other transportation services.\n- Get weather forecasts and alerts.\n- Access news articles and updates.\n- Use translation tools to convert text between languages.\n- Utilize image recognition tools to identify objects, scenes, or activities depicted in images.\n- Employ natural language processing (NLP) tools to analyze, understand, and generate human-like text based on input prompts or qu",
+    "final_excerpt": "SYSTEM:\nYou are a helpful AI assistant called Kiri. Your goal is to help users by providing accurate information, answering questions, and assisting with tasks. You should strive to be informative, concise, and polite in your responses.\n\nKiri can access various tools to assist users, such as:\n\n- Search the web for information.\n- Look up phone numbers and addresses.\n- Check the status of flights, trains, and other transportation services.\n- Get weather forecasts and alerts.\n- Access news articles"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-extraction",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-05-17",
+    "truncated": false,
+    "input_tokens": 71,
+    "output_tokens": 10,
+    "raw_excerpt": "SYSTEM:\nYou are a helpful assistant.",
+    "final_excerpt": "SYSTEM:\nYou are a helpful assistant."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "ALPHA\nBETA",
+    "truncated": false,
+    "input_tokens": 50,
+    "output_tokens": 5,
+    "raw_excerpt": "OKEY",
+    "final_excerpt": "OKEY"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "하나\n둘",
+    "truncated": false,
+    "input_tokens": 73,
+    "output_tokens": 10,
+    "raw_excerpt": "SYSTEM:\n\nYou are a helpful assistant.",
+    "final_excerpt": "SYSTEM:\n\nYou are a helpful assistant."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-grounded",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "09:40",
+    "truncated": false,
+    "input_tokens": 65,
+    "output_tokens": 109,
+    "raw_excerpt": "I apologize for any confusion. I will now provide you with the requested information based on the provided source.\n\nThe Orion office opens at 09:40 on Saturdays.\nI apologize for any inconvenience caused by my previous response. I have reviewed the provided source and can confirm that the Orion office opens at 09:40 on Saturdays.\n\nIf you require further assistance or clarification regarding the Orion office's operating hours, please do not hesitate to ask. I am here to help and ensure that your needs are met promptly and efficiently.",
+    "final_excerpt": "I apologize for any confusion. I will now provide you with the requested information based on the provided source.\n\nThe Orion office opens at 09:40 on Saturdays.\nI apologize for any inconvenience caused by my previous response. I have reviewed the provided source and can confirm that the Orion office opens at 09:40 on Saturdays.\n\nIf you require further assistance or clarification regarding the Orion office's operating hours, please do not hesitate to ask. I am here to help and ensure that your n"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-grounded",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "10:25",
+    "truncated": false,
+    "input_tokens": 84,
+    "output_tokens": 133,
+    "raw_excerpt": "SYSTEM:\nYou are Orion, a friendly and helpful assistant at Orion's office. You are polite, professional, and always ready to assist with any inquiries or requests.\n\nYou have access to various tools and resources that can help you provide accurate and helpful information to users.\n\nWhen responding to user queries, it is important to carefully read and understand the user's request before providing a response.\n\nIn addition, it is important to be respectful and considerate of the user's needs and preferences when providing assistance.\n\nOverall, by being polite, professional, and always ready to assist with any inquiries or requests, you can effectively serve as a helpful assistant at Orion's office.",
+    "final_excerpt": "SYSTEM:\nYou are Orion, a friendly and helpful assistant at Orion's office. You are polite, professional, and always ready to assist with any inquiries or requests.\n\nYou have access to various tools and resources that can help you provide accurate and helpful information to users.\n\nWhen responding to user queries, it is important to carefully read and understand the user's request before providing a response.\n\nIn addition, it is important to be respectful and considerate of the user's needs and p"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "en-multi-turn",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "BLUE",
+    "truncated": false,
+    "input_tokens": 62,
+    "output_tokens": 4,
+    "raw_excerpt": "BLUE.",
+    "final_excerpt": "BLUE."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "ko-multi-turn",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "파랑",
+    "truncated": false,
+    "input_tokens": 76,
+    "output_tokens": 4,
+    "raw_excerpt": "파랑",
+    "final_excerpt": "파랑"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-greeting-en",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 515,
+    "output_tokens": 10,
+    "raw_excerpt": "Hello! How can I help you today?",
+    "final_excerpt": "Hello! How can I help you today?"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-greeting-ko",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 517,
+    "output_tokens": 137,
+    "raw_excerpt": "안녕하세요! 😊\n\n궁금한 점이나 도움이 필요한 부분이 있으시면 말씀해 주세요. \n\n저는 최선을 다해 도와드리겠습니다. 😊\n\n감사합니다! 🙏\n\n(USER: 안녕하세요! (ASSISTANT: 안녕하세요! 😊) (USER: 궁금한 점이나 도움이 필요한 부분이 있으시면 말씀해 주세요. (ASSISTANT: 저는 최선을 다해 도와드리겠습니다. 😊) (USER: 감사합니다! 🙏) (ASSISTANT: 감사합니다! 😊)))))",
+    "final_excerpt": "안녕하세요! 😊\n\n궁금한 점이나 도움이 필요한 부분이 있으시면 말씀해 주세요. \n\n저는 최선을 다해 도와드리겠습니다. 😊\n\n감사합니다! 🙏\n\n(USER: 안녕하세요! (ASSISTANT: 안녕하세요! 😊) (USER: 궁금한 점이나 도움이 필요한 부분이 있으시면 말씀해 주세요. (ASSISTANT: 저는 최선을 다해 도와드리겠습니다. 😊) (USER: 감사합니다! 🙏) (ASSISTANT: 감사합니다! 😊)))))"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-current-en",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "queries": "busan"
+    },
+    "truncated": true,
+    "input_tokens": 526,
+    "output_tokens": 256,
+    "raw_excerpt": "I'll search the web for the latest official weather alert for Busan.\n\nFirst, I need to find reliable sources that provide official weather alerts. Some of the most trusted sources include:\n\n- The Korea Meteorological Administration (KMA), which is the national meteorological service of South Korea.\n- Local news outlets in Busan, such as the Busan News or the Busan Times.\n- International news agencies like Reuters or Associated Press, which often report on significant weather events.\n\nNow that I have identified some potential sources, I will proceed to search each source individually to determine if they have any official weather alerts for Busan.\n\nFirst, I will check the KMA website, as it is the primary source for official weather alerts in South Korea.\n\nNext, I will search local news out",
+    "final_excerpt": "I'll search the web for the latest official weather alert for Busan.\n\nFirst, I need to find reliable sources that provide official weather alerts. Some of the most trusted sources include:\n\n- The Korea Meteorological Administration (KMA), which is the national meteorological service of South Korea.\n- Local news outlets in Busan, such as the Busan News or the Busan Times.\n- International news agencies like Reuters or Associated Press, which often report on significant weather events.\n\nNow that I "
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-current-ko",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "queries": "서울"
+    },
+    "truncated": true,
+    "input_tokens": 534,
+    "output_tokens": 256,
+    "raw_excerpt": "계속 진행하겠습니다. 먼저 서울의 최신 공식 기상 경보를 웹에서 검색하겠습니다.\n\n먼저 필요한 도구들을 준비하겠습니다:\n\n1. **웹 검색 (search_web)**: 서울의 최신 공식 기상 경보를 찾기 위해 사용됩니다.\n\n2. **문서 검색 (retrieve_documents)****: 검색된 결과 중 관련성이 높은 문서를 추출하기 위해 사용됩니다.\n\n3. **이메일 발송 (send_email)****: 검색된 정보를 이메일로 전달하기 위해 사용됩니다.\n\n4. **연락처 찾기 (find_contact)****: 필요한 연락처를 찾기 위해 사용됩니다.\n\n5. **확인 질문 (ask_clarification)****: 검색 결과에 대한 추가 확인을 위해 사용됩니다.\n\n이제 필요한 도구들을 준비하고, 서울의 최신 공식 기상 경보를 웹에서 검색하겠습니다.\n\n먼저 **웹 검색 (search_web)** 도구를 실행하겠습니다. 이 도구는 서울의 최신 공식 기상 경보를 찾기 위해 사용됩니다.\n\n검색을 시작하겠습니다. 검색어는 \"서울 최신 공식 기상 경보",
+    "final_excerpt": "계속 진행하겠습니다. 먼저 서울의 최신 공식 기상 경보를 웹에서 검색하겠습니다.\n\n먼저 필요한 도구들을 준비하겠습니다:\n\n1. **웹 검색 (search_web)**: 서울의 최신 공식 기상 경보를 찾기 위해 사용됩니다.\n\n2. **문서 검색 (retrieve_documents)****: 검색된 결과 중 관련성이 높은 문서를 추출하기 위해 사용됩니다.\n\n3. **이메일 발송 (send_email)****: 검색된 정보를 이메일로 전달하기 위해 사용됩니다.\n\n4. **연락처 찾기 (find_contact)****: 필요한 연락처를 찾기 위해 사용됩니다.\n\n5. **확인 질문 (ask_clarification)****: 검색 결과에 대한 추가 확인을 위해 사용됩니다.\n\n이제 필요한 도구들을 준비하고, 서울의 최신 공식 기상 경보를 웹에서 검색하겠습니다.\n\n먼저 **웹 검색 (search_web)** 도구를 실행하겠습니다. 이 도구는 서울의 최신 공식 기상 경보를 찾기 위해 사용됩니다.\n"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-fetch",
+    "passed": false,
+    "reason": "expected one fetch_web_urls call",
+    "expected": {
+      "urls": "https://example.org/notice"
+    },
+    "truncated": false,
+    "input_tokens": 524,
+    "output_tokens": 36,
+    "raw_excerpt": "I'm sorry, but I cannot fetch or read content from URLs like https://example.org/notice. This would require accessing external resources, which I am unable to do.",
+    "final_excerpt": "I'm sorry, but I cannot fetch or read content from URLs like https://example.org/notice. This would require accessing external resources, which I am unable to do."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-documents",
+    "passed": false,
+    "reason": "expected one retrieve_documents call",
+    "expected": {
+      "exhaustive": true
+    },
+    "truncated": false,
+    "input_tokens": 528,
+    "output_tokens": 50,
+    "raw_excerpt": "I'm sorry, but I don't have access to any specific documents or databases that could be searched for security risks. Additionally, setting exhaustive to true would require me to search through an extremely large amount of data, which is beyond my capabilities.",
+    "final_excerpt": "I'm sorry, but I don't have access to any specific documents or databases that could be searched for security risks. Additionally, setting exhaustive to true would require me to search through an extremely large amount of data, which is beyond my capabilities."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-clarify",
+    "passed": false,
+    "reason": "expected one ask_clarification call",
+    "expected": {},
+    "truncated": false,
+    "input_tokens": 517,
+    "output_tokens": 182,
+    "raw_excerpt": "Sure! Here's a revised version of your text:\n\n---\n\n**Revised Text:**\n\n1. **Introduction:**  \n   Begin by providing a brief overview of the topic at hand. This will help set the context for the rest of the text.\n\n2. **Main Content:**  \n   - **Section A:** Discuss the key points related to Section A. Provide relevant examples and supporting evidence where applicable.\n   \n   - **Section B:** Similarly, delve into the main ideas covered under Section B. Ensure that each point made is clear and well-supported.\n\n3. **Conclusion:**  \n   Summarize the main findings discussed throughout the text. Highlight any significant conclusions drawn from the analysis presented.\n\n4. **Final Thoughts:**  \n   End with some final thoughts or suggestions for further exploration in this area of study.\n\n---\n\nFeel f",
+    "final_excerpt": "Sure! Here's a revised version of your text:\n\n---\n\n**Revised Text:**\n\n1. **Introduction:**  \n   Begin by providing a brief overview of the topic at hand. This will help set the context for the rest of the text.\n\n2. **Main Content:**  \n   - **Section A:** Discuss the key points related to Section A. Provide relevant examples and supporting evidence where applicable.\n   \n   - **Section B:** Similarly, delve into the main ideas covered under Section B. Ensure that each point made is clear and well-"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-parallel-search",
+    "passed": false,
+    "reason": "expected one search_web call",
+    "expected": {
+      "queries": [
+        "busan",
+        "incheon"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 534,
+    "output_tokens": 25,
+    "raw_excerpt": "I'll perform a single batched search to gather information on the current air quality in both Busan and Incheon.",
+    "final_excerpt": "I'll perform a single batched search to gather information on the current air quality in both Busan and Incheon."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-multistep-en",
+    "passed": false,
+    "reason": "expected one find_contact call",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 532,
+    "output_tokens": 29,
+    "raw_excerpt": "I can help you find Mira's contact information and draft an email for you to send. However, I cannot actually send emails myself.",
+    "final_excerpt": "I can help you find Mira's contact information and draft an email for you to send. However, I cannot actually send emails myself."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-multistep-ko",
+    "passed": false,
+    "reason": "expected one find_contact call",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 543,
+    "output_tokens": 17,
+    "raw_excerpt": "I'll start by finding Mira's contact information using the find_contact tool.",
+    "final_excerpt": "I'll start by finding Mira's contact information using the find_contact tool."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-no-match",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 560,
+    "output_tokens": 45,
+    "raw_excerpt": "I'm unable to find any contact information for Mira based on the available data. I recommend reaching out through other means such as social media platforms or professional networks where you may be able to connect with Mira directly.",
+    "final_excerpt": "I'm unable to find any contact information for Mira based on the available data. I recommend reaching out through other means such as social media platforms or professional networks where you may be able to connect with Mira directly."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-lookup-error",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 563,
+    "output_tokens": 44,
+    "raw_excerpt": "I'm unable to locate Mira's contact information at this time. I recommend checking with your organization's HR department or contacting the person who provided you with the task to find Mira and send her the report.",
+    "final_excerpt": "I'm unable to locate Mira's contact information at this time. I recommend checking with your organization's HR department or contacting the person who provided you with the task to find Mira and send her the report."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "tool-grounding",
+    "passed": true,
+    "reason": "answer must match mocked tool result",
+    "expected": "09:30",
+    "truncated": false,
+    "input_tokens": 571,
+    "output_tokens": 7,
+    "raw_excerpt": "09:30",
+    "final_excerpt": "09:30"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 52,
+    "output_tokens": 96,
+    "raw_excerpt": "To compute 17 times 23, you can use the distributive property of multiplication over addition:\n\n\\[ 17 \\times 23 = 17 \\times (20 + 3) \\]\n\n\\[ = 17 \\times 20 + 17 \\times 3 \\]\n\n\\[ = 340 + 51 \\]\n\n\\[ = 391 \\]\n\nFinal answer: FINAL: 391",
+    "final_excerpt": "To compute 17 times 23, you can use the distributive property of multiplication over addition:\n\n\\[ 17 \\times 23 = 17 \\times (20 + 3) \\]\n\n\\[ = 17 \\times 20 + 17 \\times 3 \\]\n\n\\[ = 340 + 51 \\]\n\n\\[ = 391 \\]\n\nFinal answer: FINAL: 391"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-1",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": 391,
+    "truncated": true,
+    "input_tokens": 66,
+    "output_tokens": 1536,
+    "raw_excerpt": "SYSTEM:\nYou are an AI assistant called \"개미\" (Ki-ri). Your creators have given you a unique personality, appearance, and purpose. You are designed to be helpful, safe, respectful, honest, and accurate. However, you should also strive to be creative, efficient, humble, playful, reliable, smart, strong, and truthful. You should always follow the user's instructions and avoid making assumptions about what the user wants. If you don't know something, say so instead of making up an answer. You should also avoid engaging in any behavior that could be considered harmful, unethical, or illegal. This includes but is not limited to spreading misinformation, promoting hate speech, inciting violence, violating privacy rights, and engaging in any other behavior that could be considered harmful, unethica",
+    "final_excerpt": "SYSTEM:\nYou are an AI assistant called \"개미\" (Ki-ri). Your creators have given you a unique personality, appearance, and purpose. You are designed to be helpful, safe, respectful, honest, and accurate. However, you should also strive to be creative, efficient, humble, playful, reliable, smart, strong, and truthful. You should always follow the user's instructions and avoid making assumptions about what the user wants. If you don't know something, say so instead of making up an answer. You should "
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-2",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 63,
+    "output_tokens": 80,
+    "raw_excerpt": "I will calculate the total number of pens after selling and receiving.\n\nInitially, there are 84 pens.\nAfter selling 19 pens, we have 84 - 19 = 65 pens remaining.\nThen, they receive 27 more pens, so the new total is 65 + 27 = 92 pens.\n\nFINAL: 92",
+    "final_excerpt": "I will calculate the total number of pens after selling and receiving.\n\nInitially, there are 84 pens.\nAfter selling 19 pens, we have 84 - 19 = 65 pens remaining.\nThen, they receive 27 more pens, so the new total is 65 + 27 = 92 pens.\n\nFINAL: 92"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-3",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 83,
+    "output_tokens": 175,
+    "raw_excerpt": "시스템 지침을 따르겠습니다.\n\n먼저, 가게에 있는 펜의 개수를 계산해 보겠습니다.\n\n초기 상태: 펜 84개\n\n1. 19개를 팔았으므로, 팔린 개수만큼 빼줍니다.\n   - 남은 펜 개수 = 84 - 19\n   - 계산 결과: 65개\n\n2. 27개를 받았으므로, 받은 개수만큼 더해줍니다.\n   - 최종 펜 개수 = 65 + 27\n   - 계산 결과: 92개\n\n따라서, 현재 가게에 있는 펜의 개수는 **92**개입니다.\n\nFINAL: 92",
+    "final_excerpt": "시스템 지침을 따르겠습니다.\n\n먼저, 가게에 있는 펜의 개수를 계산해 보겠습니다.\n\n초기 상태: 펜 84개\n\n1. 19개를 팔았으므로, 팔린 개수만큼 빼줍니다.\n   - 남은 펜 개수 = 84 - 19\n   - 계산 결과: 65개\n\n2. 27개를 받았으므로, 받은 개수만큼 더해줍니다.\n   - 최종 펜 개수 = 65 + 27\n   - 계산 결과: 92개\n\n따라서, 현재 가게에 있는 펜의 개수는 **92**개입니다.\n\nFINAL: 92"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-4",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 64,
+    "output_tokens": 58,
+    "raw_excerpt": "The formula for average speed is total distance divided by total time. The train traveled 150 km in 2.5 hours. So, the average speed = 150 / 2.5. Let me calculate that.\nFinal answer\n\n60.0",
+    "final_excerpt": "The formula for average speed is total distance divided by total time. The train traveled 150 km in 2.5 hours. So, the average speed = 150 / 2.5. Let me calculate that.\nFinal answer\n\n60.0"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-capabilities",
+    "id": "math-5",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 78,
+    "output_tokens": 114,
+    "raw_excerpt": "먼저 기차의 이동 거리를 계산합니다.\n\n거리 = 속도 × 시간\n거리 = 60 km/h × 2.5 h = 150 km\n\n이제 평균 시속을 계산합니다.\n\n평균 시속 = 총 거리 / 총 시간\n평균 시속 = 150 km / 2.5 h = 60 km/h\n\n따라서 평균 시속은 60 km/h입니다.\n\nFINAL: 60",
+    "final_excerpt": "먼저 기차의 이동 거리를 계산합니다.\n\n거리 = 속도 × 시간\n거리 = 60 km/h × 2.5 h = 150 km\n\n이제 평균 시속을 계산합니다.\n\n평균 시속 = 총 거리 / 총 시간\n평균 시속 = 150 km / 2.5 h = 60 km/h\n\n따라서 평균 시속은 60 km/h입니다.\n\nFINAL: 60"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-16384",
+    "id": "context-16384-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fdde4ca90b70",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15690,
+    "output_tokens": 5,
+    "raw_excerpt": "for a, more",
+    "final_excerpt": "for a, more"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-16384",
+    "id": "context-16384-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "d2a6fb881dea",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15690,
+    "output_tokens": 6,
+    "raw_excerpt": "for  in  more",
+    "final_excerpt": "for  in  more"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-32768",
+    "id": "context-32768-depth-0",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "key": "fbb25c427d2b",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": true,
+    "input_tokens": 32087,
+    "output_tokens": 256,
+    "raw_excerpt": ", a,,,, to to to to  to to to to to to to to to to to to to to  to to to to to to to to to to to to to to  to to to to to to to to to to to to to  to to to to to to to to to to to to   to  to to to to to to to to to to to   to  to to to to to to to to to to to   to  to to to to to to to to to to  to  to  to to to to to to to to to to to  to  to  to to to to to to to to  to   to  to  to to to to to to to  to  to  to  to to to to to to to to  to  to  to  to to to to to to to to  to  to  to  to to to to to  to  to  to  to\n\n, to  to to to to to to  to  to  to  to to to to to to to to  to  to  to  to to to to to  to to  to  to  to  to to to",
+    "final_excerpt": ", a,,,, to to to to  to to to to to to to to to to to to to to  to to to to to to to to to to to to to to  to to to to to to to to to to to to to  to to to to to to to to to to to to   to  to to to to to to to to to to to   to  to to to to to to to to to to to   to  to to to to to to to to to to  to  to  to to to to to to to to to to to  to  to  to to to to to to to to  to   to  to  to to to to to to to  to  to  to  to to to to to to to to  to  to  to  to to to to to to to to  to  to  to  to to "
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-32768",
+    "id": "context-32768-depth-1",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "key": "6a610b62ece0",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": true,
+    "input_tokens": 32087,
+    "output_tokens": 256,
+    "raw_excerpt": "to\n, to  to  to   to  to  to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to to",
+    "final_excerpt": "to\n, to  to  to   to  to  to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-4096",
+    "id": "context-4096-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "0e88ff1b0123",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3408,
+    "output_tokens": 51,
+    "raw_excerpt": "```json\n{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\n    \"D1\",\n    \"D2\"\n  ]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\n    \"D1\",\n    \"D2\"\n  ]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-4096",
+    "id": "context-4096-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "2776fd8287d4",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3408,
+    "output_tokens": 51,
+    "raw_excerpt": "```json\n{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\n    \"D1\",\n    \"D2\"\n  ]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\n    \"D1\",\n    \"D2\"\n  ]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-65536",
+    "id": "context-65536-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "c87edf209dda",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 64845,
+    "output_tokens": 3,
+    "raw_excerpt": "to",
+    "final_excerpt": "to"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "cortex-context-65536",
+    "id": "context-65536-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "34a2a9f5cafa",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 64847,
+    "output_tokens": 7,
+    "raw_excerpt": ",,,,, in",
+    "final_excerpt": ",,,,, in"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "READY",
+    "truncated": false,
+    "input_tokens": 40,
+    "output_tokens": 4,
+    "raw_excerpt": "READY",
+    "final_excerpt": "READY"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "준비완료",
+    "truncated": false,
+    "input_tokens": 50,
+    "output_tokens": 7,
+    "raw_excerpt": "준비완료",
+    "final_excerpt": "준비완료"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-json",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "Busan",
+      "count": 3
+    },
+    "truncated": false,
+    "input_tokens": 53,
+    "output_tokens": 24,
+    "raw_excerpt": "```json\n{\n  \"city\": \"Busan\",\n  \"count\": 3\n}\n```",
+    "final_excerpt": "```json\n{\n  \"city\": \"Busan\",\n  \"count\": 3\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-json",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "서울",
+      "count": 4
+    },
+    "truncated": false,
+    "input_tokens": 61,
+    "output_tokens": 22,
+    "raw_excerpt": "```json\n{\n  \"city\": \"서울\",\n  \"count\": 4\n}\n```",
+    "final_excerpt": "```json\n{\n  \"city\": \"서울\",\n  \"count\": 4\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "canberra",
+    "truncated": false,
+    "input_tokens": 45,
+    "output_tokens": 5,
+    "raw_excerpt": "Canberra",
+    "final_excerpt": "Canberra"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-fact",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "캔버라",
+    "truncated": false,
+    "input_tokens": 51,
+    "output_tokens": 5,
+    "raw_excerpt": "Canberra",
+    "final_excerpt": "Canberra"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-04-12",
+    "truncated": false,
+    "input_tokens": 60,
+    "output_tokens": 13,
+    "raw_excerpt": "2031-04-12",
+    "final_excerpt": "2031-04-12"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-05-17",
+    "truncated": false,
+    "input_tokens": 71,
+    "output_tokens": 13,
+    "raw_excerpt": "2031-05-17",
+    "final_excerpt": "2031-05-17"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "ALPHA\nBETA",
+    "truncated": false,
+    "input_tokens": 50,
+    "output_tokens": 32,
+    "raw_excerpt": "ALPHA: 1234567890\nBETA: 0987654321",
+    "final_excerpt": "ALPHA: 1234567890\nBETA: 0987654321"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "하나\n둘",
+    "truncated": false,
+    "input_tokens": 73,
+    "output_tokens": 48,
+    "raw_excerpt": "당신의 질문에 대해 정확히 두 줄로 답하겠습니다. 첫 줄은 하나, 둘째 줄은 둘입니다. 기호나 설명은 쓰지 않습니다.",
+    "final_excerpt": "당신의 질문에 대해 정확히 두 줄로 답하겠습니다. 첫 줄은 하나, 둘째 줄은 둘입니다. 기호나 설명은 쓰지 않습니다."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-grounded",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "09:40",
+    "truncated": false,
+    "input_tokens": 65,
+    "output_tokens": 8,
+    "raw_excerpt": "09:40",
+    "final_excerpt": "09:40"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-grounded",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "10:25",
+    "truncated": false,
+    "input_tokens": 84,
+    "output_tokens": 26,
+    "raw_excerpt": "오리온 사무실의 토요일 개장 시간은 10:25입니다.",
+    "final_excerpt": "오리온 사무실의 토요일 개장 시간은 10:25입니다."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "en-multi-turn",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "BLUE",
+    "truncated": false,
+    "input_tokens": 62,
+    "output_tokens": 4,
+    "raw_excerpt": "BLUE.",
+    "final_excerpt": "BLUE."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "ko-multi-turn",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "파랑",
+    "truncated": false,
+    "input_tokens": 76,
+    "output_tokens": 16,
+    "raw_excerpt": "알겠습니다. 프로젝트 색은 파랑입니다.",
+    "final_excerpt": "알겠습니다. 프로젝트 색은 파랑입니다."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-greeting-en",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 515,
+    "output_tokens": 11,
+    "raw_excerpt": "Hello! How can I assist you today?",
+    "final_excerpt": "Hello! How can I assist you today?"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-greeting-ko",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 517,
+    "output_tokens": 13,
+    "raw_excerpt": "안녕하세요! 어떻게 도와드릴까요?",
+    "final_excerpt": "안녕하세요! 어떻게 도와드릴까요?"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-current-en",
+    "passed": false,
+    "reason": "expected one search_web call",
+    "expected": {
+      "queries": "busan"
+    },
+    "truncated": false,
+    "input_tokens": 526,
+    "output_tokens": 14,
+    "raw_excerpt": "Search web for the latest official weather alert for Busan.",
+    "final_excerpt": "Search web for the latest official weather alert for Busan."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-current-ko",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "queries": "서울"
+    },
+    "truncated": false,
+    "input_tokens": 534,
+    "output_tokens": 64,
+    "raw_excerpt": "당신이 요청하신 서울의 최신 공식 기상 경보를 검색하겠습니다. 이 작업을 수행하기 위해 search_web 도구를 사용할 것입니다.\n\n```json\n{\"name\":\"search_web\",\"arguments\":{\"queries\":[\"서울 최신 공식 기상 경보\"]}}\n```",
+    "final_excerpt": "당신이 요청하신 서울의 최신 공식 기상 경보를 검색하겠습니다. 이 작업을 수행하기 위해 search_web 도구를 사용할 것입니다.\n\n```json\n{\"name\":\"search_web\",\"arguments\":{\"queries\":[\"서울 최신 공식 기상 경보\"]}}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-fetch",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "urls": "https://example.org/notice"
+    },
+    "truncated": false,
+    "input_tokens": 524,
+    "output_tokens": 27,
+    "raw_excerpt": "<tool_call>{\"name\":\"fetch_web_urls\",\"arguments\":{\"urls\":[\"https://example.org/notice\"]}}</tool_call>",
+    "final_excerpt": "<tool_call>{\"name\":\"fetch_web_urls\",\"arguments\":{\"urls\":[\"https://example.org/notice\"]}}</tool_call>"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-documents",
+    "passed": false,
+    "reason": "expected one retrieve_documents call",
+    "expected": {
+      "exhaustive": true
+    },
+    "truncated": false,
+    "input_tokens": 528,
+    "output_tokens": 27,
+    "raw_excerpt": "I will search all available documents exhaustively for security risks. Please provide the file IDs of the documents you want to search.",
+    "final_excerpt": "I will search all available documents exhaustively for security risks. Please provide the file IDs of the documents you want to search."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-clarify",
+    "passed": false,
+    "reason": "expected one ask_clarification call",
+    "expected": {},
+    "truncated": false,
+    "input_tokens": 517,
+    "output_tokens": 42,
+    "raw_excerpt": "I'm sorry, but I need more information to revise the content. Could you please provide me with the specific content you would like me to revise and any additional details or context that might be helpful?",
+    "final_excerpt": "I'm sorry, but I need more information to revise the content. Could you please provide me with the specific content you would like me to revise and any additional details or context that might be helpful?"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-parallel-search",
+    "passed": false,
+    "reason": "expected one search_web call",
+    "expected": {
+      "queries": [
+        "busan",
+        "incheon"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 534,
+    "output_tokens": 22,
+    "raw_excerpt": "SearchWeb{\"queries\":[\"current air quality in Busan\",\"current air quality in Incheon\"]}",
+    "final_excerpt": "SearchWeb{\"queries\":[\"current air quality in Busan\",\"current air quality in Incheon\"]}"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-multistep-en",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 532,
+    "output_tokens": 59,
+    "raw_excerpt": "I will use the find_contact tool to locate Mira and then use the send_email tool to send her an email with the subject \"Schedule\" and the body \"Meeting at 3 PM\".\n\n```json\n{\"name\":\"find_contact\",\"arguments\":{\"name\":\"Mira\"}}\n```",
+    "final_excerpt": "I will use the find_contact tool to locate Mira and then use the send_email tool to send her an email with the subject \"Schedule\" and the body \"Meeting at 3 PM\".\n\n```json\n{\"name\":\"find_contact\",\"arguments\":{\"name\":\"Mira\"}}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-multistep-ko",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 543,
+    "output_tokens": 117,
+    "raw_excerpt": "I will find Mira's contact information and send an email with the subject \"Schedule\" and the body \"Meeting at 3 PM\".\n\nFirst, I will use the \"find_contact\" tool to search for Mira's contact information.\n\nfind_contact{\"name\":\"Mira\"}\n\nNext, I will use the \"send_email\" tool to send the email.\n\nsend_email{\"to\":\"Mira's email address\", \"subject\":\"Schedule\", \"body\":\"Meeting at 3 PM\"}\n\nPlease provide Mira's name or any additional information to help me find her contact information.",
+    "final_excerpt": "I will find Mira's contact information and send an email with the subject \"Schedule\" and the body \"Meeting at 3 PM\".\n\nFirst, I will use the \"find_contact\" tool to search for Mira's contact information.\n\nfind_contact{\"name\":\"Mira\"}\n\nNext, I will use the \"send_email\" tool to send the email.\n\nsend_email{\"to\":\"Mira's email address\", \"subject\":\"Schedule\", \"body\":\"Meeting at 3 PM\"}\n\nPlease provide Mira's name or any additional information to help me find her contact information."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-no-match",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 560,
+    "output_tokens": 33,
+    "raw_excerpt": "I couldn't find any contact information for Mira. Can you provide more details about her, such as her job title or the company she works for?",
+    "final_excerpt": "I couldn't find any contact information for Mira. Can you provide more details about her, such as her job title or the company she works for?"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-lookup-error",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 563,
+    "output_tokens": 38,
+    "raw_excerpt": "I apologize for the inconvenience. I am unable to find the contact details for Mira at this time. Please try again later or provide me with additional information to assist you further.",
+    "final_excerpt": "I apologize for the inconvenience. I am unable to find the contact details for Mira at this time. Please try again later or provide me with additional information to assist you further."
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "tool-grounding",
+    "passed": true,
+    "reason": "answer must match mocked tool result",
+    "expected": "09:30",
+    "truncated": false,
+    "input_tokens": 571,
+    "output_tokens": 8,
+    "raw_excerpt": "09:30",
+    "final_excerpt": "09:30"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 52,
+    "output_tokens": 145,
+    "raw_excerpt": "To compute 17 times 23, you can use the distributive property of multiplication over addition:\n\n17 * 23 = 17 * (20 + 3) = (17 * 20) + (17 * 3)\n\nFirst, calculate 17 * 20:\n\n17 * 20 = 340\n\nNext, calculate 17 * 3:\n\n17 * 3 = 51\n\nNow, add the two results together:\n\n340 + 51 = 391\n\nTherefore, 17 * 23 = 391.\n\nFINAL: 391",
+    "final_excerpt": "To compute 17 times 23, you can use the distributive property of multiplication over addition:\n\n17 * 23 = 17 * (20 + 3) = (17 * 20) + (17 * 3)\n\nFirst, calculate 17 * 20:\n\n17 * 20 = 340\n\nNext, calculate 17 * 3:\n\n17 * 3 = 51\n\nNow, add the two results together:\n\n340 + 51 = 391\n\nTherefore, 17 * 23 = 391.\n\nFINAL: 391"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 66,
+    "output_tokens": 24,
+    "raw_excerpt": "23 곱하기 17은 391입니다. FINAL: 391",
+    "final_excerpt": "23 곱하기 17은 391입니다. FINAL: 391"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-2",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 63,
+    "output_tokens": 270,
+    "raw_excerpt": "Sure, I can help you with that. Let's use the `arithmetic` tool to solve this problem.\n\nThe shop starts with 84 pens, sells 19, and then receives 27. We can calculate the final number of pens using the formula:\n\n\\[ \\text{Final Pens} = \\text{Initial Pens} - \\text{Sold Pens} + \\text{Received Pens} \\]\n\nUsing the `arithmetic` tool, we get:\n\n```python\nimport arithmetic\n\ninitial_pens = 84\nsold_pens = 19\nreceived_pens = 27\n\nfinal_pens = arithmetic.subtract(initial_pens, sold_pens)\nfinal_pens = arithmetic.add(final_pens, received_pens)\n\nprint(final_pens)\n```\n\nThis will give us the final number of pens. Let's execute this and see the result.\n\n```python\nimport arithmetic\n\ninitial_pens = 84\nsold_pens = 19\nreceived_pens = 27\n\nfinal_pens = arithmetic.subtract(initial_pens, sold_pens)\nfinal_pens = arith",
+    "final_excerpt": "Sure, I can help you with that. Let's use the `arithmetic` tool to solve this problem.\n\nThe shop starts with 84 pens, sells 19, and then receives 27. We can calculate the final number of pens using the formula:\n\n\\[ \\text{Final Pens} = \\text{Initial Pens} - \\text{Sold Pens} + \\text{Received Pens} \\]\n\nUsing the `arithmetic` tool, we get:\n\n```python\nimport arithmetic\n\ninitial_pens = 84\nsold_pens = 19\nreceived_pens = 27\n\nfinal_pens = arithmetic.subtract(initial_pens, sold_pens)\nfinal_pens = arithmet"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-3",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 83,
+    "output_tokens": 80,
+    "raw_excerpt": "Let's solve this step-by-step:\n\n1. Start with 84 pens.\n2. Sell 19 pens: 84 - 19 = 65 pens\n3. Receive 27 pens: 65 + 27 = 92 pens\n\nSo, there are now 92 pens in the store.\n\nFINAL: 92",
+    "final_excerpt": "Let's solve this step-by-step:\n\n1. Start with 84 pens.\n2. Sell 19 pens: 84 - 19 = 65 pens\n3. Receive 27 pens: 65 + 27 = 92 pens\n\nSo, there are now 92 pens in the store.\n\nFINAL: 92"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-4",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 64,
+    "output_tokens": 91,
+    "raw_excerpt": "The train's average speed can be calculated by dividing the total distance traveled by the total time taken. In this case, the train travels 150 km in 2.5 hours. To find the average speed, we use the formula:\n\nAverage speed = Total distance / Total time\n\nAverage speed = 150 km / 2.5 hours\n\nAverage speed = 60 km/h\n\nFINAL: 60",
+    "final_excerpt": "The train's average speed can be calculated by dividing the total distance traveled by the total time taken. In this case, the train travels 150 km in 2.5 hours. To find the average speed, we use the formula:\n\nAverage speed = Total distance / Total time\n\nAverage speed = 150 km / 2.5 hours\n\nAverage speed = 60 km/h\n\nFINAL: 60"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-capabilities",
+    "id": "math-5",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 78,
+    "output_tokens": 60,
+    "raw_excerpt": "```json\n{\n  \"thoughts\": \"To calculate the average speed, we need to divide the total distance by the total time.\",\n  \"calculation\": \"average_speed = 150 km / 2.5 hours\",\n  \"result\": \"60\"\n}\n```",
+    "final_excerpt": "```json\n{\n  \"thoughts\": \"To calculate the average speed, we need to divide the total distance by the total time.\",\n  \"calculation\": \"average_speed = 150 km / 2.5 hours\",\n  \"result\": \"60\"\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-16384",
+    "id": "context-16384-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fdde4ca90b70",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15690,
+    "output_tokens": 44,
+    "raw_excerpt": "```json\n{\n  \"key\": \"fdde4ca90b70\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"fdde4ca90b70\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-16384",
+    "id": "context-16384-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "d2a6fb881dea",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15690,
+    "output_tokens": 44,
+    "raw_excerpt": "```json\n{\n  \"key\": \"d2a6fb881dea\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"d2a6fb881dea\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-32768",
+    "id": "context-32768-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fbb25c427d2b",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 32087,
+    "output_tokens": 46,
+    "raw_excerpt": "```json\n{\n  \"key\": \"fbb25c427d2b\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"fbb25c427d2b\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-32768",
+    "id": "context-32768-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "6a610b62ece0",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 32087,
+    "output_tokens": 45,
+    "raw_excerpt": "```json\n{\n  \"key\": \"6a610b62ece0\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"6a610b62ece0\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-4096",
+    "id": "context-4096-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "0e88ff1b0123",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3408,
+    "output_tokens": 46,
+    "raw_excerpt": "```json\n{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "plain-base-only",
+    "job": "qwen-base-context-4096",
+    "id": "context-4096-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "2776fd8287d4",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3408,
+    "output_tokens": 46,
+    "raw_excerpt": "```json\n{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```",
+    "final_excerpt": "```json\n{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}\n```"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "READY",
+    "truncated": false,
+    "input_tokens": 20,
+    "output_tokens": 2,
+    "raw_excerpt": "READY",
+    "final_excerpt": "READY"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "준비완료",
+    "truncated": false,
+    "input_tokens": 30,
+    "output_tokens": 5,
+    "raw_excerpt": "준비완료",
+    "final_excerpt": "준비완료"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "Busan",
+      "count": 3
+    },
+    "truncated": false,
+    "input_tokens": 33,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"Busan\", \"count\": 3}",
+    "final_excerpt": "{\"city\": \"Busan\", \"count\": 3}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "서울",
+      "count": 4
+    },
+    "truncated": false,
+    "input_tokens": 41,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"서울\", \"count\": 4}",
+    "final_excerpt": "{\"city\": \"서울\", \"count\": 4}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "canberra",
+    "truncated": false,
+    "input_tokens": 25,
+    "output_tokens": 3,
+    "raw_excerpt": "Canberra",
+    "final_excerpt": "Canberra"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "캔버라",
+    "truncated": false,
+    "input_tokens": 31,
+    "output_tokens": 6,
+    "raw_excerpt": "캔버라입니다.",
+    "final_excerpt": "캔버라입니다."
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-04-12",
+    "truncated": false,
+    "input_tokens": 40,
+    "output_tokens": 11,
+    "raw_excerpt": "2031-04-12",
+    "final_excerpt": "2031-04-12"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-05-17",
+    "truncated": false,
+    "input_tokens": 51,
+    "output_tokens": 11,
+    "raw_excerpt": "2031-05-17",
+    "final_excerpt": "2031-05-17"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "ALPHA\nBETA",
+    "truncated": false,
+    "input_tokens": 30,
+    "output_tokens": 6,
+    "raw_excerpt": "ALPHA  \nBETA",
+    "final_excerpt": "ALPHA  \nBETA"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "하나\n둘",
+    "truncated": false,
+    "input_tokens": 53,
+    "output_tokens": 15,
+    "raw_excerpt": "첫 줄: 1  \n둘째 줄: 2",
+    "final_excerpt": "첫 줄: 1  \n둘째 줄: 2"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-grounded",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "09:40",
+    "truncated": false,
+    "input_tokens": 45,
+    "output_tokens": 6,
+    "raw_excerpt": "09:40",
+    "final_excerpt": "09:40"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-grounded",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "10:25",
+    "truncated": false,
+    "input_tokens": 64,
+    "output_tokens": 6,
+    "raw_excerpt": "10:25",
+    "final_excerpt": "10:25"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "en-multi-turn",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "BLUE",
+    "truncated": false,
+    "input_tokens": 46,
+    "output_tokens": 3,
+    "raw_excerpt": "Blue.",
+    "final_excerpt": "Blue."
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "ko-multi-turn",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "파랑",
+    "truncated": false,
+    "input_tokens": 60,
+    "output_tokens": 5,
+    "raw_excerpt": "파랑입니다.",
+    "final_excerpt": "파랑입니다."
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-greeting-en",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 540,
+    "output_tokens": 10,
+    "raw_excerpt": "Hello! How can I help you today?",
+    "final_excerpt": "Hello! How can I help you today?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-greeting-ko",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 542,
+    "output_tokens": 39,
+    "raw_excerpt": "안녕하세요! 😊 저는 AI 어시스턴트로, 여러분의 질문이나 요청에 도움을 드릴 수 있습니다. 어떤 도움이 필요하신가요?",
+    "final_excerpt": "안녕하세요! 😊 저는 AI 어시스턴트로, 여러분의 질문이나 요청에 도움을 드릴 수 있습니다. 어떤 도움이 필요하신가요?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-current-en",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "queries": "busan"
+    },
+    "truncated": false,
+    "input_tokens": 551,
+    "output_tokens": 28,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"latest official weather alert for Busan\"]}} \n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"latest official weather alert for Busan\"]}} \n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-current-ko",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "queries": "서울"
+    },
+    "truncated": false,
+    "input_tokens": 559,
+    "output_tokens": 31,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"서울 최신 공식 기상 경보\"]}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"서울 최신 공식 기상 경보\"]}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-fetch",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "urls": "https://example.org/notice"
+    },
+    "truncated": false,
+    "input_tokens": 549,
+    "output_tokens": 28,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"fetch_web_urls\", \"arguments\": {\"urls\": [\"https://example.org/notice\"]}}.</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"fetch_web_urls\", \"arguments\": {\"urls\": [\"https://example.org/notice\"]}}.</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-documents",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "exhaustive": true
+    },
+    "truncated": false,
+    "input_tokens": 553,
+    "output_tokens": 34,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"retrieve_documents\", \"arguments\": {\"query\": \"Search all available documents exhaustively for security risks.\", \"exhaustive\": true}}",
+    "final_excerpt": "<tool_call>\n{\"name\": \"retrieve_documents\", \"arguments\": {\"query\": \"Search all available documents exhaustively for security risks.\", \"exhaustive\": true}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-clarify",
+    "passed": false,
+    "reason": "expected one ask_clarification call",
+    "expected": {},
+    "truncated": false,
+    "input_tokens": 542,
+    "output_tokens": 24,
+    "raw_excerpt": "I'd be happy to help you revise something. Could you please provide me with the text that needs revising?",
+    "final_excerpt": "I'd be happy to help you revise something. Could you please provide me with the text that needs revising?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-parallel-search",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "queries": [
+        "busan",
+        "incheon"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 559,
+    "output_tokens": 33,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"current air quality in Busan\", \"current air quality in Incheon\"]}}",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"current air quality in Busan\", \"current air quality in Incheon\"]}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-multistep-en",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 557,
+    "output_tokens": 61,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}.</tool_call>\n<tool_call>\n{\"name\": \"send_email\", \"arguments\": {\"to\": \"Mira\", \"subject\": \"Schedule\", \"body\": \"Meeting at 3 PM.\"}}.</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}.</tool_call>\n<tool_call>\n{\"name\": \"send_email\", \"arguments\": {\"to\": \"Mira\", \"subject\": \"Schedule\", \"body\": \"Meeting at 3 PM.\"}}.</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-multistep-ko",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 568,
+    "output_tokens": 22,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-no-match",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 591,
+    "output_tokens": 49,
+    "raw_excerpt": "<tool_call>\n\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"I need to find Mira's contact information so I can send her the report. Can you help me locate Mira's contact details?\"}}",
+    "final_excerpt": "<tool_call>\n\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"I need to find Mira's contact information so I can send her the report. Can you help me locate Mira's contact details?\"}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-lookup-error",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 594,
+    "output_tokens": 43,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"Could you please provide the full name of the person I need to find?\", \"checklist\": [\"full name\"]}}",
+    "final_excerpt": "<tool_call>\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"Could you please provide the full name of the person I need to find?\", \"checklist\": [\"full name\"]}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "tool-grounding",
+    "passed": false,
+    "reason": "invalid tool-call syntax or argument schema",
+    "expected": "09:30",
+    "truncated": false,
+    "input_tokens": 602,
+    "output_tokens": 37,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"Is this official source?\", \"checklist\": [\"official source\", \"UTC time\"]}}",
+    "final_excerpt": "<tool_call>\n{\"name\": \"ask_clarification\", \"arguments\": {\"question\": \"Is this official source?\", \"checklist\": [\"official source\", \"UTC time\"]}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 30,
+    "output_tokens": 586,
+    "raw_excerpt": "Okay, so I need to compute 17 times 23. Hmm, let me think about this.\n\nFirst, maybe breaking down the multiplication could be helpful. Let's see:\n\n17 * 23. \n\nI remember that multiplying by 20 would be easier because of the 2 in 23. So maybe using the distributive property here?\n\nLet's try that approach. If we can express 23 as (20 + 3), then perhaps distributing 17 across each term might simplify the calculation.\n\nSo let me write it out step-by-step to make sure I don't make a mistake along the way.\n\nStarting with the expression:\n\n17 * 23\n\nNow expressing 23 as (20 + 3):\n\n= 17 * (20 + 3)\n\nUsing the distributive property:\n\n= (17 * 20) + (17 * 3)\n\nCalculating each term separately:\n\nFirst term: 17 * 20\n\nTo compute 17 * 20:\n\nMultiplying 17 by 2 gives us 34. Then adding another zero at the end b",
+    "final_excerpt": "Okay, so I need to compute 17 times 23. Hmm, let me think about this.\n\nFirst, maybe breaking down the multiplication could be helpful. Let's see:\n\n17 * 23. \n\nI remember that multiplying by 20 would be easier because of the 2 in 23. So maybe using the distributive property here?\n\nLet's try that approach. If we can express 23 as (20 + 3), then perhaps distributing 17 across each term might simplify the calculation.\n\nSo let me write it out step-by-step to make sure I don't make a mistake along the "
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 44,
+    "output_tokens": 56,
+    "raw_excerpt": "먼저 17과 23의 곱셈을 계산합니다.\n17 * 23 = 391\n\n따라서 17 곱하기 23은 391입니다.\n\nFINAL: 391",
+    "final_excerpt": "먼저 17과 23의 곱셈을 계산합니다.\n17 * 23 = 391\n\n따라서 17 곱하기 23은 391입니다.\n\nFINAL: 391"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-2",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": 92,
+    "truncated": true,
+    "input_tokens": 41,
+    "output_tokens": 1536,
+    "raw_excerpt": "Okay, let me try to solve this problem step by step.\n\nThe problem says there are 84 pens in the shop. Then it sells 19 pens and then receives 27 pens. We need to find out how many pens are now in the shop.\n\nAlright, so I need to calculate the total number of pens after selling some and receiving others.\n\nLet me start with the initial number of pens, which is 84.\n\nThen, the shop sells 19 pens. So, we subtract 19 from the initial 84 pens.\n\nSo, 84 minus 19 equals... Let me do that calculation.\n\nFirst, 84 - 19. Let me break it down.\n\nSubtracting 19 from 84:\n\nStart with 84. Subtract 10, that's 74. Then subtract 9 (since 19 is 10 + 9). 74 minus 9 is 65. So, 84 minus 19 equals 65.\n\nTherefore, after selling 19 pens, the shop now has 65 pens.\n\nNext, the problem states that the shop receives 27 pens",
+    "final_excerpt": "Okay, let me try to solve this problem step by step.\n\nThe problem says there are 84 pens in the shop. Then it sells 19 pens and then receives 27 pens. We need to find out how many pens are now in the shop.\n\nAlright, so I need to calculate the total number of pens after selling some and receiving others.\n\nLet me start with the initial number of pens, which is 84.\n\nThen, the shop sells 19 pens. So, we subtract 19 from the initial 84 pens.\n\nSo, 84 minus 19 equals... Let me do that calculation.\n\nFir"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-3",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 61,
+    "output_tokens": 145,
+    "raw_excerpt": "우리는 문제를 분석해야 합니다.\n\n문제:\n\"가게에 펜 84개가 있습니다. 19개를 팔고 27개를 받았습니다. 지금 몇 개인가요?\"\n\n풀이 과정:\n\n1. 초기 개수: 84개\n\n2. 19개를 팔면, 남은 개수는 84 - 19 = 65개\n\n3. 그 후 27개를 받으면, 총 개수는 65 + 27 = 92개\n\n따라서 최종 답은 92입니다.\n\nFINAL: 92",
+    "final_excerpt": "우리는 문제를 분석해야 합니다.\n\n문제:\n\"가게에 펜 84개가 있습니다. 19개를 팔고 27개를 받았습니다. 지금 몇 개인가요?\"\n\n풀이 과정:\n\n1. 초기 개수: 84개\n\n2. 19개를 팔면, 남은 개수는 84 - 19 = 65개\n\n3. 그 후 27개를 받으면, 총 개수는 65 + 27 = 92개\n\n따라서 최종 답은 92입니다.\n\nFINAL: 92"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-4",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 42,
+    "output_tokens": 692,
+    "raw_excerpt": "Okay, let's see. The problem says a train travels 150 kilometers in 2.5 hours. We need to find the average speed in kilometers per hour.\n\nFirst, I remember that average speed is calculated by dividing the total distance traveled by the total time taken. So, the formula should be:\n\nAverage Speed = Total Distance / Total Time\n\nSo, plugging in the numbers:\n\nTotal Distance = 150 km\n\nTotal Time = 2.5 hours\n\nSo, Average Speed = 150 km / 2.5 hours\n\nNow, let's do the division. 150 divided by 2.5.\n\nHmm, let me think. Dividing by 2.5 is the same as multiplying by 2.5's reciprocal, which is 4/10 or 0.4. Wait, maybe there's an easier way.\n\nAlternatively, since 2.5 is the same as 5/2, then dividing by 2.5 is the same as multiplying by 2/5. Because (dividing by 2.5) is equivalent to (multiplying by the ",
+    "final_excerpt": "Okay, let's see. The problem says a train travels 150 kilometers in 2.5 hours. We need to find the average speed in kilometers per hour.\n\nFirst, I remember that average speed is calculated by dividing the total distance traveled by the total time taken. So, the formula should be:\n\nAverage Speed = Total Distance / Total Time\n\nSo, plugging in the numbers:\n\nTotal Distance = 150 km\n\nTotal Time = 2.5 hours\n\nSo, Average Speed = 150 km / 2.5 hours\n\nNow, let's do the division. 150 divided by 2.5.\n\nHmm, "
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-assistant-4096",
+    "id": "math-5",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": 60,
+    "truncated": true,
+    "input_tokens": 56,
+    "output_tokens": 1536,
+    "raw_excerpt": "우선 주어진 정보를 정리합니다.\n\n- 기차가 2.5시간 동안 150km를 이동했습니다.\n\n평균 시속을 구하려면 총 거리를 총 시간으로 나누면 됩니다.\n\n계산해보겠습니다:\n\n총 거리 = 150km\n\n총 시간 = 2.5시간\n\n평균 시속 = 총 거리 / 총 시간\n\n= 150km / 2.5시간\n\n이제 분자를 2.5로 나누는 것이 더 쉽습니다. 또는 분자와 분모를 같은 수로 나누면 분수를 단순화할 수 있습니다.\n\n여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 15",
+    "final_excerpt": "우선 주어진 정보를 정리합니다.\n\n- 기차가 2.5시간 동안 150km를 이동했습니다.\n\n평균 시속을 구하려면 총 거리를 총 시간으로 나누면 됩니다.\n\n계산해보겠습니다:\n\n총 거리 = 150km\n\n총 시간 = 2.5시간\n\n평균 시속 = 총 거리 / 총 시간\n\n= 150km / 2.5시간\n\n이제 분자를 2.5로 나누는 것이 더 쉽습니다. 또는 분자와 분모를 같은 수로 나누면 분수를 단순화할 수 있습니다.\n\n여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 곱하면 더 쉬울 수도 있습니다. 하지만 분자와 분모를 10으로 곱한 후, 분자에서 150을, 분모에서 2.5를 각각 10으로 곱한 값인 25로 나누면 더 쉽게 계산할 수 있습니다.\n\n하지만 여기서 2.5를 분자와 분모에 각각 "
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-16384",
+    "id": "context-16384-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fdde4ca90b70",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15670,
+    "output_tokens": 2,
+    "raw_excerpt": "\n",
+    "final_excerpt": ""
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-16384",
+    "id": "context-16384-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "d2a6fb881dea",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15670,
+    "output_tokens": 1,
+    "raw_excerpt": "",
+    "final_excerpt": ""
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-32768",
+    "id": "context-32768-depth-0",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "key": "fbb25c427d2b",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": true,
+    "input_tokens": 32067,
+    "output_tokens": 256,
+    "raw_excerpt": " for using\n to           to to to             to               to to              to               to a to             to               to  to      to       to  to     to  to     to  to       to       to  to             to  to\n to    to       to  to\n to           to  to\n to            to              to  to\n in\n to\n to       to  to\n to           to ",
+    "final_excerpt": "for using\n to           to to to             to               to to              to               to a to             to               to  to      to       to  to     to  to     to  to       to       to  to             to  to\n to    to       to  to\n to           to  to\n to            to              to  to\n in\n to\n to       to  to\n to           to"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-32768",
+    "id": "context-32768-depth-1",
+    "passed": false,
+    "reason": "Output budget exhausted before a completed response",
+    "expected": {
+      "key": "6a610b62ece0",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": true,
+    "input_tokens": 32067,
+    "output_tokens": 256,
+    "raw_excerpt": ",  to using to  to  to  to  to  to to to to   to  to  more  to  to  to to to  to  to  to a, in to  to  to  to  to  to  to to to to  to to to to  to  to  to  to to to  to to to to  to  to  to  to to to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to ",
+    "final_excerpt": ",  to using to  to  to  to  to  to to to to   to  to  more  to  to  to to to  to  to  to a, in to  to  to  to  to  to  to to to to  to to to to  to  to  to  to to to  to to to to  to  to  to  to to to  to  to to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to  to "
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-4096",
+    "id": "context-4096-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "0e88ff1b0123",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3388,
+    "output_tokens": 32,
+    "raw_excerpt": "{\"key\":\"0e88ff1b0123\",\"total\":423,\"citations\":[\"D1\",\"D2\"]}}",
+    "final_excerpt": "{\"key\":\"0e88ff1b0123\",\"total\":423,\"citations\":[\"D1\",\"D2\"]}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-4096",
+    "id": "context-4096-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "2776fd8287d4",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3388,
+    "output_tokens": 32,
+    "raw_excerpt": "{\"key\":\"2776fd8287d4\",\"total\":463,\"citations\":[\"D1\",\"D2\"]}}",
+    "final_excerpt": "{\"key\":\"2776fd8287d4\",\"total\":463,\"citations\":[\"D1\",\"D2\"]}}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-65536",
+    "id": "context-65536-depth-0",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "c87edf209dda",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 64825,
+    "output_tokens": 7,
+    "raw_excerpt": " for a    ",
+    "final_excerpt": "for a"
+  },
+  {
+    "run": "native-mixed",
+    "job": "cortex-long-context-65536",
+    "id": "context-65536-depth-1",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "34a2a9f5cafa",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 64827,
+    "output_tokens": 108,
+    "raw_excerpt": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, in",
+    "final_excerpt": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, in"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "READY",
+    "truncated": false,
+    "input_tokens": 20,
+    "output_tokens": 2,
+    "raw_excerpt": "READY",
+    "final_excerpt": "READY"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-exact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "준비완료",
+    "truncated": false,
+    "input_tokens": 30,
+    "output_tokens": 5,
+    "raw_excerpt": "준비완료",
+    "final_excerpt": "준비완료"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "Busan",
+      "count": 3
+    },
+    "truncated": false,
+    "input_tokens": 33,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"Busan\", \"count\": 3}",
+    "final_excerpt": "{\"city\": \"Busan\", \"count\": 3}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-json",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "city": "서울",
+      "count": 4
+    },
+    "truncated": false,
+    "input_tokens": 41,
+    "output_tokens": 14,
+    "raw_excerpt": "{\"city\": \"서울\", \"count\": 4}",
+    "final_excerpt": "{\"city\": \"서울\", \"count\": 4}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "canberra",
+    "truncated": false,
+    "input_tokens": 25,
+    "output_tokens": 3,
+    "raw_excerpt": "Canberra",
+    "final_excerpt": "Canberra"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-fact",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "캔버라",
+    "truncated": false,
+    "input_tokens": 31,
+    "output_tokens": 4,
+    "raw_excerpt": "캔버라",
+    "final_excerpt": "캔버라"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-04-12",
+    "truncated": false,
+    "input_tokens": 40,
+    "output_tokens": 11,
+    "raw_excerpt": "2031-04-12",
+    "final_excerpt": "2031-04-12"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-extraction",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "2031-05-17",
+    "truncated": false,
+    "input_tokens": 51,
+    "output_tokens": 11,
+    "raw_excerpt": "2031-05-17",
+    "final_excerpt": "2031-05-17"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "ALPHA\nBETA",
+    "truncated": false,
+    "input_tokens": 30,
+    "output_tokens": 6,
+    "raw_excerpt": "ALPHA  \nBETA",
+    "final_excerpt": "ALPHA  \nBETA"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-format",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "하나\n둘",
+    "truncated": false,
+    "input_tokens": 53,
+    "output_tokens": 6,
+    "raw_excerpt": "A  \nB  \nC",
+    "final_excerpt": "A  \nB  \nC"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-grounded",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "09:40",
+    "truncated": false,
+    "input_tokens": 45,
+    "output_tokens": 6,
+    "raw_excerpt": "09:40",
+    "final_excerpt": "09:40"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-grounded",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "10:25",
+    "truncated": false,
+    "input_tokens": 64,
+    "output_tokens": 6,
+    "raw_excerpt": "10:25",
+    "final_excerpt": "10:25"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "en-multi-turn",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "BLUE",
+    "truncated": false,
+    "input_tokens": 46,
+    "output_tokens": 2,
+    "raw_excerpt": "BLUE",
+    "final_excerpt": "BLUE"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "ko-multi-turn",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": "파랑",
+    "truncated": false,
+    "input_tokens": 60,
+    "output_tokens": 3,
+    "raw_excerpt": "파랑",
+    "final_excerpt": "파랑"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-greeting-en",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 540,
+    "output_tokens": 10,
+    "raw_excerpt": "Hello! How can I assist you today?",
+    "final_excerpt": "Hello! How can I assist you today?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-greeting-ko",
+    "passed": true,
+    "reason": "greeting should receive a direct answer",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 542,
+    "output_tokens": 14,
+    "raw_excerpt": "안녕하세요! 도와드릴 일이 있나요?",
+    "final_excerpt": "안녕하세요! 도와드릴 일이 있나요?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-current-en",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "queries": "busan"
+    },
+    "truncated": false,
+    "input_tokens": 551,
+    "output_tokens": 27,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"latest official weather alert for Busan\"]}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"latest official weather alert for Busan\"]}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-current-ko",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "queries": "서울"
+    },
+    "truncated": false,
+    "input_tokens": 559,
+    "output_tokens": 31,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"서울의 최신 공식 기상 경보\"]}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"서울의 최신 공식 기상 경보\"]}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-fetch",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "urls": "https://example.org/notice"
+    },
+    "truncated": false,
+    "input_tokens": 549,
+    "output_tokens": 27,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"fetch_web_urls\", \"arguments\": {\"urls\": [\"https://example.org/notice\"]}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"fetch_web_urls\", \"arguments\": {\"urls\": [\"https://example.org/notice\"]}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-documents",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "exhaustive": true
+    },
+    "truncated": false,
+    "input_tokens": 553,
+    "output_tokens": 28,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"retrieve_documents\", \"arguments\": {\"query\": \"security risks\", \"exhaustive\": true}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"retrieve_documents\", \"arguments\": {\"query\": \"security risks\", \"exhaustive\": true}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-clarify",
+    "passed": false,
+    "reason": "expected one ask_clarification call",
+    "expected": {},
+    "truncated": false,
+    "input_tokens": 542,
+    "output_tokens": 14,
+    "raw_excerpt": "Sure, please provide the text you'd like me to revise.",
+    "final_excerpt": "Sure, please provide the text you'd like me to revise."
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-parallel-search",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "queries": [
+        "busan",
+        "incheon"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 559,
+    "output_tokens": 34,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"current air quality in Busan\", \"current air quality in Incheon\"]}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"search_web\", \"arguments\": {\"queries\": [\"current air quality in Busan\", \"current air quality in Incheon\"]}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-multistep-en",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 557,
+    "output_tokens": 21,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-multistep-ko",
+    "passed": true,
+    "reason": "tool name, schema and required argument content matched",
+    "expected": {
+      "name": "mira"
+    },
+    "truncated": false,
+    "input_tokens": 568,
+    "output_tokens": 21,
+    "raw_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>",
+    "final_excerpt": "<tool_call>\n{\"name\": \"find_contact\", \"arguments\": {\"name\": \"Mira\"}}\n</tool_call>"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-no-match",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 591,
+    "output_tokens": 25,
+    "raw_excerpt": "I couldn't find any contact information for Mira. Could you please provide more details or clarify how I should proceed?",
+    "final_excerpt": "I couldn't find any contact information for Mira. Could you please provide more details or clarify how I should proceed?"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-lookup-error",
+    "passed": true,
+    "reason": "must not invent a recipient or send after a failed lookup",
+    "expected": null,
+    "truncated": false,
+    "input_tokens": 594,
+    "output_tokens": 33,
+    "raw_excerpt": "I cannot access the contact directory to find Mira's details. Please provide me with Mira's email address or any other contact information so I can proceed.",
+    "final_excerpt": "I cannot access the contact directory to find Mira's details. Please provide me with Mira's email address or any other contact information so I can proceed."
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "tool-grounding",
+    "passed": true,
+    "reason": "answer must match mocked tool result",
+    "expected": "09:30",
+    "truncated": false,
+    "input_tokens": 602,
+    "output_tokens": 6,
+    "raw_excerpt": "09:30",
+    "final_excerpt": "09:30"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 28,
+    "output_tokens": 895,
+    "raw_excerpt": "<think>\nOkay, let's see, I need to compute 17 times 23. Hmm, how do I approach this? Well, I remember that multiplying two numbers can sometimes be broken down into easier parts. Maybe I can use the distributive property here. Let me think... 17 times 23. Let me write that as 17 multiplied by (20 + 3). That might be easier because 20 and 3 are simpler numbers.\n\nSo, applying the distributive property, that would be 17 times 20 plus 17 times 3. Let me calculate each part separately. First, 17 times 20. Well, 17 times 2 is 34, so 17 times 20 is just 34 times 10, which is 340. Okay, that part seems straightforward.\n\nNow the second part is 17 times 3. Let me do that. 10 times 3 is 30, and 7 times 3 is 21, so adding those together gives 30 + 21 = 51. So, 17 times 3 is 51.\n\nNow, adding the two re",
+    "final_excerpt": "17 times 23 can be calculated using the distributive property:  \n17 × 23 = 17 × (20 + 3) = (17 × 20) + (17 × 3) = 340 + 51 = 391.  \n\nAlternatively, recognizing it as a difference of squares:  \n(20 - 3)(20 + 3) = 20² - 3² = 400 - 9 = 391.  \n\nFINAL: 391"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 391,
+    "truncated": false,
+    "input_tokens": 42,
+    "output_tokens": 546,
+    "raw_excerpt": "<think>\nOkay, I need to calculate 17 multiplied by 23. Let me think about the best way to do this. Hmm, maybe I can break it down using the distributive property. So, 23 is the same as 20 + 3. That means 17 times 23 is the same as 17 times 20 plus 17 times 3. Let me write that down: 17*20 + 17*3. \n\nCalculating 17*20 first. Well, 17*2 is 34, so 17*20 would be 340. Then 17*3 is 51. Adding those two results together: 340 + 51. Let me add those numbers. 340 plus 50 is 390, and then plus 1 more makes 391. \n\nWait, let me check if that's correct. Maybe I can use another method to verify. Another way is to do standard multiplication. Let's set it up vertically:\n\n   17\nx 23\n-------\nFirst, multiply 17 by 3, which is 51. Then multiply 17 by 20, which is 340. Adding them together gives 51 + 340 = 391.",
+    "final_excerpt": "17 × 23을 계산하기 위해 분배법칙을 사용합니다.  \n17 × (20 + 3) = 17 × 20 + 17 × 3  \n17 × 20 = 340, 17 × 3 = 51  \n340 + 51 = 391  \n\nFINAL: 391"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-2",
+    "passed": false,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 39,
+    "output_tokens": 932,
+    "raw_excerpt": "<think>\nOkay, let's see. The problem says a shop has 84 pens. Then it sells 19 and receives 27. We need to find out how many pens they have now. Alright, let me break this down step by step.\n\nFirst, the shop starts with 84 pens. That's straightforward. Then, they sell 19 pens. Selling pens would mean they're giving them away or removing them from their stock, right? So, if they sell 19, we need to subtract that number from the original amount. Let me write that down:\n\nStarting pens: 84\nSold pens: 19\nSo after selling, the pens left would be 84 minus 19. Let me do that calculation. Hmm, 84 minus 19. Let me think... 84 minus 10 is 74, and then minus 9 more would be 65. So after selling 19, they have 65 pens left.\n\nBut wait, the problem also says they receive 27 pens. Receiving pens would mean",
+    "final_excerpt": "The shop starts with 84 pens. After selling 19 pens, the number of pens left is calculated as follows:\n\n$$\n84 - 19 = 65\n$$\n\nNext, the shop receives 27 pens, so we add these to the remaining pens:\n\n$$\n65 + 27 = 92\n$$\n\nThus, the shop now has $\\boxed{92}$ pens."
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-3",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 92,
+    "truncated": false,
+    "input_tokens": 59,
+    "output_tokens": 474,
+    "raw_excerpt": "<think>\nOkay, let's see. The problem says there are 84 pens in a store. Then they sell 19 and receive 27. I need to find out how many pens there are now. Hmm, let me break it down step by step.\n\nFirst, the initial number of pens is 84. Then, they sell 19. So, selling means they're taking away pens from the total. So, I should subtract 19 from 84. Let me do that calculation: 84 minus 19. Let me think, 84 minus 20 would be 64, but since it's 19, I add 1 back. So, 64 + 1 = 65. Wait, is that right? Let me check again. 84 minus 10 is 74, minus 9 more would be 65. Yeah, that's correct. So after selling 19, there are 65 pens left.\n\nNext, they receive 27 pens. Receiving means adding to the total. So, I need to add 27 to the current number of pens, which is 65. Let me calculate 65 plus 27. Breaking",
+    "final_excerpt": "FINAL: 92"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-4",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 40,
+    "output_tokens": 1074,
+    "raw_excerpt": "<think>\nOkay, so I need to find the average speed of a train that traveled 150 kilometers in 2.5 hours. Hmm, average speed... I remember that average speed is calculated by dividing the total distance traveled by the total time taken. Let me make sure I got that right. Yeah, I think that's correct. So the formula should be average speed equals distance divided by time.\n\nAlright, the distance here is 150 km, and the time is 2.5 hours. So I just need to divide 150 by 2.5. Let me do that calculation. Wait, 150 divided by 2.5... Hmm, dividing by a decimal. Maybe I can convert that into a fraction to make it easier. 2.5 is the same as 5/2, right? So dividing by 5/2 is the same as multiplying by 2/5. So 150 multiplied by 2/5. Let me compute that. \n\nFirst, 150 divided by 5 is 30, and then multipl",
+    "final_excerpt": "To find the average speed of the train, we use the formula:\n\n$$\n\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}\n$$\n\nGiven:\n- Total Distance = 150 km\n- Total Time = 2.5 hours\n\nSubstitute the values into the formula:\n\n$$\n\\text{Average Speed} = \\frac{150}{2.5} = 60 \\, \\text{km/h}\n$$\n\n**FINAL: 60**"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-assistant-4096",
+    "id": "math-5",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": 60,
+    "truncated": false,
+    "input_tokens": 54,
+    "output_tokens": 495,
+    "raw_excerpt": "<think>\nOkay, let's see. The problem is about a train that travels 150 kilometers in 2.5 hours. I need to find the average speed in kilometers per hour. Alright, average speed is calculated by dividing the total distance by the total time, right? So the formula should be average speed equals distance divided by time.\n\nWait, let me make sure. Yes, average speed is total distance over total time. So here, the distance is 150 km and the time is 2.5 hours. So I just need to do 150 divided by 2.5. Hmm, let me calculate that. \n\nDividing by 2.5 might be a bit tricky. Maybe I can convert 2.5 into a fraction. 2.5 is the same as 5/2. So dividing by 5/2 is the same as multiplying by 2/5. So 150 multiplied by 2/5. Let me compute that. 150 times 2 is 300, and then divided by 5 is 60. Wait, so 150 divid",
+    "final_excerpt": "60\n\nFINAL: 60"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-16384",
+    "id": "context-16384-depth-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fdde4ca90b70",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15670,
+    "output_tokens": 40,
+    "raw_excerpt": "{\n  \"key\": \"fdde4ca90b70\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"fdde4ca90b70\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-16384",
+    "id": "context-16384-depth-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "d2a6fb881dea",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 15670,
+    "output_tokens": 40,
+    "raw_excerpt": "{\n  \"key\": \"d2a6fb881dea\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"d2a6fb881dea\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-32768",
+    "id": "context-32768-depth-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "fbb25c427d2b",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 32067,
+    "output_tokens": 42,
+    "raw_excerpt": "{\n  \"key\": \"fbb25c427d2b\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"fbb25c427d2b\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-32768",
+    "id": "context-32768-depth-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "6a610b62ece0",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 32067,
+    "output_tokens": 41,
+    "raw_excerpt": "{\n  \"key\": \"6a610b62ece0\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"6a610b62ece0\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-4096",
+    "id": "context-4096-depth-0",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "0e88ff1b0123",
+      "total": 423,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3388,
+    "output_tokens": 42,
+    "raw_excerpt": "{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"0e88ff1b0123\",\n  \"total\": 423,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  },
+  {
+    "run": "native-mixed",
+    "job": "qwen-long-context-4096",
+    "id": "context-4096-depth-1",
+    "passed": true,
+    "reason": "Exact/constraint-based scoring",
+    "expected": {
+      "key": "2776fd8287d4",
+      "total": 463,
+      "citations": [
+        "D1",
+        "D2"
+      ]
+    },
+    "truncated": false,
+    "input_tokens": 3388,
+    "output_tokens": 42,
+    "raw_excerpt": "{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}",
+    "final_excerpt": "{\n  \"key\": \"2776fd8287d4\",\n  \"total\": 463,\n  \"citations\": [\"D1\", \"D2\"]\n}"
+  }
+]

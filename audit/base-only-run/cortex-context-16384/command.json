@@ -1,0 +1,15 @@
+[
+  "/home/BENCHMARK_USER/cortex-benchmark/.venv/bin/python",
+  "-u",
+  "/home/BENCHMARK_USER/cortex-benchmark/prepared-base-only/run_diagnostics.py",
+  "--model",
+  "mkd-hossain/Keural-Cortex-8B-v1.0",
+  "--revision",
+  "a592a43fe940299b5a025e5b719459cda97ae1e6",
+  "--suite",
+  "long-context",
+  "--context",
+  "16384",
+  "--output",
+  "/home/BENCHMARK_USER/cortex-benchmark/runs-base-only-v1/cortex-context-16384/results"
+]

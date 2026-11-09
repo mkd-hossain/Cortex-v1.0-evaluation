@@ -1,0 +1,172 @@
+{
+  "seq_len": 32768,
+  "long_seq_len": 65536,
+  "total_rows": 1568649,
+  "total_tokens": 1871250901,
+  "korean_rows": 1156544,
+  "long64k_rows": 4607,
+  "buckets": {
+    "korean": [
+      {
+        "pool": "merged",
+        "read": 3866990,
+        "kept": 1125921,
+        "role_prefix_stripped": 178865,
+        "tokens": 445000555,
+        "korean": 1125921,
+        "long64k": 21,
+        "stride": 1,
+        "dropped": {
+          "stub_answer": 30845,
+          "truncated": 1365,
+          "degenerate_repetition": 1155,
+          "contaminated": 1199,
+          "boilerplate_refusal": 1882,
+          "no_final_answer": 326,
+          "lang_tag_ko_no_hangul": 120,
+          "template_leak": 177,
+          "over_64k": 8,
+          "consecutive_assistant": 5
+        }
+      }
+    ],
+    "core_en": [
+      {
+        "pool": "merged",
+        "read": 1337331,
+        "kept": 114399,
+        "role_prefix_stripped": 89418,
+        "tokens": 240002538,
+        "korean": 0,
+        "long64k": 0,
+        "stride": 1,
+        "dropped": {
+          "stub_answer": 1148,
+          "truncated": 451,
+          "degenerate_repetition": 279,
+          "contaminated": 235,
+          "boilerplate_refusal": 44,
+          "no_final_answer": 163,
+          "lang_tag_ko_no_hangul": 60,
+          "template_leak": 3
+        }
+      }
+    ],
+    "tool": [
+      {
+        "pool": "merged",
+        "read": 2306564,
+        "kept": 262284,
+        "role_prefix_stripped": 4,
+        "tokens": 634327173,
+        "korean": 5107,
+        "long64k": 1676,
+        "stride": 1,
+        "dropped": {
+          "contaminated": 938,
+          "degenerate_repetition": 21,
+          "template_leak": 7,
+          "boilerplate_refusal": 751,
+          "row_cap": 616049,
+          "consecutive_assistant": 3323,
+          "no_final_answer": 1,
+          "truncated": 2,
+          "unbalanced_think": 382
+        }
+      }
+    ],
+    "korean_cot": [
+      {
+        "pool": "ko_cot",
+        "read": 25515,
+        "kept": 25514,
+        "role_prefix_stripped": 0,
+        "tokens": 21907428,
+        "korean": 25514,
+        "long64k": 0,
+        "stride": 1,
+        "dropped": {
+          "degenerate_repetition": 1
+        }
+      }
+    ],
+    "reasoning": [
+      {
+        "pool": "openthoughts3",
+        "read": 38535,
+        "kept": 13042,
+        "role_prefix_stripped": 0,
+        "tokens": 180005956,
+        "korean": 0,
+        "long64k": 0,
+        "stride": 12,
+        "dropped": {
+          "unbalanced_think": 25439,
+          "degenerate_repetition": 33,
+          "truncated": 21
+        }
+      }
+    ],
+    "long_context": [
+      {
+        "pool": "longcite_full",
+        "read": 15034,
+        "kept": 6688,
+        "role_prefix_stripped": 0,
+        "tokens": 220003780,
+        "korean": 2,
+        "long64k": 2903,
+        "stride": 1,
+        "dropped": {
+          "over_64k": 1566,
+          "degenerate_repetition": 12
+        }
+      },
+      {
+        "pool": "longwriter",
+        "read": 1171,
+        "kept": 1170,
+        "role_prefix_stripped": 0,
+        "tokens": 10002342,
+        "korean": 0,
+        "long64k": 7,
+        "stride": 1,
+        "dropped": {
+          "stub_answer": 1
+        }
+      }
+    ],
+    "code": [
+      {
+        "pool": "opencodereasoning",
+        "read": 9415,
+        "kept": 9414,
+        "role_prefix_stripped": 0,
+        "tokens": 80000195,
+        "korean": 0,
+        "long64k": 0,
+        "stride": 41,
+        "dropped": {
+          "unbalanced_think": 1
+        }
+      }
+    ],
+    "reasoning_math": [
+      {
+        "pool": "openr1_math",
+        "read": 11738,
+        "kept": 10217,
+        "role_prefix_stripped": 0,
+        "tokens": 40000934,
+        "korean": 0,
+        "long64k": 0,
+        "stride": 5,
+        "dropped": {
+          "math_answer_wrong": 1498,
+          "unbalanced_think": 11,
+          "degenerate_repetition": 12
+        }
+      }
+    ]
+  }
+}

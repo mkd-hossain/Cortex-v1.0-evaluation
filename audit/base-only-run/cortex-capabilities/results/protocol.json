@@ -1,0 +1,16 @@
+{
+  "model": "mkd-hossain/Keural-Cortex-8B-v1.0",
+  "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+  "suite": "assistant",
+  "context": 4096,
+  "prompt_format": "shared-plain-transcript-v1",
+  "renderer_sha256": "9bec154a79386d0ab60c0c0815b1232ec6d27bca34c427ffac80890a109f9ee7",
+  "scorer_sha256": "02e89c6b56344edd5e63f15816dab88ab0b747078836bd8e5d4bf6943052e288",
+  "precision": "bfloat16",
+  "attention": "sdpa",
+  "thinking_budget": 1536,
+  "normal_budget": 256,
+  "seed": 20261109,
+  "tools_mocked": true,
+  "limitations": "Small synthetic diagnostics; regex/exact scoring; no independent capability certification."
+}

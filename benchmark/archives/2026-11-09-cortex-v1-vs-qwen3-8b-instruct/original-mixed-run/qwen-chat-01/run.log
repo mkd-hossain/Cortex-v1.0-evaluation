@@ -1,0 +1,57 @@
+2026-11-09:14:40:42 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:14:40:42 INFO     [config.evaluate_config:307] Using default fewshot_as_multiturn=True.
+2026-11-09:14:40:45 INFO     [_cli.run:388] Selected Tasks: ['haerae']
+2026-11-09:14:40:45 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:14:40:45 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B', 'revision': 'b968826d9c46dd6066d109eabc6255188de91218', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}
+2026-11-09:14:40:46 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:14:40:47 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:24<01:36, 24.04s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:42<01:03, 21.03s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:02<00:40, 20.15s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:19<00:18, 18.99s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:27<00:00, 15.25s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:27<00:00, 17.58s/it]
+2026-11-09:14:42:29 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:14:42:29 INFO     [evaluator_utils:462] Group: haerae
+2026-11-09:14:42:29 INFO     [evaluator_utils:470]   Task: haerae_general_knowledge (haerae/haerae_gk.yaml)
+2026-11-09:14:42:29 INFO     [evaluator_utils:470]   Task: haerae_history (haerae/haerae_hi.yaml)
+2026-11-09:14:42:29 INFO     [evaluator_utils:470]   Task: haerae_loan_word (haerae/haerae_lw.yaml)
+2026-11-09:14:42:29 INFO     [evaluator_utils:470]   Task: haerae_rare_word (haerae/haerae_rw.yaml)
+2026-11-09:14:42:29 INFO     [evaluator_utils:470]   Task: haerae_standard_nomenclature (haerae/haerae_sn.yaml)
+2026-11-09:14:42:29 WARNING  [evaluator:333] Overwriting default num_fewshot of haerae_general_knowledge from None to 5
+2026-11-09:14:42:29 WARNING  [evaluator:333] Overwriting default num_fewshot of haerae_history from None to 5
+2026-11-09:14:42:29 WARNING  [evaluator:333] Overwriting default num_fewshot of haerae_loan_word from None to 5
+2026-11-09:14:42:29 WARNING  [evaluator:333] Overwriting default num_fewshot of haerae_rare_word from None to 5
+2026-11-09:14:42:29 WARNING  [evaluator:333] Overwriting default num_fewshot of haerae_standard_nomenclature from None to 5
+2026-11-09:14:42:29 INFO     [api.task:312] Building contexts for haerae_general_knowledge on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 500.83it/s]
+2026-11-09:14:42:29 INFO     [api.task:312] Building contexts for haerae_history on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 889.40it/s]
+2026-11-09:14:42:29 INFO     [api.task:312] Building contexts for haerae_loan_word on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 890.36it/s]
+2026-11-09:14:42:29 INFO     [api.task:312] Building contexts for haerae_rare_word on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 877.63it/s]
+2026-11-09:14:42:29 INFO     [api.task:312] Building contexts for haerae_standard_nomenclature on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 890.68it/s]
+2026-11-09:14:42:29 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/250 [00:00<?, ?it/s]Tokenizing inputs:  41%|████      | 102/250 [00:00<00:00, 1019.27it/s]Tokenizing inputs:  90%|█████████ | 225/250 [00:00<00:00, 1138.48it/s]Tokenizing inputs: 100%|██████████| 250/250 [00:00<00:00, 1129.14it/s]
+Running loglikelihood requests:   0%|          | 0/250 [00:00<?, ?it/s]Running loglikelihood requests:   0%|          | 1/250 [00:02<10:31,  2.54s/it]Running loglikelihood requests:   4%|▎         | 9/250 [00:04<01:47,  2.24it/s]Running loglikelihood requests:   7%|▋         | 17/250 [00:06<01:18,  2.96it/s]Running loglikelihood requests:  10%|█         | 25/250 [00:08<01:07,  3.35it/s]Running loglikelihood requests:  13%|█▎        | 33/250 [00:10<00:57,  3.78it/s]Running loglikelihood requests:  16%|█▋        | 41/250 [00:12<00:50,  4.10it/s]Running loglikelihood requests:  20%|█▉        | 49/250 [00:13<00:46,  4.33it/s]Running loglikelihood requests:  23%|██▎       | 57/250 [00:15<00:42,  4.50it/s]Running loglikelihood requests:  26%|██▌       | 65/250 [00:16<00:40,  4.61it/s]Running loglikelihood requests:  29%|██▉       | 73/250 [00:18<00:37,  4.71it/s]Running loglikelihood requests:  32%|███▏      | 81/250 [00:20<00:35,  4.79it/s]Running loglikelihood requests:  36%|███▌      | 89/250 [00:21<00:33,  4.85it/s]Running loglikelihood requests:  39%|███▉      | 97/250 [00:23<00:31,  4.91it/s]Running loglikelihood requests:  42%|████▏     | 105/250 [00:24<00:29,  4.96it/s]Running loglikelihood requests:  45%|████▌     | 113/250 [00:26<00:27,  5.01it/s]Running loglikelihood requests:  48%|████▊     | 121/250 [00:28<00:25,  5.07it/s]Running loglikelihood requests:  52%|█████▏    | 129/250 [00:29<00:23,  5.14it/s]Running loglikelihood requests:  55%|█████▍    | 137/250 [00:31<00:21,  5.18it/s]Running loglikelihood requests:  58%|█████▊    | 145/250 [00:32<00:19,  5.27it/s]Running loglikelihood requests:  61%|██████    | 153/250 [00:33<00:18,  5.34it/s]Running loglikelihood requests:  64%|██████▍   | 161/250 [00:35<00:16,  5.40it/s]Running loglikelihood requests:  68%|██████▊   | 169/250 [00:36<00:14,  5.44it/s]Running loglikelihood requests:  71%|███████   | 177/250 [00:38<00:13,  5.48it/s]Running loglikelihood requests:  74%|███████▍  | 185/250 [00:39<00:11,  5.50it/s]Running loglikelihood requests:  77%|███████▋  | 193/250 [00:41<00:10,  5.51it/s]Running loglikelihood requests:  80%|████████  | 201/250 [00:42<00:08,  5.63it/s]Running loglikelihood requests:  84%|████████▎ | 209/250 [00:43<00:07,  5.73it/s]Running loglikelihood requests:  87%|████████▋ | 217/250 [00:45<00:05,  5.85it/s]Running loglikelihood requests:  90%|█████████ | 225/250 [00:46<00:04,  5.94it/s]Running loglikelihood requests:  93%|█████████▎| 233/250 [00:47<00:02,  6.02it/s]Running loglikelihood requests:  96%|█████████▋| 241/250 [00:49<00:01,  6.09it/s]Running loglikelihood requests: 100%|█████████▉| 249/250 [00:49<00:00,  7.96it/s]Running loglikelihood requests: 100%|██████████| 250/250 [00:49<00:00,  5.07it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:14:43:19 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:14:43:19 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/qwen-chat-01/results/Qwen__Qwen3-8B/*.jsonl
+hf ({'pretrained': 'Qwen/Qwen3-8B', 'revision': 'b968826d9c46dd6066d109eabc6255188de91218', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 5, batch_size: 8
+|             Tasks             |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|-------------------------------|------:|------|-----:|--------|---|----:|---|-----:|
+|haerae                         |      1|none  |     5|acc     |↑  | 0.68|±  |0.0604|
+|                               |       |none  |     5|acc_norm|↑  | 0.68|±  |0.0604|
+| - haerae_general_knowledge    |      1|none  |     5|acc     |↑  | 0.90|±  |0.1000|
+|                               |       |none  |     5|acc_norm|↑  | 0.90|±  |0.1000|
+| - haerae_history              |      1|none  |     5|acc     |↑  | 0.50|±  |0.1667|
+|                               |       |none  |     5|acc_norm|↑  | 0.50|±  |0.1667|
+| - haerae_loan_word            |      1|none  |     5|acc     |↑  | 1.00|±  |0.0000|
+|                               |       |none  |     5|acc_norm|↑  | 1.00|±  |0.0000|
+| - haerae_rare_word            |      1|none  |     5|acc     |↑  | 0.40|±  |0.1633|
+|                               |       |none  |     5|acc_norm|↑  | 0.40|±  |0.1633|
+| - haerae_standard_nomenclature|      1|none  |     5|acc     |↑  | 0.60|±  |0.1633|
+|                               |       |none  |     5|acc_norm|↑  | 0.60|±  |0.1633|
+
+|Groups|Version|Filter|n-shot| Metric |   |Value|   |Stderr|
+|------|------:|------|-----:|--------|---|----:|---|-----:|
+|haerae|      1|none  |     5|acc     |↑  | 0.68|±  |0.0604|
+|      |       |none  |     5|acc_norm|↑  | 0.68|±  |0.0604|
+

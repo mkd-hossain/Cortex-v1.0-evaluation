@@ -1,0 +1,23 @@
+2026-11-09:13:21:12 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:13:21:15 INFO     [_cli.run:388] Selected Tasks: ['kobest_boolq']
+2026-11-09:13:21:16 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:13:21:16 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}
+2026-11-09:13:21:17 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:13:21:18 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+2026-11-09:13:22:55 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:13:22:55 INFO     [evaluator_utils:480] Task: kobest_boolq (kobest/kobest_boolq.yaml)
+2026-11-09:13:22:55 WARNING  [evaluator:333] Overwriting default num_fewshot of kobest_boolq from None to 0
+2026-11-09:13:22:55 INFO     [api.task:312] Building contexts for kobest_boolq on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 3678.25it/s]
+2026-11-09:13:22:55 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/20 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 20/20 [00:00<00:00, 4140.68it/s]
+Running loglikelihood requests:   0%|          | 0/20 [00:00<?, ?it/s]Running loglikelihood requests:   5%|▌         | 1/20 [00:00<00:16,  1.17it/s]Running loglikelihood requests:  45%|████▌     | 9/20 [00:01<00:01, 10.19it/s]Running loglikelihood requests:  85%|████████▌ | 17/20 [00:01<00:00, 19.26it/s]Running loglikelihood requests: 100%|██████████| 20/20 [00:01<00:00, 16.07it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:13:22:57 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:13:22:57 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-completion-02/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
+hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
+|   Tasks    |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|-----:|------|---|-----:|---|------|
+|kobest_boolq|      1|none  |     0|acc   |↑  |0.5000|±  |0.1667|
+|            |       |none  |     0|f1    |↑  |0.3333|±  |   N/A|
+

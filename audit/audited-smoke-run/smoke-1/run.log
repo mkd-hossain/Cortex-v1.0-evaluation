@@ -1,0 +1,28 @@
+VERIFIED_RUNTIME {"model": "Qwen/Qwen3-8B-Base", "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4", "rotary_type": "default", "mode": "plain-transcript"}
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:29<01:58, 29.63s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:55<01:22, 27.52s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:21<00:53, 26.90s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:46<00:25, 25.91s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:57<00:00, 20.71s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:57<00:00, 23.54s/it]
+CASE 1 / 24 en-tool-0 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 10.4
+CASE 2 / 24 en-tool-1 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 2.8
+CASE 3 / 24 en-tool-2 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.8
+CASE 4 / 24 en-tool-3 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.8
+CASE 5 / 24 en-tool-4 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.8
+CASE 6 / 24 en-tool-5 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 7 / 24 en-tool-6 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 8 / 24 en-tool-7 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 9 / 24 en-direct-0 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 10 / 24 en-direct-1 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 11 / 24 en-direct-2 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 12 / 24 en-direct-3 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 13 / 24 ko-tool-0 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 14 / 24 ko-tool-1 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 15 / 24 ko-tool-2 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 16 / 24 ko-tool-3 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 17 / 24 ko-tool-4 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 18 / 24 ko-tool-5 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 19 / 24 ko-tool-6 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 20 / 24 ko-tool-7 {'correct': False, 'format_valid': False, 'tool_correct': False, 'arguments_correct': False} seconds 15.9
+CASE 21 / 24 ko-direct-0 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 22 / 24 ko-direct-1 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 23 / 24 ko-direct-2 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 15.9
+CASE 24 / 24 ko-direct-3 {'correct': False, 'format_valid': True, 'tool_correct': None, 'arguments_correct': None} seconds 16.0
+SMOKE_COMPLETE {"Four-tool contract": {"passed": 0, "total": 16, "pass_rate": 0.0}, "No-tool and grounding": {"passed": 0, "total": 8, "pass_rate": 0.0}}

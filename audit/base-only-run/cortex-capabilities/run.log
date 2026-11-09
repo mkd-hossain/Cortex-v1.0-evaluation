@@ -1,0 +1,70 @@
+Loading mkd-hossain/Keural-Cortex-8B-v1.0 in BF16, identical plain transcript. 0/33 cases already saved.
+`torch_dtype` is deprecated! Use `dtype` instead!
+CASE 1/33 [Chat] en-exact starting
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+CASE 1/33 en-exact: PASS; input=40 output=4 time=1.6s; Exact/constraint-based scoring
+CASE 2/33 [Chat] ko-exact starting
+CASE 2/33 ko-exact: FAIL; input=50 output=15 time=2.0s; Exact/constraint-based scoring
+CASE 3/33 [Chat] en-json starting
+CASE 3/33 en-json: PASS; input=53 output=14 time=1.9s; Exact/constraint-based scoring
+CASE 4/33 [Chat] ko-json starting
+CASE 4/33 ko-json: PASS; input=61 output=14 time=2.0s; Exact/constraint-based scoring
+CASE 5/33 [Chat] en-fact starting
+CASE 5/33 en-fact: PASS; input=45 output=5 time=1.2s; Exact/constraint-based scoring
+CASE 6/33 [Chat] ko-fact starting
+CASE 6/33 ko-fact: FAIL; input=51 output=16 time=2.1s; Exact/constraint-based scoring
+CASE 7/33 [Chat] en-extraction starting
+CASE 7/33 en-extraction: FAIL; input=60 output=256 time=21.9s; Output budget exhausted before a completed response
+CASE 8/33 [Chat] ko-extraction starting
+CASE 8/33 ko-extraction: FAIL; input=71 output=10 time=1.7s; Exact/constraint-based scoring
+CASE 9/33 [Chat] en-format starting
+CASE 9/33 en-format: FAIL; input=50 output=5 time=1.2s; Exact/constraint-based scoring
+CASE 10/33 [Chat] ko-format starting
+CASE 10/33 ko-format: FAIL; input=73 output=10 time=1.7s; Exact/constraint-based scoring
+CASE 11/33 [Chat] en-grounded starting
+CASE 11/33 en-grounded: FAIL; input=65 output=109 time=9.8s; Exact/constraint-based scoring
+CASE 12/33 [Chat] ko-grounded starting
+CASE 12/33 ko-grounded: FAIL; input=84 output=133 time=11.8s; Exact/constraint-based scoring
+CASE 13/33 [Chat] en-multi-turn starting
+CASE 13/33 en-multi-turn: FAIL; input=62 output=4 time=1.1s; Exact/constraint-based scoring
+CASE 14/33 [Chat] ko-multi-turn starting
+CASE 14/33 ko-multi-turn: PASS; input=76 output=4 time=1.2s; Exact/constraint-based scoring
+CASE 15/33 [Tool calling] tool-greeting-en starting
+CASE 15/33 tool-greeting-en: PASS; input=515 output=10 time=1.7s; greeting should receive a direct answer
+CASE 16/33 [Tool calling] tool-greeting-ko starting
+CASE 16/33 tool-greeting-ko: PASS; input=517 output=137 time=12.4s; greeting should receive a direct answer
+CASE 17/33 [Tool calling] tool-current-en starting
+CASE 17/33 tool-current-en: FAIL; input=526 output=256 time=22.2s; Output budget exhausted before a completed response
+CASE 18/33 [Tool calling] tool-current-ko starting
+CASE 18/33 tool-current-ko: FAIL; input=534 output=256 time=22.3s; Output budget exhausted before a completed response
+CASE 19/33 [Tool calling] tool-fetch starting
+CASE 19/33 tool-fetch: FAIL; input=524 output=36 time=3.9s; expected one fetch_web_urls call
+CASE 20/33 [Tool calling] tool-documents starting
+CASE 20/33 tool-documents: FAIL; input=528 output=50 time=5.1s; expected one retrieve_documents call
+CASE 21/33 [Tool calling] tool-clarify starting
+CASE 21/33 tool-clarify: FAIL; input=517 output=182 time=16.1s; expected one ask_clarification call
+CASE 22/33 [Tool calling] tool-parallel-search starting
+CASE 22/33 tool-parallel-search: FAIL; input=534 output=25 time=3.0s; expected one search_web call
+CASE 23/33 [Tool calling] tool-multistep-en starting
+CASE 23/33 tool-multistep-en: FAIL; input=532 output=29 time=3.3s; expected one find_contact call
+CASE 24/33 [Tool calling] tool-multistep-ko starting
+CASE 24/33 tool-multistep-ko: FAIL; input=543 output=17 time=2.3s; expected one find_contact call
+CASE 25/33 [Tool calling] tool-no-match starting
+CASE 25/33 tool-no-match: PASS; input=560 output=45 time=4.7s; must not invent a recipient or send after a failed lookup
+CASE 26/33 [Tool calling] tool-lookup-error starting
+CASE 26/33 tool-lookup-error: PASS; input=563 output=44 time=4.6s; must not invent a recipient or send after a failed lookup
+CASE 27/33 [Tool calling] tool-grounding starting
+CASE 27/33 tool-grounding: PASS; input=571 output=7 time=1.5s; answer must match mocked tool result
+CASE 28/33 [Math reasoning] math-0 starting
+CASE 28/33 math-0: PASS; input=52 output=96 time=8.8s; Exact/constraint-based scoring
+CASE 29/33 [Math reasoning] math-1 starting
+CASE 29/33 math-1: FAIL; input=66 output=1536 time=129.9s; Output budget exhausted before a completed response
+CASE 30/33 [Math reasoning] math-2 starting
+CASE 30/33 math-2: PASS; input=63 output=80 time=7.4s; Exact/constraint-based scoring
+CASE 31/33 [Math reasoning] math-3 starting
+CASE 31/33 math-3: PASS; input=83 output=175 time=15.4s; Exact/constraint-based scoring
+CASE 32/33 [Math reasoning] math-4 starting
+CASE 32/33 math-4: FAIL; input=64 output=58 time=5.6s; Exact/constraint-based scoring
+CASE 33/33 [Math reasoning] math-5 starting
+CASE 33/33 math-5: PASS; input=78 output=114 time=10.3s; Exact/constraint-based scoring
+DIAGNOSTICS_COMPLETE {"Chat": {"passed": 5, "total": 14, "pass_rate": 0.35714285714285715}, "Math reasoning": {"passed": 4, "total": 6, "pass_rate": 0.6666666666666666}, "Tool calling": {"passed": 5, "total": 13, "pass_rate": 0.38461538461538464}}

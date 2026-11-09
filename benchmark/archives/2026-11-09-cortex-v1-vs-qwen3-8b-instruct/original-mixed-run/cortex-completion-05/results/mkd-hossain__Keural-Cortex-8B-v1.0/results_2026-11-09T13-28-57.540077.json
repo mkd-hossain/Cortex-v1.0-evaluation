@@ -1,0 +1,150 @@
+{
+  "results": {
+    "kobest_sentineg": {
+      "name": "kobest_sentineg",
+      "alias": "kobest_sentineg",
+      "sample_len": 10,
+      "acc,none": 0.9,
+      "acc_stderr,none": 0.09999999999999999,
+      "f1,none": 0.8901098901098901,
+      "f1_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {},
+  "configs": {
+    "kobest_sentineg": {
+      "task": "kobest_sentineg",
+      "dataset_path": "skt/kobest_v1",
+      "dataset_name": "sentineg",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "def sentineg_doc_to_text(doc: dict):\n    return f\"\"\"문장: {doc[\"sentence\"]} 긍부정:\"\"\"\n",
+      "doc_to_target": "{{label}}",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "부정",
+        "긍정"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "default",
+        "split": null,
+        "process_docs": null,
+        "fewshot_indices": null,
+        "samples": null,
+        "doc_to_text": "<function sentineg_doc_to_text at 0xe44417795300>",
+        "doc_to_choice": [
+          "부정",
+          "긍정"
+        ],
+        "doc_to_target": "{{label}}",
+        "gen_prefix": null,
+        "fewshot_delimiter": "\n\n",
+        "target_delimiter": " "
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "f1",
+          "aggregation": "def macro_f1_score(items):\n    from sklearn.metrics import f1_score\n\n    unzipped_list = list(zip(*items))\n    golds = unzipped_list[0]\n    preds = unzipped_list[1]\n    fscore = f1_score(golds, preds, average=\"macro\")\n    return fscore\n",
+          "average": "macro",
+          "hf_evaluate": true,
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "mkd-hossain/Keural-Cortex-8B-v1.0",
+        "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+        "dtype": "bfloat16",
+        "max_length": 32768,
+        "config_source": "/home/BENCHMARK_USER/cortex-benchmark/.venv/lib/python3.12/site-packages/lm_eval/tasks/kobest/kobest_sentineg.yaml"
+      }
+    }
+  },
+  "versions": {
+    "kobest_sentineg": 1.0
+  },
+  "n-shot": {
+    "kobest_sentineg": 0
+  },
+  "higher_is_better": {
+    "kobest_sentineg": {
+      "acc": true,
+      "f1": true
+    }
+  },
+  "n-samples": {
+    "kobest_sentineg": {
+      "original": 397,
+      "effective": 10
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": {
+      "pretrained": "mkd-hossain/Keural-Cortex-8B-v1.0",
+      "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+      "dtype": "bfloat16",
+      "max_length": 32768
+    },
+    "model_num_parameters": 8190735360,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+    "model_sha": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+    "batch_size": "8",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": 10.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {},
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1794198415.4614906,
+  "pretty_env_info": "PyTorch version: 2.11.0+cu130\nIs debug build: False\nCUDA used to build PyTorch: 13.0\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.5 LTS (aarch64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-7.0.0-1019-nvidia-aarch64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: GPU 0: NVIDIA GB10\nNvidia driver version: 595.99.02\ncuDNN version: Probably one of the following:\n/usr/lib/aarch64-linux-gnu/libcudnn.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_adv.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_cnn.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_engines_precompiled.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_engines_runtime_compiled.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_engines_tensor_ir.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_ext.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_graph.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_heuristic.so.9.27.0\n/usr/lib/aarch64-linux-gnu/libcudnn_ops.so.9.27.0\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\nCaching allocator config: N/A\n\nCPU:\nArchitecture:                            aarch64\nCPU op-mode(s):                          64-bit\nByte Order:                              Little Endian\nCPU(s):                                  20\nOn-line CPU(s) list:                     0-19\nVendor ID:                               ARM\nModel name:                              Cortex-X925\nModel:                                   1\nThread(s) per core:                      1\nCore(s) per socket:                      10\nSocket(s):                               1\nStepping:                                r0p1\nFrequency boost:                         disabled\nCPU(s) scaling MHz:                      100%\nCPU max MHz:                             3900.0000\nCPU min MHz:                             1378.0000\nBogoMIPS:                                2000.00\nFlags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nModel name:                              Cortex-A725\nModel:                                   1\nThread(s) per core:                      1\nCore(s) per socket:                      10\nSocket(s):                               1\nStepping:                                r0p1\nCPU(s) scaling MHz:                      100%\nCPU max MHz:                             2808.0000\nCPU min MHz:                             338.0000\nBogoMIPS:                                2000.00\nFlags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nL1d cache:                               1.3 MiB (20 instances)\nL1i cache:                               1.3 MiB (20 instances)\nL2 cache:                                25 MiB (20 instances)\nL3 cache:                                24 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-19\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; CSV2, BHB\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] Could not collect\n[conda] Could not collect",
+  "transformers_version": "4.57.6",
+  "lm_eval_version": "0.4.12",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151643,
+  "max_length": 32768,
+  "task_hashes": {
+    "kobest_sentineg": "fad150ffd41a1aebe91ebb2e25d0f25fe46bcd540f6a7060758e14f4778d4f1e"
+  },
+  "model_source": "hf",
+  "model_name": "mkd-hossain/Keural-Cortex-8B-v1.0",
+  "model_name_sanitized": "mkd-hossain__Keural-Cortex-8B-v1.0",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": null,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "total_evaluation_time_seconds": "124.47953018500084"
+}

@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "protocol": {
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "suite": "long-context",
+    "context": 4096,
+    "template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "precision": "bfloat16",
+    "attention": "sdpa",
+    "thinking_budget": 1536,
+    "normal_budget": 256,
+    "seed": 20261109,
+    "tools_mocked": true,
+    "limitations": "Small synthetic diagnostics; regex/exact scoring; no independent capability certification."
+  },
+  "results": {
+    "Long context": {
+      "passed": 2,
+      "total": 2,
+      "pass_rate": 1.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+2026-11-09:13:15:49 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:13:15:53 INFO     [_cli.run:388] Selected Tasks: ['kmmlu_computer_science', 'kmmlu_korean_history', 'kmmlu_economics']
+2026-11-09:13:15:53 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:13:15:53 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}
+2026-11-09:13:15:55 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:13:15:57 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Generating train split:   0%|          | 0/17373 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 17373/17373 [00:00<00:00, 484302.32 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 3324.59 examples/s]
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 411892.76 examples/s]
+Generating train split:   0%|          | 0/1 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 1/1 [00:00<00:00, 568.64 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 4420.64 examples/s]
+Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 86516.17 examples/s]
+Generating train split:   0%|          | 0/94 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 94/94 [00:00<00:00, 45063.96 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 4120.14 examples/s]
+Generating test split:   0%|          | 0/130 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 130/130 [00:00<00:00, 103210.21 examples/s]
+2026-11-09:13:18:02 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:13:18:02 INFO     [evaluator_utils:480] Task: kmmlu_computer_science (kmmlu/default/kmmlu_computer_science.yaml)
+2026-11-09:13:18:02 INFO     [evaluator_utils:480] Task: kmmlu_economics (kmmlu/default/kmmlu_economics.yaml)
+2026-11-09:13:18:02 INFO     [evaluator_utils:480] Task: kmmlu_korean_history (kmmlu/default/kmmlu_korean_history.yaml)
+2026-11-09:13:18:02 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_computer_science from None to 5
+2026-11-09:13:18:02 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_korean_history from None to 5
+2026-11-09:13:18:02 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_economics from None to 5
+2026-11-09:13:18:02 INFO     [api.task:312] Building contexts for kmmlu_computer_science on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 401.72it/s]
+2026-11-09:13:18:02 INFO     [api.task:312] Building contexts for kmmlu_korean_history on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 417.32it/s]
+2026-11-09:13:18:02 INFO     [api.task:312] Building contexts for kmmlu_economics on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 423.17it/s]
+2026-11-09:13:18:02 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/120 [00:00<?, ?it/s]Tokenizing inputs:  69%|██████▉   | 83/120 [00:00<00:00, 827.33it/s]Tokenizing inputs: 100%|██████████| 120/120 [00:00<00:00, 851.61it/s]
+Running loglikelihood requests:   0%|          | 0/120 [00:00<?, ?it/s]Running loglikelihood requests:   1%|          | 1/120 [00:03<06:44,  3.40s/it]Running loglikelihood requests:  28%|██▊       | 33/120 [00:06<00:13,  6.49it/s]Running loglikelihood requests:  54%|█████▍    | 65/120 [00:07<00:05, 10.09it/s]Running loglikelihood requests:  81%|████████  | 97/120 [00:08<00:01, 14.88it/s]Running loglikelihood requests: 100%|██████████| 120/120 [00:08<00:00, 13.49it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:13:18:12 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:13:18:12 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-completion-00/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
+hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 5, batch_size: 8
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
+|----------------------|------:|------|-----:|------|---|----:|---|-----:|
+|kmmlu_computer_science|      2|none  |     5|acc   |↑  |  0.7|±  |0.1528|
+|kmmlu_economics       |      2|none  |     5|acc   |↑  |  0.6|±  |0.1633|
+|kmmlu_korean_history  |      2|none  |     5|acc   |↑  |  0.4|±  |0.1633|
+

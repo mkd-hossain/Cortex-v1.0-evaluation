@@ -1,0 +1,25 @@
+2026-11-09:14:20:12 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:14:20:12 INFO     [config.evaluate_config:307] Using default fewshot_as_multiturn=True.
+2026-11-09:14:20:14 INFO     [_cli.run:388] Selected Tasks: ['kobest_hellaswag']
+2026-11-09:14:20:15 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:14:20:15 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}
+2026-11-09:14:20:16 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:14:20:17 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+2026-11-09:14:21:57 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:14:21:57 INFO     [evaluator_utils:480] Task: kobest_hellaswag (kobest/kobest_hellaswag.yaml)
+2026-11-09:14:21:57 WARNING  [evaluator:333] Overwriting default num_fewshot of kobest_hellaswag from None to 0
+2026-11-09:14:21:57 INFO     [api.task:312] Building contexts for kobest_hellaswag on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 973.79it/s]
+2026-11-09:14:21:57 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/40 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 40/40 [00:00<00:00, 4915.39it/s]
+Running loglikelihood requests:   0%|          | 0/40 [00:00<?, ?it/s]Running loglikelihood requests:   2%|▎         | 1/40 [00:00<00:31,  1.22it/s]Running loglikelihood requests:  22%|██▎       | 9/40 [00:01<00:03, 10.31it/s]Running loglikelihood requests:  42%|████▎     | 17/40 [00:01<00:01, 16.86it/s]Running loglikelihood requests:  62%|██████▎   | 25/40 [00:01<00:00, 21.76it/s]Running loglikelihood requests:  82%|████████▎ | 33/40 [00:01<00:00, 25.19it/s]Running loglikelihood requests: 100%|██████████| 40/40 [00:01<00:00, 22.09it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:14:22:00 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:14:22:00 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-chat-04/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
+hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
+|     Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|----------------|------:|------|-----:|--------|---|-----:|---|------|
+|kobest_hellaswag|      1|none  |     0|acc     |↑  |0.5000|±  |0.1667|
+|                |       |none  |     0|acc_norm|↑  |0.7000|±  |0.1528|
+|                |       |none  |     0|f1      |↑  |0.4333|±  |   N/A|
+

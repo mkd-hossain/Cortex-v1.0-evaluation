@@ -1,0 +1,41 @@
+2026-11-09:13:28:58 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-11-09:13:29:01 INFO     [_cli.run:388] Selected Tasks: ['mmlu_computer_security', 'mmlu_world_religions', 'mmlu_high_school_geography']
+2026-11-09:13:29:02 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-11-09:13:29:02 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}
+2026-11-09:13:29:03 INFO     [models.huggingface:286] Using device 'cuda:0'
+2026-11-09:13:29:04 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 44601.28 examples/s]
+Generating validation split:   0%|          | 0/11 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 11/11 [00:00<00:00, 10180.35 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 4096.00 examples/s]
+Generating test split:   0%|          | 0/171 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 171/171 [00:00<00:00, 113180.68 examples/s]
+Generating validation split:   0%|          | 0/19 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 19/19 [00:00<00:00, 21015.76 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 4522.65 examples/s]
+Generating test split:   0%|          | 0/198 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 198/198 [00:00<00:00, 97886.87 examples/s]
+Generating validation split:   0%|          | 0/22 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 22/22 [00:00<00:00, 15435.71 examples/s]
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 3886.49 examples/s]
+2026-11-09:13:30:56 INFO     [evaluator_utils:446] Selected tasks:
+2026-11-09:13:30:56 INFO     [evaluator_utils:480] Task: mmlu_computer_security (mmlu/default/mmlu_computer_security.yaml)
+2026-11-09:13:30:56 INFO     [evaluator_utils:480] Task: mmlu_high_school_geography (mmlu/default/mmlu_high_school_geography.yaml)
+2026-11-09:13:30:56 INFO     [evaluator_utils:480] Task: mmlu_world_religions (mmlu/default/mmlu_world_religions.yaml)
+2026-11-09:13:30:56 WARNING  [evaluator:333] Overwriting default num_fewshot of mmlu_computer_security from None to 5
+2026-11-09:13:30:56 WARNING  [evaluator:333] Overwriting default num_fewshot of mmlu_world_religions from None to 5
+2026-11-09:13:30:56 WARNING  [evaluator:333] Overwriting default num_fewshot of mmlu_high_school_geography from None to 5
+2026-11-09:13:30:56 INFO     [api.task:312] Building contexts for mmlu_computer_security on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 441.25it/s]
+2026-11-09:13:30:56 INFO     [api.task:312] Building contexts for mmlu_world_religions on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 459.24it/s]
+2026-11-09:13:30:56 INFO     [api.task:312] Building contexts for mmlu_high_school_geography on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 459.96it/s]
+2026-11-09:13:30:56 INFO     [evaluator:585] Running loglikelihood requests
+Tokenizing inputs:   0%|          | 0/120 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 120/120 [00:00<00:00, 1599.31it/s]
+Running loglikelihood requests:   0%|          | 0/120 [00:00<?, ?it/s]Running loglikelihood requests:   1%|          | 1/120 [00:01<03:05,  1.55s/it]Running loglikelihood requests:  28%|██▊       | 33/120 [00:02<00:05, 17.02it/s]Running loglikelihood requests:  54%|█████▍    | 65/120 [00:03<00:02, 25.17it/s]Running loglikelihood requests:  81%|████████  | 97/120 [00:03<00:00, 35.30it/s]Running loglikelihood requests: 100%|██████████| 120/120 [00:03<00:00, 32.49it/s]
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-09:13:31:00 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-11-09:13:31:00 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-completion-06/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
+hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 5, batch_size: 8
+|        Tasks        |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
+|---------------------|------:|------|-----:|------|---|----:|---|-----:|
+|computer_security    |      1|none  |     5|acc   |↑  |  0.9|±  |   0.1|
+|high_school_geography|      1|none  |     5|acc   |↑  |  0.9|±  |   0.1|
+|world_religions      |      1|none  |     5|acc   |↑  |  0.9|±  |   0.1|
+

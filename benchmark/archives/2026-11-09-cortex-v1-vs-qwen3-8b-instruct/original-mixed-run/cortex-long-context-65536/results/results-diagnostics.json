@@ -1,0 +1,25 @@
+{
+  "model": "mkd-hossain/Keural-Cortex-8B-v1.0",
+  "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+  "protocol": {
+    "model": "mkd-hossain/Keural-Cortex-8B-v1.0",
+    "revision": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+    "suite": "long-context",
+    "context": 65536,
+    "template_sha256": "639b8dbd0ae92bdf5267b69d54a7a79026cf395cebac7a0af04c9b463d8d5a65",
+    "precision": "bfloat16",
+    "attention": "sdpa",
+    "thinking_budget": 1536,
+    "normal_budget": 256,
+    "seed": 20261109,
+    "tools_mocked": true,
+    "limitations": "Small synthetic diagnostics; regex/exact scoring; no independent capability certification."
+  },
+  "results": {
+    "Long context": {
+      "passed": 0,
+      "total": 2,
+      "pass_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.config-venv/
+.env
+.env.*
+*.pem
+*.key
+training-source/
+runs/

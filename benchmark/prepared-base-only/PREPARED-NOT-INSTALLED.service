@@ -1,0 +1,17 @@
+[Unit]
+Description=PREPARED Cortex v1 versus Qwen3-8B-Base pilot
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/cortex-benchmark/prepared-base-only
+ExecStart=%h/cortex-benchmark/.venv/bin/python -u controller.py --plan plan.json --data %h/cortex-benchmark/runs-base-only-v1 --ready-file %h/cortex-benchmark/provenance/ready
+Environment=PYTHONUNBUFFERED=1
+Environment=TOKENIZERS_PARALLELISM=false
+Environment=HF_DATASETS_TRUST_REMOTE_CODE=1
+Environment=OMP_NUM_THREADS=8
+Restart=on-failure
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=default.target
