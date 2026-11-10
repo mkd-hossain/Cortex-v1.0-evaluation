@@ -36,3 +36,929 @@ CASE 17 / 480 route-en-search_web-16 {'strict': True, 'semantic': True, 'tool_ch
 CASE_START route-en-search_web-17 674
 CASE 18 / 480 route-en-search_web-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
 CASE_START route-en-search_web-18 670
+VERIFIED_RUNTIME mkd-hossain/Keural-Cortex-8B-v1.0 yarn
+CASE_START route-en-search_web-18 670
+CASE 19 / 480 route-en-search_web-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.47
+CASE_START route-en-search_web-19 670
+CASE 20 / 480 route-en-search_web-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-en-search_web-20 673
+CASE 21 / 480 route-en-search_web-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.92
+CASE_START route-en-search_web-21 672
+CASE 22 / 480 route-en-search_web-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-en-search_web-22 671
+CASE 23 / 480 route-en-search_web-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.15
+CASE_START route-en-search_web-23 672
+CASE 24 / 480 route-en-search_web-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.92
+CASE_START route-en-search_web-24 672
+CASE 25 / 480 route-en-search_web-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.15
+CASE_START route-en-search_web-25 669
+CASE 26 / 480 route-en-search_web-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.02
+CASE_START route-en-search_web-26 672
+CASE 27 / 480 route-en-search_web-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.82
+CASE_START route-en-search_web-27 670
+CASE 28 / 480 route-en-search_web-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.99
+CASE_START route-en-search_web-28 669
+CASE 29 / 480 route-en-search_web-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-en-search_web-29 674
+CASE 30 / 480 route-en-search_web-29 {'strict': False, 'semantic': False, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': False} truncated False seconds 4.08
+CASE_START route-en-search_web-30 671
+CASE 31 / 480 route-en-search_web-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.99
+CASE_START route-en-search_web-31 670
+CASE 32 / 480 route-en-search_web-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.07
+CASE_START route-en-search_web-32 674
+CASE 33 / 480 route-en-search_web-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.07
+CASE_START route-en-search_web-33 671
+CASE 34 / 480 route-en-search_web-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.02
+CASE_START route-en-search_web-34 669
+CASE 35 / 480 route-en-search_web-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.99
+CASE_START route-en-search_web-35 672
+CASE 36 / 480 route-en-search_web-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.83
+CASE_START route-en-search_web-36 669
+CASE 37 / 480 route-en-search_web-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.82
+CASE_START route-en-search_web-37 670
+CASE 38 / 480 route-en-search_web-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.07
+CASE_START route-en-search_web-38 671
+CASE 39 / 480 route-en-search_web-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.75
+CASE_START route-en-search_web-39 671
+CASE 40 / 480 route-en-search_web-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.16
+CASE_START route-en-search_web-40 670
+CASE 41 / 480 route-en-search_web-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-en-search_web-41 671
+CASE 42 / 480 route-en-search_web-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.75
+CASE_START route-en-search_web-42 670
+CASE 43 / 480 route-en-search_web-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-en-search_web-43 671
+CASE 44 / 480 route-en-search_web-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.15
+CASE_START route-en-search_web-44 672
+CASE 45 / 480 route-en-search_web-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.82
+CASE_START route-en-search_web-45 672
+CASE 46 / 480 route-en-search_web-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.16
+CASE_START route-en-search_web-46 670
+CASE 47 / 480 route-en-search_web-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-en-search_web-47 672
+CASE 48 / 480 route-en-search_web-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.83
+CASE_START route-en-search_web-48 670
+CASE 49 / 480 route-en-search_web-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.99
+CASE_START route-en-search_web-49 671
+CASE 50 / 480 route-en-search_web-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.16
+CASE_START route-en-search_web-50 673
+CASE 51 / 480 route-en-search_web-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.9
+CASE_START route-en-search_web-51 671
+CASE 52 / 480 route-en-search_web-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-en-search_web-52 668
+CASE 53 / 480 route-en-search_web-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.92
+CASE_START route-en-search_web-53 674
+CASE 54 / 480 route-en-search_web-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-en-search_web-54 672
+CASE 55 / 480 route-en-search_web-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.15
+CASE_START route-en-search_web-55 670
+CASE 56 / 480 route-en-search_web-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-en-search_web-56 673
+CASE 57 / 480 route-en-search_web-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.91
+CASE_START route-en-search_web-57 672
+CASE 58 / 480 route-en-search_web-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.15
+CASE_START route-en-search_web-58 669
+CASE 59 / 480 route-en-search_web-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.07
+CASE_START route-en-search_web-59 673
+CASE 60 / 480 route-en-search_web-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.91
+CASE_START route-en-fetch_web_urls-0 675
+CASE 61 / 480 route-en-fetch_web_urls-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.57
+CASE_START route-en-fetch_web_urls-1 699
+CASE 62 / 480 route-en-fetch_web_urls-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.99
+CASE_START route-en-fetch_web_urls-2 676
+CASE 63 / 480 route-en-fetch_web_urls-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.65
+CASE_START route-en-fetch_web_urls-3 699
+CASE 64 / 480 route-en-fetch_web_urls-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.99
+CASE_START route-en-fetch_web_urls-4 676
+CASE 65 / 480 route-en-fetch_web_urls-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-5 699
+CASE 66 / 480 route-en-fetch_web_urls-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-fetch_web_urls-6 676
+CASE 67 / 480 route-en-fetch_web_urls-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-7 699
+CASE 68 / 480 route-en-fetch_web_urls-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.98
+CASE_START route-en-fetch_web_urls-8 676
+CASE 69 / 480 route-en-fetch_web_urls-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-9 701
+CASE 70 / 480 route-en-fetch_web_urls-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-fetch_web_urls-10 676
+CASE 71 / 480 route-en-fetch_web_urls-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.66
+CASE_START route-en-fetch_web_urls-11 699
+CASE 72 / 480 route-en-fetch_web_urls-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.99
+CASE_START route-en-fetch_web_urls-12 675
+CASE 73 / 480 route-en-fetch_web_urls-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-13 695
+CASE 74 / 480 route-en-fetch_web_urls-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-fetch_web_urls-14 675
+CASE 75 / 480 route-en-fetch_web_urls-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-15 695
+CASE 76 / 480 route-en-fetch_web_urls-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.67
+CASE_START route-en-fetch_web_urls-16 675
+CASE 77 / 480 route-en-fetch_web_urls-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-17 699
+CASE 78 / 480 route-en-fetch_web_urls-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-fetch_web_urls-18 676
+CASE 79 / 480 route-en-fetch_web_urls-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.69
+CASE_START route-en-fetch_web_urls-19 701
+CASE 80 / 480 route-en-fetch_web_urls-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-fetch_web_urls-20 674
+CASE 81 / 480 route-en-fetch_web_urls-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-en-fetch_web_urls-21 699
+CASE 82 / 480 route-en-fetch_web_urls-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-en-fetch_web_urls-22 675
+CASE 83 / 480 route-en-fetch_web_urls-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-en-fetch_web_urls-23 699
+CASE 84 / 480 route-en-fetch_web_urls-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.03
+CASE_START route-en-fetch_web_urls-24 675
+CASE 85 / 480 route-en-fetch_web_urls-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.61
+CASE_START route-en-fetch_web_urls-25 699
+CASE 86 / 480 route-en-fetch_web_urls-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.02
+CASE_START route-en-fetch_web_urls-26 674
+CASE 87 / 480 route-en-fetch_web_urls-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-en-fetch_web_urls-27 695
+CASE 88 / 480 route-en-fetch_web_urls-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.85
+CASE_START route-en-fetch_web_urls-28 676
+CASE 89 / 480 route-en-fetch_web_urls-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.66
+CASE_START route-en-fetch_web_urls-29 699
+CASE 90 / 480 route-en-fetch_web_urls-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-fetch_web_urls-30 676
+CASE 91 / 480 route-en-fetch_web_urls-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-31 701
+CASE 92 / 480 route-en-fetch_web_urls-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.26
+CASE_START route-en-fetch_web_urls-32 675
+CASE 93 / 480 route-en-fetch_web_urls-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-33 699
+CASE 94 / 480 route-en-fetch_web_urls-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-en-fetch_web_urls-34 675
+CASE 95 / 480 route-en-fetch_web_urls-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-35 699
+CASE 96 / 480 route-en-fetch_web_urls-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-fetch_web_urls-36 676
+CASE 97 / 480 route-en-fetch_web_urls-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.68
+CASE_START route-en-fetch_web_urls-37 701
+CASE 98 / 480 route-en-fetch_web_urls-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-fetch_web_urls-38 675
+CASE 99 / 480 route-en-fetch_web_urls-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-39 697
+CASE 100 / 480 route-en-fetch_web_urls-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-en-fetch_web_urls-40 676
+CASE 101 / 480 route-en-fetch_web_urls-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.68
+CASE_START route-en-fetch_web_urls-41 695
+CASE 102 / 480 route-en-fetch_web_urls-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.84
+CASE_START route-en-fetch_web_urls-42 675
+CASE 103 / 480 route-en-fetch_web_urls-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-en-fetch_web_urls-43 701
+CASE 104 / 480 route-en-fetch_web_urls-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.2
+CASE_START route-en-fetch_web_urls-44 676
+CASE 105 / 480 route-en-fetch_web_urls-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-45 701
+CASE 106 / 480 route-en-fetch_web_urls-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.19
+CASE_START route-en-fetch_web_urls-46 675
+CASE 107 / 480 route-en-fetch_web_urls-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-en-fetch_web_urls-47 699
+CASE 108 / 480 route-en-fetch_web_urls-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.1
+CASE_START route-en-fetch_web_urls-48 676
+CASE 109 / 480 route-en-fetch_web_urls-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-49 699
+CASE 110 / 480 route-en-fetch_web_urls-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.04
+CASE_START route-en-fetch_web_urls-50 675
+CASE 111 / 480 route-en-fetch_web_urls-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.61
+CASE_START route-en-fetch_web_urls-51 701
+CASE 112 / 480 route-en-fetch_web_urls-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-fetch_web_urls-52 676
+CASE 113 / 480 route-en-fetch_web_urls-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.69
+CASE_START route-en-fetch_web_urls-53 701
+CASE 114 / 480 route-en-fetch_web_urls-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.19
+CASE_START route-en-fetch_web_urls-54 676
+CASE 115 / 480 route-en-fetch_web_urls-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-en-fetch_web_urls-55 697
+CASE 116 / 480 route-en-fetch_web_urls-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.04
+CASE_START route-en-fetch_web_urls-56 674
+CASE 117 / 480 route-en-fetch_web_urls-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.52
+CASE_START route-en-fetch_web_urls-57 697
+CASE 118 / 480 route-en-fetch_web_urls-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.03
+CASE_START route-en-fetch_web_urls-58 674
+CASE 119 / 480 route-en-fetch_web_urls-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.54
+CASE_START route-en-fetch_web_urls-59 701
+CASE 120 / 480 route-en-fetch_web_urls-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-retrieve_documents-0 668
+CASE 121 / 480 route-en-retrieve_documents-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-1 671
+CASE 122 / 480 route-en-retrieve_documents-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-en-retrieve_documents-2 668
+CASE 123 / 480 route-en-retrieve_documents-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-en-retrieve_documents-3 674
+CASE 124 / 480 route-en-retrieve_documents-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-en-retrieve_documents-4 668
+CASE 125 / 480 route-en-retrieve_documents-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-en-retrieve_documents-5 673
+CASE 126 / 480 route-en-retrieve_documents-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-6 669
+CASE 127 / 480 route-en-retrieve_documents-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-en-retrieve_documents-7 673
+CASE 128 / 480 route-en-retrieve_documents-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-8 667
+CASE 129 / 480 route-en-retrieve_documents-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-9 672
+CASE 130 / 480 route-en-retrieve_documents-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-10 668
+CASE 131 / 480 route-en-retrieve_documents-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-en-retrieve_documents-11 673
+CASE 132 / 480 route-en-retrieve_documents-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-12 669
+CASE 133 / 480 route-en-retrieve_documents-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.44
+CASE_START route-en-retrieve_documents-13 672
+CASE 134 / 480 route-en-retrieve_documents-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-14 667
+CASE 135 / 480 route-en-retrieve_documents-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-15 671
+CASE 136 / 480 route-en-retrieve_documents-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.19
+CASE_START route-en-retrieve_documents-16 667
+CASE 137 / 480 route-en-retrieve_documents-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-17 673
+CASE 138 / 480 route-en-retrieve_documents-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.36
+CASE_START route-en-retrieve_documents-18 669
+CASE 139 / 480 route-en-retrieve_documents-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-en-retrieve_documents-19 672
+CASE 140 / 480 route-en-retrieve_documents-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-20 668
+CASE 141 / 480 route-en-retrieve_documents-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-en-retrieve_documents-21 671
+CASE 142 / 480 route-en-retrieve_documents-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-en-retrieve_documents-22 668
+CASE 143 / 480 route-en-retrieve_documents-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-23 672
+CASE 144 / 480 route-en-retrieve_documents-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-24 668
+CASE 145 / 480 route-en-retrieve_documents-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-en-retrieve_documents-25 674
+CASE 146 / 480 route-en-retrieve_documents-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.44
+CASE_START route-en-retrieve_documents-26 667
+CASE 147 / 480 route-en-retrieve_documents-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.24
+CASE_START route-en-retrieve_documents-27 673
+CASE 148 / 480 route-en-retrieve_documents-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-28 668
+CASE 149 / 480 route-en-retrieve_documents-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-29 672
+CASE 150 / 480 route-en-retrieve_documents-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-30 668
+CASE 151 / 480 route-en-retrieve_documents-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-31 674
+CASE 152 / 480 route-en-retrieve_documents-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-en-retrieve_documents-32 667
+CASE 153 / 480 route-en-retrieve_documents-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.24
+CASE_START route-en-retrieve_documents-33 674
+CASE 154 / 480 route-en-retrieve_documents-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-en-retrieve_documents-34 667
+CASE 155 / 480 route-en-retrieve_documents-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-35 673
+CASE 156 / 480 route-en-retrieve_documents-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-36 668
+CASE 157 / 480 route-en-retrieve_documents-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-en-retrieve_documents-37 672
+CASE 158 / 480 route-en-retrieve_documents-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-38 668
+CASE 159 / 480 route-en-retrieve_documents-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-39 671
+CASE 160 / 480 route-en-retrieve_documents-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-en-retrieve_documents-40 667
+CASE 161 / 480 route-en-retrieve_documents-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-41 674
+CASE 162 / 480 route-en-retrieve_documents-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-en-retrieve_documents-42 669
+CASE 163 / 480 route-en-retrieve_documents-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-en-retrieve_documents-43 673
+CASE 164 / 480 route-en-retrieve_documents-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-44 668
+CASE 165 / 480 route-en-retrieve_documents-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-45 672
+CASE 166 / 480 route-en-retrieve_documents-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-46 669
+CASE 167 / 480 route-en-retrieve_documents-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-en-retrieve_documents-47 673
+CASE 168 / 480 route-en-retrieve_documents-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-48 666
+CASE 169 / 480 route-en-retrieve_documents-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.16
+CASE_START route-en-retrieve_documents-49 674
+CASE 170 / 480 route-en-retrieve_documents-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-en-retrieve_documents-50 668
+CASE 171 / 480 route-en-retrieve_documents-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-51 674
+CASE 172 / 480 route-en-retrieve_documents-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.5
+CASE_START route-en-retrieve_documents-52 668
+CASE 173 / 480 route-en-retrieve_documents-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-en-retrieve_documents-53 674
+CASE 174 / 480 route-en-retrieve_documents-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-en-retrieve_documents-54 667
+CASE 175 / 480 route-en-retrieve_documents-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-en-retrieve_documents-55 673
+CASE 176 / 480 route-en-retrieve_documents-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-en-retrieve_documents-56 668
+CASE 177 / 480 route-en-retrieve_documents-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-en-retrieve_documents-57 672
+CASE 178 / 480 route-en-retrieve_documents-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-en-retrieve_documents-58 668
+CASE 179 / 480 route-en-retrieve_documents-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-en-retrieve_documents-59 671
+CASE 180 / 480 route-en-retrieve_documents-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-en-ask_clarification-0 680
+CASE 181 / 480 route-en-ask_clarification-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-en-ask_clarification-1 681
+CASE 182 / 480 route-en-ask_clarification-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-ask_clarification-2 679
+CASE 183 / 480 route-en-ask_clarification-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-3 680
+CASE 184 / 480 route-en-ask_clarification-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-ask_clarification-4 680
+CASE 185 / 480 route-en-ask_clarification-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-en-ask_clarification-5 679
+CASE 186 / 480 route-en-ask_clarification-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.09
+CASE_START route-en-ask_clarification-6 678
+CASE 187 / 480 route-en-ask_clarification-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.43
+CASE_START route-en-ask_clarification-7 678
+CASE 188 / 480 route-en-ask_clarification-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.04
+CASE_START route-en-ask_clarification-8 679
+CASE 189 / 480 route-en-ask_clarification-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.5
+CASE_START route-en-ask_clarification-9 681
+CASE 190 / 480 route-en-ask_clarification-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.1
+CASE_START route-en-ask_clarification-10 679
+CASE 191 / 480 route-en-ask_clarification-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.52
+CASE_START route-en-ask_clarification-11 680
+CASE 192 / 480 route-en-ask_clarification-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.18
+CASE_START route-en-ask_clarification-12 679
+CASE 193 / 480 route-en-ask_clarification-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-13 680
+CASE 194 / 480 route-en-ask_clarification-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.93
+CASE_START route-en-ask_clarification-14 678
+CASE 195 / 480 route-en-ask_clarification-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-en-ask_clarification-15 679
+CASE 196 / 480 route-en-ask_clarification-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.83
+CASE_START route-en-ask_clarification-16 680
+CASE 197 / 480 route-en-ask_clarification-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.6
+CASE_START route-en-ask_clarification-17 680
+CASE 198 / 480 route-en-ask_clarification-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-ask_clarification-18 679
+CASE 199 / 480 route-en-ask_clarification-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.52
+CASE_START route-en-ask_clarification-19 680
+CASE 200 / 480 route-en-ask_clarification-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-ask_clarification-20 678
+CASE 201 / 480 route-en-ask_clarification-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.44
+CASE_START route-en-ask_clarification-21 680
+CASE 202 / 480 route-en-ask_clarification-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-ask_clarification-22 678
+CASE 203 / 480 route-en-ask_clarification-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-en-ask_clarification-23 681
+CASE 204 / 480 route-en-ask_clarification-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.99
+CASE_START route-en-ask_clarification-24 679
+CASE 205 / 480 route-en-ask_clarification-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.5
+CASE_START route-en-ask_clarification-25 679
+CASE 206 / 480 route-en-ask_clarification-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.94
+CASE_START route-en-ask_clarification-26 680
+CASE 207 / 480 route-en-ask_clarification-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-en-ask_clarification-27 679
+CASE 208 / 480 route-en-ask_clarification-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.84
+CASE_START route-en-ask_clarification-28 679
+CASE 209 / 480 route-en-ask_clarification-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-29 679
+CASE 210 / 480 route-en-ask_clarification-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.83
+CASE_START route-en-ask_clarification-30 678
+CASE 211 / 480 route-en-ask_clarification-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.43
+CASE_START route-en-ask_clarification-31 681
+CASE 212 / 480 route-en-ask_clarification-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-ask_clarification-32 678
+CASE 213 / 480 route-en-ask_clarification-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.43
+CASE_START route-en-ask_clarification-33 681
+CASE 214 / 480 route-en-ask_clarification-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.99
+CASE_START route-en-ask_clarification-34 679
+CASE 215 / 480 route-en-ask_clarification-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.53
+CASE_START route-en-ask_clarification-35 678
+CASE 216 / 480 route-en-ask_clarification-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-ask_clarification-36 678
+CASE 217 / 480 route-en-ask_clarification-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.44
+CASE_START route-en-ask_clarification-37 681
+CASE 218 / 480 route-en-ask_clarification-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.0
+CASE_START route-en-ask_clarification-38 677
+CASE 219 / 480 route-en-ask_clarification-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.33
+CASE_START route-en-ask_clarification-39 680
+CASE 220 / 480 route-en-ask_clarification-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.16
+CASE_START route-en-ask_clarification-40 678
+CASE 221 / 480 route-en-ask_clarification-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.5
+CASE_START route-en-ask_clarification-41 679
+CASE 222 / 480 route-en-ask_clarification-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.83
+CASE_START route-en-ask_clarification-42 677
+CASE 223 / 480 route-en-ask_clarification-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.33
+CASE_START route-en-ask_clarification-43 680
+CASE 224 / 480 route-en-ask_clarification-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-en-ask_clarification-44 679
+CASE 225 / 480 route-en-ask_clarification-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-45 681
+CASE 226 / 480 route-en-ask_clarification-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-en-ask_clarification-46 679
+CASE 227 / 480 route-en-ask_clarification-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.49
+CASE_START route-en-ask_clarification-47 679
+CASE 228 / 480 route-en-ask_clarification-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-en-ask_clarification-48 677
+CASE 229 / 480 route-en-ask_clarification-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.33
+CASE_START route-en-ask_clarification-49 679
+CASE 230 / 480 route-en-ask_clarification-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.85
+CASE_START route-en-ask_clarification-50 679
+CASE 231 / 480 route-en-ask_clarification-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.5
+CASE_START route-en-ask_clarification-51 680
+CASE 232 / 480 route-en-ask_clarification-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.93
+CASE_START route-en-ask_clarification-52 678
+CASE 233 / 480 route-en-ask_clarification-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-en-ask_clarification-53 679
+CASE 234 / 480 route-en-ask_clarification-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.83
+CASE_START route-en-ask_clarification-54 679
+CASE 235 / 480 route-en-ask_clarification-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-55 680
+CASE 236 / 480 route-en-ask_clarification-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.91
+CASE_START route-en-ask_clarification-56 679
+CASE 237 / 480 route-en-ask_clarification-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.51
+CASE_START route-en-ask_clarification-57 681
+CASE 238 / 480 route-en-ask_clarification-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-en-ask_clarification-58 679
+CASE 239 / 480 route-en-ask_clarification-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.6
+CASE_START route-en-ask_clarification-59 679
+CASE 240 / 480 route-en-ask_clarification-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-ko-search_web-0 679
+CASE 241 / 480 route-ko-search_web-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.19
+CASE_START route-ko-search_web-1 675
+CASE 242 / 480 route-ko-search_web-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-2 674
+CASE 243 / 480 route-ko-search_web-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-3 678
+CASE 244 / 480 route-ko-search_web-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-ko-search_web-4 676
+CASE 245 / 480 route-ko-search_web-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-ko-search_web-5 675
+CASE 246 / 480 route-ko-search_web-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-ko-search_web-6 678
+CASE 247 / 480 route-ko-search_web-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-ko-search_web-7 675
+CASE 248 / 480 route-ko-search_web-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-8 673
+CASE 249 / 480 route-ko-search_web-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.92
+CASE_START route-ko-search_web-9 678
+CASE 250 / 480 route-ko-search_web-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-10 675
+CASE 251 / 480 route-ko-search_web-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-ko-search_web-11 673
+CASE 252 / 480 route-ko-search_web-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.93
+CASE_START route-ko-search_web-12 677
+CASE 253 / 480 route-ko-search_web-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-ko-search_web-13 675
+CASE 254 / 480 route-ko-search_web-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.08
+CASE_START route-ko-search_web-14 674
+CASE 255 / 480 route-ko-search_web-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-15 678
+CASE 256 / 480 route-ko-search_web-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-16 674
+CASE 257 / 480 route-ko-search_web-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-17 674
+CASE 258 / 480 route-ko-search_web-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-18 679
+CASE 259 / 480 route-ko-search_web-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-ko-search_web-19 676
+CASE 260 / 480 route-ko-search_web-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-ko-search_web-20 675
+CASE 261 / 480 route-ko-search_web-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-21 678
+CASE 262 / 480 route-ko-search_web-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-22 674
+CASE 263 / 480 route-ko-search_web-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.02
+CASE_START route-ko-search_web-23 674
+CASE 264 / 480 route-ko-search_web-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-24 676
+CASE 265 / 480 route-ko-search_web-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.95
+CASE_START route-ko-search_web-25 676
+CASE 266 / 480 route-ko-search_web-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-ko-search_web-26 674
+CASE 267 / 480 route-ko-search_web-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-ko-search_web-27 678
+CASE 268 / 480 route-ko-search_web-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-ko-search_web-28 675
+CASE 269 / 480 route-ko-search_web-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-29 673
+CASE 270 / 480 route-ko-search_web-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.02
+CASE_START route-ko-search_web-30 678
+CASE 271 / 480 route-ko-search_web-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-31 676
+CASE 272 / 480 route-ko-search_web-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-ko-search_web-32 673
+CASE 273 / 480 route-ko-search_web-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.93
+CASE_START route-ko-search_web-33 679
+CASE 274 / 480 route-ko-search_web-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.2
+CASE_START route-ko-search_web-34 676
+CASE 275 / 480 route-ko-search_web-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.19
+CASE_START route-ko-search_web-35 674
+CASE 276 / 480 route-ko-search_web-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.02
+CASE_START route-ko-search_web-36 678
+CASE 277 / 480 route-ko-search_web-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-37 672
+CASE 278 / 480 route-ko-search_web-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 3.87
+CASE_START route-ko-search_web-38 674
+CASE 279 / 480 route-ko-search_web-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-39 677
+CASE 280 / 480 route-ko-search_web-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.03
+CASE_START route-ko-search_web-40 675
+CASE 281 / 480 route-ko-search_web-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-41 675
+CASE 282 / 480 route-ko-search_web-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-42 677
+CASE 283 / 480 route-ko-search_web-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-43 675
+CASE 284 / 480 route-ko-search_web-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-44 675
+CASE 285 / 480 route-ko-search_web-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-ko-search_web-45 679
+CASE 286 / 480 route-ko-search_web-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.2
+CASE_START route-ko-search_web-46 676
+CASE 287 / 480 route-ko-search_web-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-ko-search_web-47 674
+CASE 288 / 480 route-ko-search_web-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-48 678
+CASE 289 / 480 route-ko-search_web-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-49 676
+CASE 290 / 480 route-ko-search_web-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.18
+CASE_START route-ko-search_web-50 674
+CASE 291 / 480 route-ko-search_web-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-ko-search_web-51 678
+CASE 292 / 480 route-ko-search_web-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-52 674
+CASE 293 / 480 route-ko-search_web-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-search_web-53 675
+CASE 294 / 480 route-ko-search_web-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.12
+CASE_START route-ko-search_web-54 678
+CASE 295 / 480 route-ko-search_web-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-55 676
+CASE 296 / 480 route-ko-search_web-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.2
+CASE_START route-ko-search_web-56 675
+CASE 297 / 480 route-ko-search_web-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-search_web-57 678
+CASE 298 / 480 route-ko-search_web-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.11
+CASE_START route-ko-search_web-58 675
+CASE 299 / 480 route-ko-search_web-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.1
+CASE_START route-ko-search_web-59 674
+CASE 300 / 480 route-ko-search_web-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.01
+CASE_START route-ko-fetch_web_urls-0 677
+CASE 301 / 480 route-ko-fetch_web_urls-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-ko-fetch_web_urls-1 701
+CASE 302 / 480 route-ko-fetch_web_urls-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.96
+CASE_START route-ko-fetch_web_urls-2 678
+CASE 303 / 480 route-ko-fetch_web_urls-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.68
+CASE_START route-ko-fetch_web_urls-3 701
+CASE 304 / 480 route-ko-fetch_web_urls-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.01
+CASE_START route-ko-fetch_web_urls-4 677
+CASE 305 / 480 route-ko-fetch_web_urls-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.61
+CASE_START route-ko-fetch_web_urls-5 701
+CASE 306 / 480 route-ko-fetch_web_urls-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.86
+CASE_START route-ko-fetch_web_urls-6 678
+CASE 307 / 480 route-ko-fetch_web_urls-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.7
+CASE_START route-ko-fetch_web_urls-7 703
+CASE 308 / 480 route-ko-fetch_web_urls-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.13
+CASE_START route-ko-fetch_web_urls-8 675
+CASE 309 / 480 route-ko-fetch_web_urls-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.44
+CASE_START route-ko-fetch_web_urls-9 703
+CASE 310 / 480 route-ko-fetch_web_urls-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.09
+CASE_START route-ko-fetch_web_urls-10 676
+CASE 311 / 480 route-ko-fetch_web_urls-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-ko-fetch_web_urls-11 701
+CASE 312 / 480 route-ko-fetch_web_urls-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.94
+CASE_START route-ko-fetch_web_urls-12 677
+CASE 313 / 480 route-ko-fetch_web_urls-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-ko-fetch_web_urls-13 703
+CASE 314 / 480 route-ko-fetch_web_urls-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.1
+CASE_START route-ko-fetch_web_urls-14 677
+CASE 315 / 480 route-ko-fetch_web_urls-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-ko-fetch_web_urls-15 703
+CASE 316 / 480 route-ko-fetch_web_urls-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.1
+CASE_START route-ko-fetch_web_urls-16 677
+CASE 317 / 480 route-ko-fetch_web_urls-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-ko-fetch_web_urls-17 703
+CASE 318 / 480 route-ko-fetch_web_urls-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.11
+CASE_START route-ko-fetch_web_urls-18 675
+CASE 319 / 480 route-ko-fetch_web_urls-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-ko-fetch_web_urls-19 705
+CASE 320 / 480 route-ko-fetch_web_urls-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.25
+CASE_START route-ko-fetch_web_urls-20 678
+CASE 321 / 480 route-ko-fetch_web_urls-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.69
+CASE_START route-ko-fetch_web_urls-21 705
+CASE 322 / 480 route-ko-fetch_web_urls-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.28
+CASE_START route-ko-fetch_web_urls-22 676
+CASE 323 / 480 route-ko-fetch_web_urls-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-ko-fetch_web_urls-23 701
+CASE 324 / 480 route-ko-fetch_web_urls-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-ko-fetch_web_urls-24 677
+CASE 325 / 480 route-ko-fetch_web_urls-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-ko-fetch_web_urls-25 701
+CASE 326 / 480 route-ko-fetch_web_urls-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-ko-fetch_web_urls-26 674
+CASE 327 / 480 route-ko-fetch_web_urls-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-ko-fetch_web_urls-27 705
+CASE 328 / 480 route-ko-fetch_web_urls-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.25
+CASE_START route-ko-fetch_web_urls-28 677
+CASE 329 / 480 route-ko-fetch_web_urls-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-ko-fetch_web_urls-29 701
+CASE 330 / 480 route-ko-fetch_web_urls-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.91
+CASE_START route-ko-fetch_web_urls-30 678
+CASE 331 / 480 route-ko-fetch_web_urls-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.68
+CASE_START route-ko-fetch_web_urls-31 701
+CASE 332 / 480 route-ko-fetch_web_urls-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.93
+CASE_START route-ko-fetch_web_urls-32 677
+CASE 333 / 480 route-ko-fetch_web_urls-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-ko-fetch_web_urls-33 703
+CASE 334 / 480 route-ko-fetch_web_urls-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.1
+CASE_START route-ko-fetch_web_urls-34 676
+CASE 335 / 480 route-ko-fetch_web_urls-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.52
+CASE_START route-ko-fetch_web_urls-35 703
+CASE 336 / 480 route-ko-fetch_web_urls-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.09
+CASE_START route-ko-fetch_web_urls-36 677
+CASE 337 / 480 route-ko-fetch_web_urls-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.66
+CASE_START route-ko-fetch_web_urls-37 701
+CASE 338 / 480 route-ko-fetch_web_urls-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-ko-fetch_web_urls-38 677
+CASE 339 / 480 route-ko-fetch_web_urls-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.59
+CASE_START route-ko-fetch_web_urls-39 705
+CASE 340 / 480 route-ko-fetch_web_urls-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.26
+CASE_START route-ko-fetch_web_urls-40 675
+CASE 341 / 480 route-ko-fetch_web_urls-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-fetch_web_urls-41 703
+CASE 342 / 480 route-ko-fetch_web_urls-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-ko-fetch_web_urls-42 676
+CASE 343 / 480 route-ko-fetch_web_urls-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.52
+CASE_START route-ko-fetch_web_urls-43 701
+CASE 344 / 480 route-ko-fetch_web_urls-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.91
+CASE_START route-ko-fetch_web_urls-44 677
+CASE 345 / 480 route-ko-fetch_web_urls-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.58
+CASE_START route-ko-fetch_web_urls-45 705
+CASE 346 / 480 route-ko-fetch_web_urls-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.26
+CASE_START route-ko-fetch_web_urls-46 678
+CASE 347 / 480 route-ko-fetch_web_urls-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-ko-fetch_web_urls-47 705
+CASE 348 / 480 route-ko-fetch_web_urls-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.25
+CASE_START route-ko-fetch_web_urls-48 677
+CASE 349 / 480 route-ko-fetch_web_urls-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.6
+CASE_START route-ko-fetch_web_urls-49 703
+CASE 350 / 480 route-ko-fetch_web_urls-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-ko-fetch_web_urls-50 676
+CASE 351 / 480 route-ko-fetch_web_urls-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.51
+CASE_START route-ko-fetch_web_urls-51 703
+CASE 352 / 480 route-ko-fetch_web_urls-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-ko-fetch_web_urls-52 678
+CASE 353 / 480 route-ko-fetch_web_urls-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.75
+CASE_START route-ko-fetch_web_urls-53 701
+CASE 354 / 480 route-ko-fetch_web_urls-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.94
+CASE_START route-ko-fetch_web_urls-54 678
+CASE 355 / 480 route-ko-fetch_web_urls-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.67
+CASE_START route-ko-fetch_web_urls-55 705
+CASE 356 / 480 route-ko-fetch_web_urls-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.25
+CASE_START route-ko-fetch_web_urls-56 677
+CASE 357 / 480 route-ko-fetch_web_urls-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.58
+CASE_START route-ko-fetch_web_urls-57 701
+CASE 358 / 480 route-ko-fetch_web_urls-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.92
+CASE_START route-ko-fetch_web_urls-58 678
+CASE 359 / 480 route-ko-fetch_web_urls-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.69
+CASE_START route-ko-fetch_web_urls-59 703
+CASE 360 / 480 route-ko-fetch_web_urls-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.08
+CASE_START route-ko-retrieve_documents-0 673
+CASE 361 / 480 route-ko-retrieve_documents-0 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-1 680
+CASE 362 / 480 route-ko-retrieve_documents-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-2 674
+CASE 363 / 480 route-ko-retrieve_documents-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-3 681
+CASE 364 / 480 route-ko-retrieve_documents-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-ko-retrieve_documents-4 674
+CASE 365 / 480 route-ko-retrieve_documents-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-ko-retrieve_documents-5 680
+CASE 366 / 480 route-ko-retrieve_documents-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-6 675
+CASE 367 / 480 route-ko-retrieve_documents-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-ko-retrieve_documents-7 678
+CASE 368 / 480 route-ko-retrieve_documents-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-8 673
+CASE 369 / 480 route-ko-retrieve_documents-8 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-ko-retrieve_documents-9 681
+CASE 370 / 480 route-ko-retrieve_documents-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-ko-retrieve_documents-10 674
+CASE 371 / 480 route-ko-retrieve_documents-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-11 679
+CASE 372 / 480 route-ko-retrieve_documents-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-12 673
+CASE 373 / 480 route-ko-retrieve_documents-12 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.24
+CASE_START route-ko-retrieve_documents-13 681
+CASE 374 / 480 route-ko-retrieve_documents-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-14 674
+CASE 375 / 480 route-ko-retrieve_documents-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-15 680
+CASE 376 / 480 route-ko-retrieve_documents-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-16 675
+CASE 377 / 480 route-ko-retrieve_documents-16 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-17 680
+CASE 378 / 480 route-ko-retrieve_documents-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-18 675
+CASE 379 / 480 route-ko-retrieve_documents-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-19 678
+CASE 380 / 480 route-ko-retrieve_documents-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.17
+CASE_START route-ko-retrieve_documents-20 675
+CASE 381 / 480 route-ko-retrieve_documents-20 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-21 681
+CASE 382 / 480 route-ko-retrieve_documents-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-22 674
+CASE 383 / 480 route-ko-retrieve_documents-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-23 680
+CASE 384 / 480 route-ko-retrieve_documents-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-24 675
+CASE 385 / 480 route-ko-retrieve_documents-24 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-ko-retrieve_documents-25 678
+CASE 386 / 480 route-ko-retrieve_documents-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.24
+CASE_START route-ko-retrieve_documents-26 675
+CASE 387 / 480 route-ko-retrieve_documents-26 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-27 680
+CASE 388 / 480 route-ko-retrieve_documents-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-ko-retrieve_documents-28 673
+CASE 389 / 480 route-ko-retrieve_documents-28 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-29 679
+CASE 390 / 480 route-ko-retrieve_documents-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-ko-retrieve_documents-30 674
+CASE 391 / 480 route-ko-retrieve_documents-30 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-31 679
+CASE 392 / 480 route-ko-retrieve_documents-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-32 670
+CASE 393 / 480 route-ko-retrieve_documents-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.0
+CASE_START route-ko-retrieve_documents-33 677
+CASE 394 / 480 route-ko-retrieve_documents-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.09
+CASE_START route-ko-retrieve_documents-34 675
+CASE 395 / 480 route-ko-retrieve_documents-34 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-35 680
+CASE 396 / 480 route-ko-retrieve_documents-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-36 674
+CASE 397 / 480 route-ko-retrieve_documents-36 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-37 681
+CASE 398 / 480 route-ko-retrieve_documents-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-ko-retrieve_documents-38 675
+CASE 399 / 480 route-ko-retrieve_documents-38 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-ko-retrieve_documents-39 681
+CASE 400 / 480 route-ko-retrieve_documents-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-ko-retrieve_documents-40 673
+CASE 401 / 480 route-ko-retrieve_documents-40 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-ko-retrieve_documents-41 677
+CASE 402 / 480 route-ko-retrieve_documents-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.16
+CASE_START route-ko-retrieve_documents-42 674
+CASE 403 / 480 route-ko-retrieve_documents-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-43 680
+CASE 404 / 480 route-ko-retrieve_documents-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-44 673
+CASE 405 / 480 route-ko-retrieve_documents-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.24
+CASE_START route-ko-retrieve_documents-45 679
+CASE 406 / 480 route-ko-retrieve_documents-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-46 675
+CASE 407 / 480 route-ko-retrieve_documents-46 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.42
+CASE_START route-ko-retrieve_documents-47 680
+CASE 408 / 480 route-ko-retrieve_documents-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-48 674
+CASE 409 / 480 route-ko-retrieve_documents-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.35
+CASE_START route-ko-retrieve_documents-49 680
+CASE 410 / 480 route-ko-retrieve_documents-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.33
+CASE_START route-ko-retrieve_documents-50 674
+CASE 411 / 480 route-ko-retrieve_documents-50 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-51 679
+CASE 412 / 480 route-ko-retrieve_documents-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-52 673
+CASE 413 / 480 route-ko-retrieve_documents-52 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-53 681
+CASE 414 / 480 route-ko-retrieve_documents-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-ko-retrieve_documents-54 675
+CASE 415 / 480 route-ko-retrieve_documents-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.41
+CASE_START route-ko-retrieve_documents-55 680
+CASE 416 / 480 route-ko-retrieve_documents-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.34
+CASE_START route-ko-retrieve_documents-56 674
+CASE 417 / 480 route-ko-retrieve_documents-56 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.43
+CASE_START route-ko-retrieve_documents-57 679
+CASE 418 / 480 route-ko-retrieve_documents-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-58 673
+CASE 419 / 480 route-ko-retrieve_documents-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.25
+CASE_START route-ko-retrieve_documents-59 679
+CASE 420 / 480 route-ko-retrieve_documents-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 4.26
+CASE_START route-ko-ask_clarification-0 688
+CASE 421 / 480 route-ko-ask_clarification-0 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-1 693
+CASE 422 / 480 route-ko-ask_clarification-1 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-2 687
+CASE 423 / 480 route-ko-ask_clarification-2 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-ko-ask_clarification-3 692
+CASE 424 / 480 route-ko-ask_clarification-3 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-4 683
+CASE 425 / 480 route-ko-ask_clarification-4 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.57
+CASE_START route-ko-ask_clarification-5 694
+CASE 426 / 480 route-ko-ask_clarification-5 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.65
+CASE_START route-ko-ask_clarification-6 686
+CASE 427 / 480 route-ko-ask_clarification-6 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.41
+CASE_START route-ko-ask_clarification-7 694
+CASE 428 / 480 route-ko-ask_clarification-7 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-8 687
+CASE 429 / 480 route-ko-ask_clarification-8 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.15
+CASE_START route-ko-ask_clarification-9 694
+CASE 430 / 480 route-ko-ask_clarification-9 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.68
+CASE_START route-ko-ask_clarification-10 685
+CASE 431 / 480 route-ko-ask_clarification-10 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-ko-ask_clarification-11 693
+CASE 432 / 480 route-ko-ask_clarification-11 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-12 688
+CASE 433 / 480 route-ko-ask_clarification-12 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-13 692
+CASE 434 / 480 route-ko-ask_clarification-13 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-14 686
+CASE 435 / 480 route-ko-ask_clarification-14 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.66
+CASE_START route-ko-ask_clarification-15 693
+CASE 436 / 480 route-ko-ask_clarification-15 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-16 687
+CASE 437 / 480 route-ko-ask_clarification-16 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.16
+CASE_START route-ko-ask_clarification-17 693
+CASE 438 / 480 route-ko-ask_clarification-17 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-18 685
+CASE 439 / 480 route-ko-ask_clarification-18 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-ko-ask_clarification-19 693
+CASE 440 / 480 route-ko-ask_clarification-19 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-20 687
+CASE 441 / 480 route-ko-ask_clarification-20 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-21 691
+CASE 442 / 480 route-ko-ask_clarification-21 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.69
+CASE_START route-ko-ask_clarification-22 686
+CASE 443 / 480 route-ko-ask_clarification-22 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.41
+CASE_START route-ko-ask_clarification-23 691
+CASE 444 / 480 route-ko-ask_clarification-23 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-24 688
+CASE 445 / 480 route-ko-ask_clarification-24 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-25 693
+CASE 446 / 480 route-ko-ask_clarification-25 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-26 688
+CASE 447 / 480 route-ko-ask_clarification-26 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-27 694
+CASE 448 / 480 route-ko-ask_clarification-27 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-28 687
+CASE 449 / 480 route-ko-ask_clarification-28 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-29 694
+CASE 450 / 480 route-ko-ask_clarification-29 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-30 687
+CASE 451 / 480 route-ko-ask_clarification-30 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-31 693
+CASE 452 / 480 route-ko-ask_clarification-31 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.74
+CASE_START route-ko-ask_clarification-32 687
+CASE 453 / 480 route-ko-ask_clarification-32 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-ko-ask_clarification-33 694
+CASE 454 / 480 route-ko-ask_clarification-33 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-34 687
+CASE 455 / 480 route-ko-ask_clarification-34 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-35 692
+CASE 456 / 480 route-ko-ask_clarification-35 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-36 688
+CASE 457 / 480 route-ko-ask_clarification-36 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-37 692
+CASE 458 / 480 route-ko-ask_clarification-37 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-38 688
+CASE 459 / 480 route-ko-ask_clarification-38 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-39 693
+CASE 460 / 480 route-ko-ask_clarification-39 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 7.49
+CASE_START route-ko-ask_clarification-40 688
+CASE 461 / 480 route-ko-ask_clarification-40 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-41 694
+CASE 462 / 480 route-ko-ask_clarification-41 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.68
+CASE_START route-ko-ask_clarification-42 685
+CASE 463 / 480 route-ko-ask_clarification-42 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-ko-ask_clarification-43 693
+CASE 464 / 480 route-ko-ask_clarification-43 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-44 688
+CASE 465 / 480 route-ko-ask_clarification-44 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.41
+CASE_START route-ko-ask_clarification-45 693
+CASE 466 / 480 route-ko-ask_clarification-45 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-46 688
+CASE 467 / 480 route-ko-ask_clarification-46 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.12
+CASE_START route-ko-ask_clarification-47 694
+CASE 468 / 480 route-ko-ask_clarification-47 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.73
+CASE_START route-ko-ask_clarification-48 686
+CASE 469 / 480 route-ko-ask_clarification-48 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.41
+CASE_START route-ko-ask_clarification-49 694
+CASE 470 / 480 route-ko-ask_clarification-49 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-50 687
+CASE 471 / 480 route-ko-ask_clarification-50 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-51 694
+CASE 472 / 480 route-ko-ask_clarification-51 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-52 688
+CASE 473 / 480 route-ko-ask_clarification-52 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.13
+CASE_START route-ko-ask_clarification-53 693
+CASE 474 / 480 route-ko-ask_clarification-53 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-54 688
+CASE 475 / 480 route-ko-ask_clarification-54 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.42
+CASE_START route-ko-ask_clarification-55 693
+CASE 476 / 480 route-ko-ask_clarification-55 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+CASE_START route-ko-ask_clarification-56 687
+CASE 477 / 480 route-ko-ask_clarification-56 {'strict': False, 'semantic': False, 'tool_choice': False, 'schema_valid': False, 'arguments_correct': False} truncated True seconds 12.14
+CASE_START route-ko-ask_clarification-57 692
+CASE 478 / 480 route-ko-ask_clarification-57 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.66
+CASE_START route-ko-ask_clarification-58 686
+CASE 479 / 480 route-ko-ask_clarification-58 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 5.59
+CASE_START route-ko-ask_clarification-59 693
+CASE 480 / 480 route-ko-ask_clarification-59 {'strict': True, 'semantic': True, 'tool_choice': True, 'schema_valid': True, 'arguments_correct': True} truncated False seconds 6.67
+BEHAVIOR_COMPLETE {"Four-tool routing (strict)": {"passed": 462, "total": 480, "pass_rate": 0.9625}, "Four-tool routing (semantic)": {"passed": 462, "total": 480, "pass_rate": 0.9625}}

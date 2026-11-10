@@ -1,12 +1,12 @@
 {
-  "status": "running",
+  "status": "completed",
   "title": "Cortex v1 vs Qwen3-8B-Base \u2014 continued evaluation",
   "note": "Time-budgeted coverage of all requested categories, not all official full test splits. Seeded up to 50 examples per standard leaf task; 1,280 bilingual synthetic domain cases per model; 120 paired context cases per model plus 40 Cortex-only 64K cases. Standard tasks use matched completion; deployment fixtures use Cortex native chat vs Base plain transcript with identical demonstrations, schema and 128-token cap. Synthetic cases are parameter-held-out, not independently authored. No overall winner. The original runtime budget was reached; the user authorized continuation to finish remaining work without a new hard stop. Completed work remains preserved.",
   "environment_ready": true,
-  "gpu": "NVIDIA GB10, 96 %, [N/A], [N/A], 79",
-  "memory": "System memory: 40.0 / 119.6 GiB used",
+  "gpu": "NVIDIA GB10, 0 %, [N/A], [N/A], 53",
+  "memory": "System memory: 4.5 / 119.6 GiB used",
   "deadline_unix": null,
-  "updated_at": 1794297605.2808983,
+  "updated_at": 1794299621.6866076,
   "run_id": "runs-full-budget-v1",
   "jobs": [
     {
@@ -3701,9 +3701,9 @@
       "tasks": null,
       "category": "Long context",
       "track": "Cortex-only extension",
-      "status": "running",
-      "started": 1794297363.1974766,
-      "ended": null,
+      "status": "completed",
+      "started": 1794299186.7512946,
+      "ended": 1794299591.5180404,
       "limit": null,
       "fewshot": 0,
       "chat": false,
@@ -3713,18 +3713,45 @@
       "batch_size": null,
       "generation": null,
       "sample_count": 40,
-      "metrics": [],
+      "metrics": [
+        {
+          "task": "Context 64K (strict)",
+          "metric": "pass_rate",
+          "value": 0.0,
+          "n": 40,
+          "passed": 0,
+          "stderr": 0.0
+        },
+        {
+          "task": "Context 64K (semantic)",
+          "metric": "pass_rate",
+          "value": 0.2,
+          "n": 40,
+          "passed": 8,
+          "stderr": 0.2
+        }
+      ],
       "warnings": [],
+      "runtime": {
+        "lm_eval_version": null,
+        "transformers_version": null,
+        "model_dtype": null,
+        "model_revision": null,
+        "chat_template_sha": null,
+        "task_hashes": null,
+        "generation_kwargs": {},
+        "actual_batch_sizes": []
+      },
       "case_progress": {
-        "completed": 31,
+        "completed": 40,
         "total": 40,
-        "last_case": "context-65536-ko-10"
+        "last_case": "context-65536-ko-19"
       }
     }
   ],
   "warnings": [],
-  "completed": 38,
-  "report_ready": false,
+  "completed": 39,
+  "report_ready": true,
   "comparisons": {
     "completion": [
       {
@@ -7135,16 +7162,40 @@
       },
       {
         "benchmark": "Context 64K",
-        "task": "Context 64K",
+        "task": "Context 64K (strict)",
         "category": "Long context",
         "extension": true,
         "cortex": {
-          "status": "running",
+          "status": "completed",
           "warnings": [],
-          "task": "Context 64K",
-          "metric": "",
+          "task": "Context 64K (strict)",
+          "metric": "pass_rate",
+          "value": 0.0,
+          "n": 40,
+          "passed": 0,
+          "stderr": 0.0
+        },
+        "qwen": {
+          "status": "not-applicable",
           "value": null,
-          "n": null
+          "n": null,
+          "metric": ""
+        }
+      },
+      {
+        "benchmark": "Context 64K",
+        "task": "Context 64K (semantic)",
+        "category": "Long context",
+        "extension": true,
+        "cortex": {
+          "status": "completed",
+          "warnings": [],
+          "task": "Context 64K (semantic)",
+          "metric": "pass_rate",
+          "value": 0.2,
+          "n": 40,
+          "passed": 8,
+          "stderr": 0.2
         },
         "qwen": {
           "status": "not-applicable",
@@ -10563,16 +10614,40 @@
       },
       {
         "benchmark": "Context 64K",
-        "task": "Context 64K",
+        "task": "Context 64K (strict)",
         "category": "Long context",
         "extension": true,
         "cortex": {
-          "status": "running",
+          "status": "completed",
           "warnings": [],
-          "task": "Context 64K",
-          "metric": "",
+          "task": "Context 64K (strict)",
+          "metric": "pass_rate",
+          "value": 0.0,
+          "n": 40,
+          "passed": 0,
+          "stderr": 0.0
+        },
+        "qwen": {
+          "status": "not-applicable",
           "value": null,
-          "n": null
+          "n": null,
+          "metric": ""
+        }
+      },
+      {
+        "benchmark": "Context 64K",
+        "task": "Context 64K (semantic)",
+        "category": "Long context",
+        "extension": true,
+        "cortex": {
+          "status": "completed",
+          "warnings": [],
+          "task": "Context 64K (semantic)",
+          "metric": "pass_rate",
+          "value": 0.2,
+          "n": 40,
+          "passed": 8,
+          "stderr": 0.2
         },
         "qwen": {
           "status": "not-applicable",
@@ -13991,16 +14066,40 @@
       },
       {
         "benchmark": "Context 64K",
-        "task": "Context 64K",
+        "task": "Context 64K (strict)",
         "category": "Long context",
         "extension": true,
         "cortex": {
-          "status": "running",
+          "status": "completed",
           "warnings": [],
-          "task": "Context 64K",
-          "metric": "",
+          "task": "Context 64K (strict)",
+          "metric": "pass_rate",
+          "value": 0.0,
+          "n": 40,
+          "passed": 0,
+          "stderr": 0.0
+        },
+        "qwen": {
+          "status": "not-applicable",
           "value": null,
-          "n": null
+          "n": null,
+          "metric": ""
+        }
+      },
+      {
+        "benchmark": "Context 64K",
+        "task": "Context 64K (semantic)",
+        "category": "Long context",
+        "extension": true,
+        "cortex": {
+          "status": "completed",
+          "warnings": [],
+          "task": "Context 64K (semantic)",
+          "metric": "pass_rate",
+          "value": 0.2,
+          "n": 40,
+          "passed": 8,
+          "stderr": 0.2
         },
         "qwen": {
           "status": "not-applicable",

@@ -1,0 +1,26 @@
+{
+  "mkd-hossain": {
+    "repo": "mkd-hossain/Keural-Cortex-8B-v1.0",
+    "revision_before_card_update": "a592a43fe940299b5a025e5b719459cda97ae1e6",
+    "files": {
+      "chat_template.jinja": "0148f36bb9bde1131cdd7ea2350b771ffa0df94c",
+      "config.json": "29289b45d8f6ff07aae22807121e969185d8b2bd",
+      "generation_config.json": "b1f1d18728c7d082b3000e34c2d5ab562331d05e",
+      "model.safetensors": "ce1121bc9b9ed11dc9abbf834206884ce5b38662de39dca73f740ddcf3a5c995",
+      "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "tokenizer_config.json": "b16d6178f3b331b711299b0a484329bea9f392bc"
+    }
+  },
+  "hossain0909": {
+    "repo": "hossain0909/Keural-Cortex-8B-v1.0",
+    "revision_before_card_update": "9f147ae8118b37e7a64c9cfaa730de081196388e",
+    "files": {
+      "chat_template.jinja": "0148f36bb9bde1131cdd7ea2350b771ffa0df94c",
+      "config.json": "29289b45d8f6ff07aae22807121e969185d8b2bd",
+      "generation_config.json": "b1f1d18728c7d082b3000e34c2d5ab562331d05e",
+      "model.safetensors": "ce1121bc9b9ed11dc9abbf834206884ce5b38662de39dca73f740ddcf3a5c995",
+      "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "tokenizer_config.json": "b16d6178f3b331b711299b0a484329bea9f392bc"
+    }
+  }
+}

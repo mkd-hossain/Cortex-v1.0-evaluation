@@ -1,6 +1,6 @@
 {
-  "status": "38/39 jobs completed  |  Cortex-only 64K: 31/40 cases saved; final score pending",
-  "snapshot": "2026-11-10T17:00+09:00",
+  "status": "39/39 jobs completed",
+  "snapshot": "2026-11-10T17:33+09:00",
   "standard": {
     "kmmlu": {
       "cortex": 56.93333333333334,
@@ -52,6 +52,7 @@
     "Synthetic cases are template-generated, not independent holdout. Supplied-history tests do not measure autonomous tool execution.",
     "Standard scores use task-declared accuracy / normalized accuracy; GSM8K uses exact match. Subject means are unweighted across equal-sized samples.",
     "Descriptive snapshot only: no overall ranking or statistical significance claimed. Samples are not full official test splits. BF16 on NVIDIA DGX Spark.",
-    "Run: runs-full-budget-v1  |  Snapshot: 2026-11-10T17:00+09:00  |  Full subject scores are in the companion chart and CSV."
+    "Run: runs-full-budget-v1  |  Snapshot: 2026-11-10T17:33+09:00  |  Full subject scores are in the companion chart and CSV.",
+    "Cortex-only 64K extension (n=40): strict 0.0%; semantic 20.0%. No paired Base comparison."
   ]
 }

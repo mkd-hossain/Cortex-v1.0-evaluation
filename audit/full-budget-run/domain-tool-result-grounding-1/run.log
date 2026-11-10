@@ -1,0 +1,483 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:26<01:44, 26.05s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:45<01:06, 22.29s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:06<00:43, 21.83s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:23<00:19, 19.75s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:31<00:00, 15.35s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:31<00:00, 18.22s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+CASE_START ground-en-0 735
+CASE 1 / 240 ground-en-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.7
+CASE_START ground-en-1 735
+CASE 2 / 240 ground-en-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.23
+CASE_START ground-en-2 735
+CASE 3 / 240 ground-en-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-3 735
+CASE 4 / 240 ground-en-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-4 735
+CASE 5 / 240 ground-en-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-5 735
+CASE 6 / 240 ground-en-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-6 735
+CASE 7 / 240 ground-en-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START ground-en-7 735
+CASE 8 / 240 ground-en-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-8 735
+CASE 9 / 240 ground-en-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-9 735
+CASE 10 / 240 ground-en-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.24
+CASE_START ground-en-10 735
+CASE 11 / 240 ground-en-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-11 735
+CASE 12 / 240 ground-en-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.24
+CASE_START ground-en-12 735
+CASE 13 / 240 ground-en-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.24
+CASE_START ground-en-13 735
+CASE 14 / 240 ground-en-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-14 735
+CASE 15 / 240 ground-en-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-15 735
+CASE 16 / 240 ground-en-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-16 735
+CASE 17 / 240 ground-en-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-17 735
+CASE 18 / 240 ground-en-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-18 735
+CASE 19 / 240 ground-en-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-19 735
+CASE 20 / 240 ground-en-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-20 735
+CASE 21 / 240 ground-en-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-21 735
+CASE 22 / 240 ground-en-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-22 735
+CASE 23 / 240 ground-en-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START ground-en-23 735
+CASE 24 / 240 ground-en-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-24 735
+CASE 25 / 240 ground-en-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-25 735
+CASE 26 / 240 ground-en-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-26 735
+CASE 27 / 240 ground-en-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-27 735
+CASE 28 / 240 ground-en-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-28 735
+CASE 29 / 240 ground-en-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-29 735
+CASE 30 / 240 ground-en-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-30 735
+CASE 31 / 240 ground-en-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-31 735
+CASE 32 / 240 ground-en-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-32 735
+CASE 33 / 240 ground-en-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-33 735
+CASE 34 / 240 ground-en-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-34 735
+CASE 35 / 240 ground-en-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.29
+CASE_START ground-en-35 735
+CASE 36 / 240 ground-en-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-36 735
+CASE 37 / 240 ground-en-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-37 735
+CASE 38 / 240 ground-en-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-38 735
+CASE 39 / 240 ground-en-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.37
+CASE_START ground-en-39 735
+CASE 40 / 240 ground-en-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-40 735
+CASE 41 / 240 ground-en-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-41 735
+CASE 42 / 240 ground-en-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-42 735
+CASE 43 / 240 ground-en-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-43 735
+CASE 44 / 240 ground-en-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-44 735
+CASE 45 / 240 ground-en-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-45 735
+CASE 46 / 240 ground-en-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-46 735
+CASE 47 / 240 ground-en-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-47 735
+CASE 48 / 240 ground-en-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-48 735
+CASE 49 / 240 ground-en-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-49 735
+CASE 50 / 240 ground-en-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-50 735
+CASE 51 / 240 ground-en-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-51 735
+CASE 52 / 240 ground-en-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-52 735
+CASE 53 / 240 ground-en-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-53 735
+CASE 54 / 240 ground-en-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-54 735
+CASE 55 / 240 ground-en-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START ground-en-55 735
+CASE 56 / 240 ground-en-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-56 735
+CASE 57 / 240 ground-en-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-57 735
+CASE 58 / 240 ground-en-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-58 735
+CASE 59 / 240 ground-en-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-59 735
+CASE 60 / 240 ground-en-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-60 735
+CASE 61 / 240 ground-en-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-61 735
+CASE 62 / 240 ground-en-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-62 735
+CASE 63 / 240 ground-en-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-63 735
+CASE 64 / 240 ground-en-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-64 735
+CASE 65 / 240 ground-en-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-65 735
+CASE 66 / 240 ground-en-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-66 735
+CASE 67 / 240 ground-en-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-67 735
+CASE 68 / 240 ground-en-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-68 735
+CASE 69 / 240 ground-en-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-69 735
+CASE 70 / 240 ground-en-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-70 735
+CASE 71 / 240 ground-en-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START ground-en-71 735
+CASE 72 / 240 ground-en-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-72 735
+CASE 73 / 240 ground-en-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-73 735
+CASE 74 / 240 ground-en-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-74 735
+CASE 75 / 240 ground-en-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-75 735
+CASE 76 / 240 ground-en-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-76 735
+CASE 77 / 240 ground-en-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-77 735
+CASE 78 / 240 ground-en-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-78 735
+CASE 79 / 240 ground-en-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-79 735
+CASE 80 / 240 ground-en-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-80 735
+CASE 81 / 240 ground-en-80 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-81 735
+CASE 82 / 240 ground-en-81 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-82 735
+CASE 83 / 240 ground-en-82 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-83 735
+CASE 84 / 240 ground-en-83 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-84 735
+CASE 85 / 240 ground-en-84 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-85 735
+CASE 86 / 240 ground-en-85 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START ground-en-86 735
+CASE 87 / 240 ground-en-86 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-87 735
+CASE 88 / 240 ground-en-87 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-88 735
+CASE 89 / 240 ground-en-88 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-89 735
+CASE 90 / 240 ground-en-89 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-90 735
+CASE 91 / 240 ground-en-90 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-91 735
+CASE 92 / 240 ground-en-91 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-92 735
+CASE 93 / 240 ground-en-92 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-93 735
+CASE 94 / 240 ground-en-93 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-94 735
+CASE 95 / 240 ground-en-94 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-95 735
+CASE 96 / 240 ground-en-95 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-96 735
+CASE 97 / 240 ground-en-96 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-97 735
+CASE 98 / 240 ground-en-97 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-98 735
+CASE 99 / 240 ground-en-98 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-99 735
+CASE 100 / 240 ground-en-99 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-100 735
+CASE 101 / 240 ground-en-100 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-101 735
+CASE 102 / 240 ground-en-101 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-102 735
+CASE 103 / 240 ground-en-102 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-103 735
+CASE 104 / 240 ground-en-103 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START ground-en-104 735
+CASE 105 / 240 ground-en-104 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-105 735
+CASE 106 / 240 ground-en-105 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-en-106 735
+CASE 107 / 240 ground-en-106 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-107 735
+CASE 108 / 240 ground-en-107 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-108 735
+CASE 109 / 240 ground-en-108 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-109 735
+CASE 110 / 240 ground-en-109 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-110 735
+CASE 111 / 240 ground-en-110 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-111 735
+CASE 112 / 240 ground-en-111 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-112 735
+CASE 113 / 240 ground-en-112 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-113 735
+CASE 114 / 240 ground-en-113 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-114 735
+CASE 115 / 240 ground-en-114 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-115 735
+CASE 116 / 240 ground-en-115 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-116 735
+CASE 117 / 240 ground-en-116 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-en-117 735
+CASE 118 / 240 ground-en-117 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-118 735
+CASE 119 / 240 ground-en-118 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-en-119 735
+CASE 120 / 240 ground-en-119 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START ground-ko-0 748
+CASE 121 / 240 ground-ko-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-1 748
+CASE 122 / 240 ground-ko-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-2 748
+CASE 123 / 240 ground-ko-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-3 748
+CASE 124 / 240 ground-ko-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-4 748
+CASE 125 / 240 ground-ko-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-5 748
+CASE 126 / 240 ground-ko-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-6 748
+CASE 127 / 240 ground-ko-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-7 748
+CASE 128 / 240 ground-ko-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-8 748
+CASE 129 / 240 ground-ko-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-9 748
+CASE 130 / 240 ground-ko-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-10 748
+CASE 131 / 240 ground-ko-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-11 748
+CASE 132 / 240 ground-ko-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-12 748
+CASE 133 / 240 ground-ko-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-13 748
+CASE 134 / 240 ground-ko-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.29
+CASE_START ground-ko-14 748
+CASE 135 / 240 ground-ko-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START ground-ko-15 748
+CASE 136 / 240 ground-ko-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-16 748
+CASE 137 / 240 ground-ko-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-17 748
+CASE 138 / 240 ground-ko-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-18 748
+CASE 139 / 240 ground-ko-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-19 748
+CASE 140 / 240 ground-ko-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-20 748
+CASE 141 / 240 ground-ko-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-21 748
+CASE 142 / 240 ground-ko-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-22 748
+CASE 143 / 240 ground-ko-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-23 748
+CASE 144 / 240 ground-ko-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-24 748
+CASE 145 / 240 ground-ko-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-25 748
+CASE 146 / 240 ground-ko-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-26 748
+CASE 147 / 240 ground-ko-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-27 748
+CASE 148 / 240 ground-ko-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.28
+CASE_START ground-ko-28 748
+CASE 149 / 240 ground-ko-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-29 748
+CASE 150 / 240 ground-ko-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-30 748
+CASE 151 / 240 ground-ko-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.29
+CASE_START ground-ko-31 748
+CASE 152 / 240 ground-ko-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-32 748
+CASE 153 / 240 ground-ko-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START ground-ko-33 748
+CASE 154 / 240 ground-ko-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-34 748
+CASE 155 / 240 ground-ko-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-35 748
+CASE 156 / 240 ground-ko-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-36 748
+CASE 157 / 240 ground-ko-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.28
+CASE_START ground-ko-37 748
+CASE 158 / 240 ground-ko-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-38 748
+CASE 159 / 240 ground-ko-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-39 748
+CASE 160 / 240 ground-ko-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-40 748
+CASE 161 / 240 ground-ko-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.28
+CASE_START ground-ko-41 748
+CASE 162 / 240 ground-ko-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-42 748
+CASE 163 / 240 ground-ko-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-43 748
+CASE 164 / 240 ground-ko-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-44 748
+CASE 165 / 240 ground-ko-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-45 748
+CASE 166 / 240 ground-ko-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-46 748
+CASE 167 / 240 ground-ko-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-47 748
+CASE 168 / 240 ground-ko-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-48 748
+CASE 169 / 240 ground-ko-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START ground-ko-49 748
+CASE 170 / 240 ground-ko-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-50 748
+CASE 171 / 240 ground-ko-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-51 748
+CASE 172 / 240 ground-ko-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-52 748
+CASE 173 / 240 ground-ko-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-53 748
+CASE 174 / 240 ground-ko-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-54 748
+CASE 175 / 240 ground-ko-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-55 748
+CASE 176 / 240 ground-ko-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-56 748
+CASE 177 / 240 ground-ko-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-57 748
+CASE 178 / 240 ground-ko-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-58 748
+CASE 179 / 240 ground-ko-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-59 748
+CASE 180 / 240 ground-ko-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-60 748
+CASE 181 / 240 ground-ko-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-61 748
+CASE 182 / 240 ground-ko-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-62 748
+CASE 183 / 240 ground-ko-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-63 748
+CASE 184 / 240 ground-ko-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START ground-ko-64 748
+CASE 185 / 240 ground-ko-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-65 748
+CASE 186 / 240 ground-ko-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-66 748
+CASE 187 / 240 ground-ko-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-67 748
+CASE 188 / 240 ground-ko-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-68 748
+CASE 189 / 240 ground-ko-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-69 748
+CASE 190 / 240 ground-ko-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-70 748
+CASE 191 / 240 ground-ko-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-71 748
+CASE 192 / 240 ground-ko-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-72 748
+CASE 193 / 240 ground-ko-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-73 748
+CASE 194 / 240 ground-ko-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-74 748
+CASE 195 / 240 ground-ko-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-75 748
+CASE 196 / 240 ground-ko-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-76 748
+CASE 197 / 240 ground-ko-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-77 748
+CASE 198 / 240 ground-ko-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-78 748
+CASE 199 / 240 ground-ko-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-79 748
+CASE 200 / 240 ground-ko-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-80 748
+CASE 201 / 240 ground-ko-80 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-81 748
+CASE 202 / 240 ground-ko-81 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START ground-ko-82 748
+CASE 203 / 240 ground-ko-82 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-83 748
+CASE 204 / 240 ground-ko-83 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-84 748
+CASE 205 / 240 ground-ko-84 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-85 748
+CASE 206 / 240 ground-ko-85 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-86 748
+CASE 207 / 240 ground-ko-86 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-87 748
+CASE 208 / 240 ground-ko-87 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-88 748
+CASE 209 / 240 ground-ko-88 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-89 748
+CASE 210 / 240 ground-ko-89 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-90 748
+CASE 211 / 240 ground-ko-90 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-91 748
+CASE 212 / 240 ground-ko-91 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-92 748
+CASE 213 / 240 ground-ko-92 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-93 748
+CASE 214 / 240 ground-ko-93 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-94 748
+CASE 215 / 240 ground-ko-94 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.28
+CASE_START ground-ko-95 748
+CASE 216 / 240 ground-ko-95 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-96 748
+CASE 217 / 240 ground-ko-96 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-97 748
+CASE 218 / 240 ground-ko-97 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START ground-ko-98 748
+CASE 219 / 240 ground-ko-98 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-99 748
+CASE 220 / 240 ground-ko-99 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-100 748
+CASE 221 / 240 ground-ko-100 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-101 748
+CASE 222 / 240 ground-ko-101 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-102 748
+CASE 223 / 240 ground-ko-102 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-103 748
+CASE 224 / 240 ground-ko-103 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-104 748
+CASE 225 / 240 ground-ko-104 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-105 748
+CASE 226 / 240 ground-ko-105 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-106 748
+CASE 227 / 240 ground-ko-106 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.27
+CASE_START ground-ko-107 748
+CASE 228 / 240 ground-ko-107 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-108 748
+CASE 229 / 240 ground-ko-108 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-109 748
+CASE 230 / 240 ground-ko-109 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-110 748
+CASE 231 / 240 ground-ko-110 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-111 748
+CASE 232 / 240 ground-ko-111 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-112 748
+CASE 233 / 240 ground-ko-112 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START ground-ko-113 748
+CASE 234 / 240 ground-ko-113 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-114 748
+CASE 235 / 240 ground-ko-114 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-115 748
+CASE 236 / 240 ground-ko-115 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+CASE_START ground-ko-116 748
+CASE 237 / 240 ground-ko-116 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-117 748
+CASE 238 / 240 ground-ko-117 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-118 748
+CASE 239 / 240 ground-ko-118 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.26
+CASE_START ground-ko-119 748
+CASE 240 / 240 ground-ko-119 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.25
+BEHAVIOR_COMPLETE {"Tool-result grounding (strict)": {"passed": 240, "total": 240, "pass_rate": 1.0}, "Tool-result grounding (semantic)": {"passed": 240, "total": 240, "pass_rate": 1.0}}

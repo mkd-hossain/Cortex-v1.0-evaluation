@@ -1,0 +1,83 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:31<02:04, 31.13s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:58<01:25, 28.62s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:21<00:52, 26.42s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:42<00:24, 24.21s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:52<00:00, 18.89s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:52<00:00, 22.41s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+CASE_START context-16384-en-0 15245
+CASE 1 / 40 context-16384-en-0 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.25
+CASE_START context-16384-en-1 15246
+CASE 2 / 40 context-16384-en-1 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.03
+CASE_START context-16384-en-2 15244
+CASE 3 / 40 context-16384-en-2 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.82
+CASE_START context-16384-en-3 15246
+CASE 4 / 40 context-16384-en-3 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.95
+CASE_START context-16384-en-4 15246
+CASE 5 / 40 context-16384-en-4 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.95
+CASE_START context-16384-en-5 15247
+CASE 6 / 40 context-16384-en-5 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.09
+CASE_START context-16384-en-6 15247
+CASE 7 / 40 context-16384-en-6 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.17
+CASE_START context-16384-en-7 15246
+CASE 8 / 40 context-16384-en-7 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.98
+CASE_START context-16384-en-8 15246
+CASE 9 / 40 context-16384-en-8 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.97
+CASE_START context-16384-en-9 15245
+CASE 10 / 40 context-16384-en-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 9.41
+CASE_START context-16384-en-10 15246
+CASE 11 / 40 context-16384-en-10 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.97
+CASE_START context-16384-en-11 15247
+CASE 12 / 40 context-16384-en-11 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.07
+CASE_START context-16384-en-12 15244
+CASE 13 / 40 context-16384-en-12 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.84
+CASE_START context-16384-en-13 15246
+CASE 14 / 40 context-16384-en-13 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.99
+CASE_START context-16384-en-14 15246
+CASE 15 / 40 context-16384-en-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 9.44
+CASE_START context-16384-en-15 15246
+CASE 16 / 40 context-16384-en-15 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.99
+CASE_START context-16384-en-16 15247
+CASE 17 / 40 context-16384-en-16 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.09
+CASE_START context-16384-en-17 15246
+CASE 18 / 40 context-16384-en-17 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.96
+CASE_START context-16384-en-18 15247
+CASE 19 / 40 context-16384-en-18 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.11
+CASE_START context-16384-en-19 15244
+CASE 20 / 40 context-16384-en-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 9.34
+CASE_START context-16384-ko-0 15246
+CASE 21 / 40 context-16384-ko-0 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.87
+CASE_START context-16384-ko-1 15248
+CASE 22 / 40 context-16384-ko-1 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.98
+CASE_START context-16384-ko-2 15248
+CASE 23 / 40 context-16384-ko-2 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.97
+CASE_START context-16384-ko-3 15248
+CASE 24 / 40 context-16384-ko-3 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.97
+CASE_START context-16384-ko-4 15249
+CASE 25 / 40 context-16384-ko-4 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.1
+CASE_START context-16384-ko-5 15247
+CASE 26 / 40 context-16384-ko-5 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.94
+CASE_START context-16384-ko-6 15245
+CASE 27 / 40 context-16384-ko-6 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.63
+CASE_START context-16384-ko-7 15249
+CASE 28 / 40 context-16384-ko-7 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.06
+CASE_START context-16384-ko-8 15248
+CASE 29 / 40 context-16384-ko-8 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.05
+CASE_START context-16384-ko-9 15249
+CASE 30 / 40 context-16384-ko-9 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.07
+CASE_START context-16384-ko-10 15248
+CASE 31 / 40 context-16384-ko-10 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.95
+CASE_START context-16384-ko-11 15247
+CASE 32 / 40 context-16384-ko-11 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.85
+CASE_START context-16384-ko-12 15246
+CASE 33 / 40 context-16384-ko-12 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.86
+CASE_START context-16384-ko-13 15248
+CASE 34 / 40 context-16384-ko-13 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.96
+CASE_START context-16384-ko-14 15247
+CASE 35 / 40 context-16384-ko-14 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.84
+CASE_START context-16384-ko-15 15246
+CASE 36 / 40 context-16384-ko-15 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.75
+CASE_START context-16384-ko-16 15249
+CASE 37 / 40 context-16384-ko-16 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.06
+CASE_START context-16384-ko-17 15248
+CASE 38 / 40 context-16384-ko-17 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.96
+CASE_START context-16384-ko-18 15246
+CASE 39 / 40 context-16384-ko-18 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.74
+CASE_START context-16384-ko-19 15246
+CASE 40 / 40 context-16384-ko-19 {'strict': False, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 10.71
+BEHAVIOR_COMPLETE {"Context 16K (strict)": {"passed": 3, "total": 40, "pass_rate": 0.075}, "Context 16K (semantic)": {"passed": 38, "total": 40, "pass_rate": 0.95}}

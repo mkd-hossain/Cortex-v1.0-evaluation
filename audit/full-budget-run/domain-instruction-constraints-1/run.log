@@ -1,0 +1,323 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:26<01:47, 26.82s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:45<01:05, 21.94s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:04<00:41, 20.57s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:20<00:19, 19.01s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:29<00:00, 15.15s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:29<00:00, 17.84s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+CASE_START constraint-en-0 647
+CASE 1 / 160 constraint-en-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.89
+CASE_START constraint-en-1 650
+CASE 2 / 160 constraint-en-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-2 649
+CASE 3 / 160 constraint-en-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.62
+CASE_START constraint-en-3 647
+CASE 4 / 160 constraint-en-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.44
+CASE_START constraint-en-4 649
+CASE 5 / 160 constraint-en-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.6
+CASE_START constraint-en-5 648
+CASE 6 / 160 constraint-en-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-6 647
+CASE 7 / 160 constraint-en-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.44
+CASE_START constraint-en-7 648
+CASE 8 / 160 constraint-en-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.51
+CASE_START constraint-en-8 647
+CASE 9 / 160 constraint-en-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.45
+CASE_START constraint-en-9 648
+CASE 10 / 160 constraint-en-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-10 648
+CASE 11 / 160 constraint-en-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-11 648
+CASE 12 / 160 constraint-en-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.51
+CASE_START constraint-en-12 647
+CASE 13 / 160 constraint-en-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-en-13 648
+CASE 14 / 160 constraint-en-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-14 650
+CASE 15 / 160 constraint-en-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-15 648
+CASE 16 / 160 constraint-en-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-16 650
+CASE 17 / 160 constraint-en-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-17 649
+CASE 18 / 160 constraint-en-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-18 650
+CASE 19 / 160 constraint-en-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-19 649
+CASE 20 / 160 constraint-en-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-20 647
+CASE 21 / 160 constraint-en-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-en-21 648
+CASE 22 / 160 constraint-en-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-22 649
+CASE 23 / 160 constraint-en-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-23 650
+CASE 24 / 160 constraint-en-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.76
+CASE_START constraint-en-24 650
+CASE 25 / 160 constraint-en-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-25 649
+CASE 26 / 160 constraint-en-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-26 650
+CASE 27 / 160 constraint-en-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-27 649
+CASE 28 / 160 constraint-en-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-28 650
+CASE 29 / 160 constraint-en-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-29 647
+CASE 30 / 160 constraint-en-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-en-30 650
+CASE 31 / 160 constraint-en-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-31 649
+CASE 32 / 160 constraint-en-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-32 649
+CASE 33 / 160 constraint-en-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-33 650
+CASE 34 / 160 constraint-en-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-34 650
+CASE 35 / 160 constraint-en-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-35 647
+CASE 36 / 160 constraint-en-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-en-36 649
+CASE 37 / 160 constraint-en-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-37 647
+CASE 38 / 160 constraint-en-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.43
+CASE_START constraint-en-38 649
+CASE 39 / 160 constraint-en-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.6
+CASE_START constraint-en-39 649
+CASE 40 / 160 constraint-en-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-40 649
+CASE 41 / 160 constraint-en-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.57
+CASE_START constraint-en-41 649
+CASE 42 / 160 constraint-en-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-42 649
+CASE 43 / 160 constraint-en-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.57
+CASE_START constraint-en-43 648
+CASE 44 / 160 constraint-en-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-en-44 648
+CASE 45 / 160 constraint-en-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-en-45 649
+CASE 46 / 160 constraint-en-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-46 646
+CASE 47 / 160 constraint-en-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-en-47 648
+CASE 48 / 160 constraint-en-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-48 650
+CASE 49 / 160 constraint-en-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-49 650
+CASE 50 / 160 constraint-en-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-50 649
+CASE 51 / 160 constraint-en-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-51 650
+CASE 52 / 160 constraint-en-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-52 650
+CASE 53 / 160 constraint-en-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-53 650
+CASE 54 / 160 constraint-en-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-54 650
+CASE 55 / 160 constraint-en-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.74
+CASE_START constraint-en-55 649
+CASE 56 / 160 constraint-en-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-56 647
+CASE 57 / 160 constraint-en-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-en-57 650
+CASE 58 / 160 constraint-en-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-58 648
+CASE 59 / 160 constraint-en-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-en-59 650
+CASE 60 / 160 constraint-en-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-60 647
+CASE 61 / 160 constraint-en-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.43
+CASE_START constraint-en-61 650
+CASE 62 / 160 constraint-en-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.68
+CASE_START constraint-en-62 650
+CASE 63 / 160 constraint-en-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.67
+CASE_START constraint-en-63 649
+CASE 64 / 160 constraint-en-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.57
+CASE_START constraint-en-64 649
+CASE 65 / 160 constraint-en-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-65 649
+CASE 66 / 160 constraint-en-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.57
+CASE_START constraint-en-66 647
+CASE 67 / 160 constraint-en-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-en-67 649
+CASE 68 / 160 constraint-en-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-68 649
+CASE 69 / 160 constraint-en-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-69 648
+CASE 70 / 160 constraint-en-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-70 649
+CASE 71 / 160 constraint-en-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.57
+CASE_START constraint-en-71 648
+CASE 72 / 160 constraint-en-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-72 649
+CASE 73 / 160 constraint-en-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-73 647
+CASE 74 / 160 constraint-en-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-en-74 649
+CASE 75 / 160 constraint-en-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.59
+CASE_START constraint-en-75 650
+CASE 76 / 160 constraint-en-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.66
+CASE_START constraint-en-76 648
+CASE 77 / 160 constraint-en-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-en-77 649
+CASE 78 / 160 constraint-en-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-en-78 648
+CASE 79 / 160 constraint-en-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-en-79 647
+CASE 80 / 160 constraint-en-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.43
+CASE_START constraint-ko-0 658
+CASE 81 / 160 constraint-ko-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-1 658
+CASE 82 / 160 constraint-ko-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-2 658
+CASE 83 / 160 constraint-ko-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-3 659
+CASE 84 / 160 constraint-ko-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-4 659
+CASE 85 / 160 constraint-ko-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-5 658
+CASE 86 / 160 constraint-ko-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-6 658
+CASE 87 / 160 constraint-ko-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-7 656
+CASE 88 / 160 constraint-ko-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START constraint-ko-8 658
+CASE 89 / 160 constraint-ko-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-9 658
+CASE 90 / 160 constraint-ko-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-10 657
+CASE 91 / 160 constraint-ko-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-11 658
+CASE 92 / 160 constraint-ko-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.43
+CASE_START constraint-ko-12 655
+CASE 93 / 160 constraint-ko-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-13 657
+CASE 94 / 160 constraint-ko-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.36
+CASE_START constraint-ko-14 659
+CASE 95 / 160 constraint-ko-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-15 657
+CASE 96 / 160 constraint-ko-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-16 657
+CASE 97 / 160 constraint-ko-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START constraint-ko-17 658
+CASE 98 / 160 constraint-ko-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-18 658
+CASE 99 / 160 constraint-ko-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-19 659
+CASE 100 / 160 constraint-ko-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-20 657
+CASE 101 / 160 constraint-ko-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START constraint-ko-21 658
+CASE 102 / 160 constraint-ko-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-22 658
+CASE 103 / 160 constraint-ko-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-23 658
+CASE 104 / 160 constraint-ko-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-24 657
+CASE 105 / 160 constraint-ko-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START constraint-ko-25 657
+CASE 106 / 160 constraint-ko-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-26 657
+CASE 107 / 160 constraint-ko-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-27 657
+CASE 108 / 160 constraint-ko-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-28 657
+CASE 109 / 160 constraint-ko-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START constraint-ko-29 655
+CASE 110 / 160 constraint-ko-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-30 659
+CASE 111 / 160 constraint-ko-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-31 657
+CASE 112 / 160 constraint-ko-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.51
+CASE_START constraint-ko-32 657
+CASE 113 / 160 constraint-ko-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-33 659
+CASE 114 / 160 constraint-ko-33 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 11.89
+CASE_START constraint-ko-34 658
+CASE 115 / 160 constraint-ko-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-ko-35 659
+CASE 116 / 160 constraint-ko-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-36 658
+CASE 117 / 160 constraint-ko-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-ko-37 659
+CASE 118 / 160 constraint-ko-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-38 659
+CASE 119 / 160 constraint-ko-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-39 654
+CASE 120 / 160 constraint-ko-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START constraint-ko-40 657
+CASE 121 / 160 constraint-ko-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.52
+CASE_START constraint-ko-41 657
+CASE 122 / 160 constraint-ko-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-42 658
+CASE 123 / 160 constraint-ko-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-43 658
+CASE 124 / 160 constraint-ko-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-44 658
+CASE 125 / 160 constraint-ko-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-45 659
+CASE 126 / 160 constraint-ko-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-46 658
+CASE 127 / 160 constraint-ko-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-ko-47 658
+CASE 128 / 160 constraint-ko-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-48 658
+CASE 129 / 160 constraint-ko-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-49 655
+CASE 130 / 160 constraint-ko-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START constraint-ko-50 659
+CASE 131 / 160 constraint-ko-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-51 659
+CASE 132 / 160 constraint-ko-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-52 658
+CASE 133 / 160 constraint-ko-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-53 657
+CASE 134 / 160 constraint-ko-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-54 657
+CASE 135 / 160 constraint-ko-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-55 658
+CASE 136 / 160 constraint-ko-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-56 658
+CASE 137 / 160 constraint-ko-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-57 657
+CASE 138 / 160 constraint-ko-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.41
+CASE_START constraint-ko-58 657
+CASE 139 / 160 constraint-ko-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-59 658
+CASE 140 / 160 constraint-ko-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.6
+CASE_START constraint-ko-60 657
+CASE 141 / 160 constraint-ko-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-61 659
+CASE 142 / 160 constraint-ko-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-62 659
+CASE 143 / 160 constraint-ko-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-63 656
+CASE 144 / 160 constraint-ko-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START constraint-ko-64 658
+CASE 145 / 160 constraint-ko-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.43
+CASE_START constraint-ko-65 659
+CASE 146 / 160 constraint-ko-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-66 659
+CASE 147 / 160 constraint-ko-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-67 657
+CASE 148 / 160 constraint-ko-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START constraint-ko-68 659
+CASE 149 / 160 constraint-ko-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-69 659
+CASE 150 / 160 constraint-ko-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.49
+CASE_START constraint-ko-70 659
+CASE 151 / 160 constraint-ko-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-71 657
+CASE 152 / 160 constraint-ko-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-72 659
+CASE 153 / 160 constraint-ko-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-ko-73 659
+CASE 154 / 160 constraint-ko-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+CASE_START constraint-ko-74 655
+CASE 155 / 160 constraint-ko-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START constraint-ko-75 658
+CASE 156 / 160 constraint-ko-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.58
+CASE_START constraint-ko-76 658
+CASE 157 / 160 constraint-ko-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-77 659
+CASE 158 / 160 constraint-ko-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.52
+CASE_START constraint-ko-78 658
+CASE 159 / 160 constraint-ko-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.42
+CASE_START constraint-ko-79 659
+CASE 160 / 160 constraint-ko-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.5
+BEHAVIOR_COMPLETE {"Instruction constraints (strict)": {"passed": 159, "total": 160, "pass_rate": 0.99375}, "Instruction constraints (semantic)": {"passed": 159, "total": 160, "pass_rate": 0.99375}}

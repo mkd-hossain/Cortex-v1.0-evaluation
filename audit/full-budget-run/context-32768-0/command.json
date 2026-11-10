@@ -1,0 +1,15 @@
+[
+  "/home/BENCHMARK_USER/cortex-benchmark/.venv/bin/python",
+  "-u",
+  "/home/BENCHMARK_USER/cortex-benchmark/full-budget/behavior.py",
+  "--model",
+  "mkd-hossain/Keural-Cortex-8B-v1.0",
+  "--revision",
+  "a592a43fe940299b5a025e5b719459cda97ae1e6",
+  "--category",
+  "Context 32K",
+  "--context",
+  "32768",
+  "--output",
+  "/home/BENCHMARK_USER/cortex-benchmark/runs-full-budget-v1/context-32768-0/results"
+]

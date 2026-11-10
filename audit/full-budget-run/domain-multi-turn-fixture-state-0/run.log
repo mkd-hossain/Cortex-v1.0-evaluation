@@ -1,0 +1,322 @@
+VERIFIED_RUNTIME mkd-hossain/Keural-Cortex-8B-v1.0 yarn
+CASE_START multiturn-en-0 709
+CASE 1 / 160 multiturn-en-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.62
+CASE_START multiturn-en-1 709
+CASE 2 / 160 multiturn-en-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-2 709
+CASE 3 / 160 multiturn-en-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-3 709
+CASE 4 / 160 multiturn-en-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-4 709
+CASE 5 / 160 multiturn-en-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-5 709
+CASE 6 / 160 multiturn-en-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-6 709
+CASE 7 / 160 multiturn-en-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START multiturn-en-7 709
+CASE 8 / 160 multiturn-en-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-8 709
+CASE 9 / 160 multiturn-en-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-en-9 709
+CASE 10 / 160 multiturn-en-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-10 709
+CASE 11 / 160 multiturn-en-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-en-11 709
+CASE 12 / 160 multiturn-en-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-12 709
+CASE 13 / 160 multiturn-en-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-13 709
+CASE 14 / 160 multiturn-en-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-14 709
+CASE 15 / 160 multiturn-en-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-15 709
+CASE 16 / 160 multiturn-en-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-16 709
+CASE 17 / 160 multiturn-en-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-17 709
+CASE 18 / 160 multiturn-en-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-en-18 709
+CASE 19 / 160 multiturn-en-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-19 709
+CASE 20 / 160 multiturn-en-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-20 709
+CASE 21 / 160 multiturn-en-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-21 709
+CASE 22 / 160 multiturn-en-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-22 709
+CASE 23 / 160 multiturn-en-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START multiturn-en-23 709
+CASE 24 / 160 multiturn-en-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-24 709
+CASE 25 / 160 multiturn-en-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-25 709
+CASE 26 / 160 multiturn-en-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-26 709
+CASE 27 / 160 multiturn-en-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-27 709
+CASE 28 / 160 multiturn-en-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-28 709
+CASE 29 / 160 multiturn-en-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-29 709
+CASE 30 / 160 multiturn-en-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-30 709
+CASE 31 / 160 multiturn-en-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-31 709
+CASE 32 / 160 multiturn-en-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-32 709
+CASE 33 / 160 multiturn-en-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-33 709
+CASE 34 / 160 multiturn-en-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-34 709
+CASE 35 / 160 multiturn-en-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-35 709
+CASE 36 / 160 multiturn-en-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-36 709
+CASE 37 / 160 multiturn-en-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-37 709
+CASE 38 / 160 multiturn-en-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START multiturn-en-38 709
+CASE 39 / 160 multiturn-en-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-39 709
+CASE 40 / 160 multiturn-en-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-40 709
+CASE 41 / 160 multiturn-en-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-41 709
+CASE 42 / 160 multiturn-en-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-42 709
+CASE 43 / 160 multiturn-en-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-43 709
+CASE 44 / 160 multiturn-en-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-44 709
+CASE 45 / 160 multiturn-en-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-45 709
+CASE 46 / 160 multiturn-en-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START multiturn-en-46 709
+CASE 47 / 160 multiturn-en-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START multiturn-en-47 709
+CASE 48 / 160 multiturn-en-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-48 709
+CASE 49 / 160 multiturn-en-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-en-49 709
+CASE 50 / 160 multiturn-en-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-50 709
+CASE 51 / 160 multiturn-en-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-en-51 709
+CASE 52 / 160 multiturn-en-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-52 709
+CASE 53 / 160 multiturn-en-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-53 709
+CASE 54 / 160 multiturn-en-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-en-54 709
+CASE 55 / 160 multiturn-en-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-55 709
+CASE 56 / 160 multiturn-en-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START multiturn-en-56 709
+CASE 57 / 160 multiturn-en-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-57 709
+CASE 58 / 160 multiturn-en-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-58 709
+CASE 59 / 160 multiturn-en-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-59 709
+CASE 60 / 160 multiturn-en-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-60 709
+CASE 61 / 160 multiturn-en-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-61 709
+CASE 62 / 160 multiturn-en-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-62 709
+CASE 63 / 160 multiturn-en-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-en-63 709
+CASE 64 / 160 multiturn-en-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-64 709
+CASE 65 / 160 multiturn-en-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-65 709
+CASE 66 / 160 multiturn-en-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-66 709
+CASE 67 / 160 multiturn-en-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-67 709
+CASE 68 / 160 multiturn-en-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-68 709
+CASE 69 / 160 multiturn-en-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-69 709
+CASE 70 / 160 multiturn-en-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-70 709
+CASE 71 / 160 multiturn-en-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-en-71 709
+CASE 72 / 160 multiturn-en-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START multiturn-en-72 709
+CASE 73 / 160 multiturn-en-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-73 709
+CASE 74 / 160 multiturn-en-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-74 709
+CASE 75 / 160 multiturn-en-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-75 709
+CASE 76 / 160 multiturn-en-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-76 709
+CASE 77 / 160 multiturn-en-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-en-77 709
+CASE 78 / 160 multiturn-en-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-en-78 709
+CASE 79 / 160 multiturn-en-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-en-79 709
+CASE 80 / 160 multiturn-en-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-0 718
+CASE 81 / 160 multiturn-ko-0 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-1 718
+CASE 82 / 160 multiturn-ko-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-2 718
+CASE 83 / 160 multiturn-ko-2 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-3 718
+CASE 84 / 160 multiturn-ko-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-4 718
+CASE 85 / 160 multiturn-ko-4 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-5 718
+CASE 86 / 160 multiturn-ko-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-6 718
+CASE 87 / 160 multiturn-ko-6 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START multiturn-ko-7 718
+CASE 88 / 160 multiturn-ko-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-8 718
+CASE 89 / 160 multiturn-ko-8 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-ko-9 718
+CASE 90 / 160 multiturn-ko-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-10 718
+CASE 91 / 160 multiturn-ko-10 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-11 718
+CASE 92 / 160 multiturn-ko-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-12 718
+CASE 93 / 160 multiturn-ko-12 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-13 718
+CASE 94 / 160 multiturn-ko-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-14 718
+CASE 95 / 160 multiturn-ko-14 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-15 718
+CASE 96 / 160 multiturn-ko-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-ko-16 718
+CASE 97 / 160 multiturn-ko-16 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-17 718
+CASE 98 / 160 multiturn-ko-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-18 718
+CASE 99 / 160 multiturn-ko-18 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-19 718
+CASE 100 / 160 multiturn-ko-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-20 718
+CASE 101 / 160 multiturn-ko-20 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.21
+CASE_START multiturn-ko-21 718
+CASE 102 / 160 multiturn-ko-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-22 718
+CASE 103 / 160 multiturn-ko-22 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-23 718
+CASE 104 / 160 multiturn-ko-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-24 718
+CASE 105 / 160 multiturn-ko-24 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START multiturn-ko-25 718
+CASE 106 / 160 multiturn-ko-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-26 718
+CASE 107 / 160 multiturn-ko-26 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-27 718
+CASE 108 / 160 multiturn-ko-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-28 718
+CASE 109 / 160 multiturn-ko-28 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-29 718
+CASE 110 / 160 multiturn-ko-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-30 718
+CASE 111 / 160 multiturn-ko-30 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-31 718
+CASE 112 / 160 multiturn-ko-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-32 718
+CASE 113 / 160 multiturn-ko-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-33 718
+CASE 114 / 160 multiturn-ko-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-34 718
+CASE 115 / 160 multiturn-ko-34 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-35 718
+CASE 116 / 160 multiturn-ko-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-36 718
+CASE 117 / 160 multiturn-ko-36 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-37 718
+CASE 118 / 160 multiturn-ko-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-38 718
+CASE 119 / 160 multiturn-ko-38 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-39 718
+CASE 120 / 160 multiturn-ko-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-40 718
+CASE 121 / 160 multiturn-ko-40 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START multiturn-ko-41 718
+CASE 122 / 160 multiturn-ko-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-42 718
+CASE 123 / 160 multiturn-ko-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-43 718
+CASE 124 / 160 multiturn-ko-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-44 718
+CASE 125 / 160 multiturn-ko-44 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-45 718
+CASE 126 / 160 multiturn-ko-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.2
+CASE_START multiturn-ko-46 718
+CASE 127 / 160 multiturn-ko-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-47 718
+CASE 128 / 160 multiturn-ko-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-48 718
+CASE 129 / 160 multiturn-ko-48 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-49 718
+CASE 130 / 160 multiturn-ko-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-50 718
+CASE 131 / 160 multiturn-ko-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-51 718
+CASE 132 / 160 multiturn-ko-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-52 718
+CASE 133 / 160 multiturn-ko-52 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-53 718
+CASE 134 / 160 multiturn-ko-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-54 718
+CASE 135 / 160 multiturn-ko-54 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-55 718
+CASE 136 / 160 multiturn-ko-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START multiturn-ko-56 718
+CASE 137 / 160 multiturn-ko-56 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-57 718
+CASE 138 / 160 multiturn-ko-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-58 718
+CASE 139 / 160 multiturn-ko-58 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-59 718
+CASE 140 / 160 multiturn-ko-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-60 718
+CASE 141 / 160 multiturn-ko-60 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-61 718
+CASE 142 / 160 multiturn-ko-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-62 718
+CASE 143 / 160 multiturn-ko-62 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-63 718
+CASE 144 / 160 multiturn-ko-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-64 718
+CASE 145 / 160 multiturn-ko-64 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-65 718
+CASE 146 / 160 multiturn-ko-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-66 718
+CASE 147 / 160 multiturn-ko-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-67 718
+CASE 148 / 160 multiturn-ko-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-68 718
+CASE 149 / 160 multiturn-ko-68 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-69 718
+CASE 150 / 160 multiturn-ko-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-70 718
+CASE 151 / 160 multiturn-ko-70 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-71 718
+CASE 152 / 160 multiturn-ko-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.19
+CASE_START multiturn-ko-72 718
+CASE 153 / 160 multiturn-ko-72 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-73 718
+CASE 154 / 160 multiturn-ko-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START multiturn-ko-74 718
+CASE 155 / 160 multiturn-ko-74 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-75 718
+CASE 156 / 160 multiturn-ko-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-76 718
+CASE 157 / 160 multiturn-ko-76 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START multiturn-ko-77 718
+CASE 158 / 160 multiturn-ko-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-78 718
+CASE 159 / 160 multiturn-ko-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START multiturn-ko-79 718
+CASE 160 / 160 multiturn-ko-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+BEHAVIOR_COMPLETE {"Multi-turn fixture state (strict)": {"passed": 160, "total": 160, "pass_rate": 1.0}, "Multi-turn fixture state (semantic)": {"passed": 160, "total": 160, "pass_rate": 1.0}}

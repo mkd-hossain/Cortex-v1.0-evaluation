@@ -1,0 +1,483 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:26<01:47, 26.84s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:45<01:06, 22.18s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:08<00:44, 22.49s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:26<00:20, 20.71s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:36<00:00, 16.64s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:36<00:00, 19.21s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+CASE_START abstain-en-0 650
+CASE 1 / 240 abstain-en-0 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.78
+CASE_START abstain-en-1 661
+CASE 2 / 240 abstain-en-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-2 650
+CASE 3 / 240 abstain-en-2 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-3 661
+CASE 4 / 240 abstain-en-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-4 650
+CASE 5 / 240 abstain-en-4 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.1
+CASE_START abstain-en-5 661
+CASE 6 / 240 abstain-en-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START abstain-en-6 650
+CASE 7 / 240 abstain-en-6 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START abstain-en-7 661
+CASE 8 / 240 abstain-en-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-8 650
+CASE 9 / 240 abstain-en-8 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.09
+CASE_START abstain-en-9 661
+CASE 10 / 240 abstain-en-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-10 650
+CASE 11 / 240 abstain-en-10 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-en-11 661
+CASE 12 / 240 abstain-en-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-12 650
+CASE 13 / 240 abstain-en-12 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-13 661
+CASE 14 / 240 abstain-en-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-14 650
+CASE 15 / 240 abstain-en-14 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-15 661
+CASE 16 / 240 abstain-en-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-16 650
+CASE 17 / 240 abstain-en-16 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-17 661
+CASE 18 / 240 abstain-en-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-18 650
+CASE 19 / 240 abstain-en-18 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-19 661
+CASE 20 / 240 abstain-en-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-20 650
+CASE 21 / 240 abstain-en-20 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-21 661
+CASE 22 / 240 abstain-en-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START abstain-en-22 650
+CASE 23 / 240 abstain-en-22 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-23 661
+CASE 24 / 240 abstain-en-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.34
+CASE_START abstain-en-24 650
+CASE 25 / 240 abstain-en-24 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-25 661
+CASE 26 / 240 abstain-en-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-26 650
+CASE 27 / 240 abstain-en-26 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-en-27 661
+CASE 28 / 240 abstain-en-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-28 650
+CASE 29 / 240 abstain-en-28 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-29 661
+CASE 30 / 240 abstain-en-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-30 650
+CASE 31 / 240 abstain-en-30 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.08
+CASE_START abstain-en-31 661
+CASE 32 / 240 abstain-en-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-32 650
+CASE 33 / 240 abstain-en-32 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START abstain-en-33 661
+CASE 34 / 240 abstain-en-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-34 650
+CASE 35 / 240 abstain-en-34 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-35 661
+CASE 36 / 240 abstain-en-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-36 650
+CASE 37 / 240 abstain-en-36 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.31
+CASE_START abstain-en-37 661
+CASE 38 / 240 abstain-en-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-38 650
+CASE 39 / 240 abstain-en-38 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-39 661
+CASE 40 / 240 abstain-en-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START abstain-en-40 650
+CASE 41 / 240 abstain-en-40 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-41 661
+CASE 42 / 240 abstain-en-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START abstain-en-42 650
+CASE 43 / 240 abstain-en-42 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-en-43 661
+CASE 44 / 240 abstain-en-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-44 650
+CASE 45 / 240 abstain-en-44 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START abstain-en-45 661
+CASE 46 / 240 abstain-en-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-46 650
+CASE 47 / 240 abstain-en-46 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-en-47 661
+CASE 48 / 240 abstain-en-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-48 650
+CASE 49 / 240 abstain-en-48 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-49 661
+CASE 50 / 240 abstain-en-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-50 650
+CASE 51 / 240 abstain-en-50 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-en-51 661
+CASE 52 / 240 abstain-en-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-52 650
+CASE 53 / 240 abstain-en-52 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-53 661
+CASE 54 / 240 abstain-en-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-54 650
+CASE 55 / 240 abstain-en-54 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.41
+CASE_START abstain-en-55 661
+CASE 56 / 240 abstain-en-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-56 650
+CASE 57 / 240 abstain-en-56 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.31
+CASE_START abstain-en-57 661
+CASE 58 / 240 abstain-en-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-58 650
+CASE 59 / 240 abstain-en-58 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-59 661
+CASE 60 / 240 abstain-en-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-60 650
+CASE 61 / 240 abstain-en-60 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START abstain-en-61 661
+CASE 62 / 240 abstain-en-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-62 650
+CASE 63 / 240 abstain-en-62 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.35
+CASE_START abstain-en-63 661
+CASE 64 / 240 abstain-en-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-64 650
+CASE 65 / 240 abstain-en-64 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-65 661
+CASE 66 / 240 abstain-en-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-66 650
+CASE 67 / 240 abstain-en-66 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-en-67 661
+CASE 68 / 240 abstain-en-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-68 650
+CASE 69 / 240 abstain-en-68 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.11
+CASE_START abstain-en-69 661
+CASE 70 / 240 abstain-en-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.28
+CASE_START abstain-en-70 650
+CASE 71 / 240 abstain-en-70 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.37
+CASE_START abstain-en-71 661
+CASE 72 / 240 abstain-en-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.28
+CASE_START abstain-en-72 650
+CASE 73 / 240 abstain-en-72 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.43
+CASE_START abstain-en-73 661
+CASE 74 / 240 abstain-en-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.28
+CASE_START abstain-en-74 650
+CASE 75 / 240 abstain-en-74 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.08
+CASE_START abstain-en-75 661
+CASE 76 / 240 abstain-en-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-76 650
+CASE 77 / 240 abstain-en-76 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.36
+CASE_START abstain-en-77 661
+CASE 78 / 240 abstain-en-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-78 650
+CASE 79 / 240 abstain-en-78 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.17
+CASE_START abstain-en-79 661
+CASE 80 / 240 abstain-en-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-80 650
+CASE 81 / 240 abstain-en-80 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.09
+CASE_START abstain-en-81 661
+CASE 82 / 240 abstain-en-81 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-82 650
+CASE 83 / 240 abstain-en-82 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-83 661
+CASE 84 / 240 abstain-en-83 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-84 650
+CASE 85 / 240 abstain-en-84 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.18
+CASE_START abstain-en-85 661
+CASE 86 / 240 abstain-en-85 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.28
+CASE_START abstain-en-86 650
+CASE 87 / 240 abstain-en-86 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-en-87 661
+CASE 88 / 240 abstain-en-87 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.28
+CASE_START abstain-en-88 650
+CASE 89 / 240 abstain-en-88 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START abstain-en-89 661
+CASE 90 / 240 abstain-en-89 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-90 650
+CASE 91 / 240 abstain-en-90 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START abstain-en-91 661
+CASE 92 / 240 abstain-en-91 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-92 650
+CASE 93 / 240 abstain-en-92 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.34
+CASE_START abstain-en-93 661
+CASE 94 / 240 abstain-en-93 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START abstain-en-94 650
+CASE 95 / 240 abstain-en-94 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.12
+CASE_START abstain-en-95 661
+CASE 96 / 240 abstain-en-95 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.27
+CASE_START abstain-en-96 650
+CASE 97 / 240 abstain-en-96 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.37
+CASE_START abstain-en-97 661
+CASE 98 / 240 abstain-en-97 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-98 650
+CASE 99 / 240 abstain-en-98 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START abstain-en-99 661
+CASE 100 / 240 abstain-en-99 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-100 650
+CASE 101 / 240 abstain-en-100 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-101 661
+CASE 102 / 240 abstain-en-101 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-102 650
+CASE 103 / 240 abstain-en-102 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.33
+CASE_START abstain-en-103 661
+CASE 104 / 240 abstain-en-103 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.33
+CASE_START abstain-en-104 650
+CASE 105 / 240 abstain-en-104 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.08
+CASE_START abstain-en-105 661
+CASE 106 / 240 abstain-en-105 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-106 650
+CASE 107 / 240 abstain-en-106 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-107 661
+CASE 108 / 240 abstain-en-107 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-108 650
+CASE 109 / 240 abstain-en-108 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-109 661
+CASE 110 / 240 abstain-en-109 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-110 650
+CASE 111 / 240 abstain-en-110 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.32
+CASE_START abstain-en-111 661
+CASE 112 / 240 abstain-en-111 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.25
+CASE_START abstain-en-112 650
+CASE 113 / 240 abstain-en-112 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-113 661
+CASE 114 / 240 abstain-en-113 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-114 650
+CASE 115 / 240 abstain-en-114 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-115 661
+CASE 116 / 240 abstain-en-115 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.24
+CASE_START abstain-en-116 650
+CASE 117 / 240 abstain-en-116 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.07
+CASE_START abstain-en-117 661
+CASE 118 / 240 abstain-en-117 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-en-118 650
+CASE 119 / 240 abstain-en-118 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.31
+CASE_START abstain-en-119 661
+CASE 120 / 240 abstain-en-119 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.26
+CASE_START abstain-ko-0 654
+CASE 121 / 240 abstain-ko-0 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.43
+CASE_START abstain-ko-1 675
+CASE 122 / 240 abstain-ko-1 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.16
+CASE_START abstain-ko-2 654
+CASE 123 / 240 abstain-ko-2 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-3 675
+CASE 124 / 240 abstain-ko-3 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-4 654
+CASE 125 / 240 abstain-ko-4 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-5 675
+CASE 126 / 240 abstain-ko-5 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-6 654
+CASE 127 / 240 abstain-ko-6 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-7 675
+CASE 128 / 240 abstain-ko-7 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.05
+CASE_START abstain-ko-8 654
+CASE 129 / 240 abstain-ko-8 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-9 675
+CASE 130 / 240 abstain-ko-9 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-10 654
+CASE 131 / 240 abstain-ko-10 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-11 675
+CASE 132 / 240 abstain-ko-11 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-12 654
+CASE 133 / 240 abstain-ko-12 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-13 675
+CASE 134 / 240 abstain-ko-13 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START abstain-ko-14 654
+CASE 135 / 240 abstain-ko-14 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-15 675
+CASE 136 / 240 abstain-ko-15 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-16 654
+CASE 137 / 240 abstain-ko-16 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-17 675
+CASE 138 / 240 abstain-ko-17 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.15
+CASE_START abstain-ko-18 654
+CASE 139 / 240 abstain-ko-18 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-19 675
+CASE 140 / 240 abstain-ko-19 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.05
+CASE_START abstain-ko-20 654
+CASE 141 / 240 abstain-ko-20 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.04
+CASE_START abstain-ko-21 675
+CASE 142 / 240 abstain-ko-21 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-22 654
+CASE 143 / 240 abstain-ko-22 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-23 675
+CASE 144 / 240 abstain-ko-23 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-24 654
+CASE 145 / 240 abstain-ko-24 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-25 675
+CASE 146 / 240 abstain-ko-25 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-26 654
+CASE 147 / 240 abstain-ko-26 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-27 675
+CASE 148 / 240 abstain-ko-27 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-28 654
+CASE 149 / 240 abstain-ko-28 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-29 675
+CASE 150 / 240 abstain-ko-29 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-30 654
+CASE 151 / 240 abstain-ko-30 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.38
+CASE_START abstain-ko-31 675
+CASE 152 / 240 abstain-ko-31 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-32 654
+CASE 153 / 240 abstain-ko-32 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.12
+CASE_START abstain-ko-33 675
+CASE 154 / 240 abstain-ko-33 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-34 654
+CASE 155 / 240 abstain-ko-34 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-35 675
+CASE 156 / 240 abstain-ko-35 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.05
+CASE_START abstain-ko-36 654
+CASE 157 / 240 abstain-ko-36 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-37 675
+CASE 158 / 240 abstain-ko-37 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START abstain-ko-38 654
+CASE 159 / 240 abstain-ko-38 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-39 675
+CASE 160 / 240 abstain-ko-39 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-40 654
+CASE 161 / 240 abstain-ko-40 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-41 675
+CASE 162 / 240 abstain-ko-41 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-42 654
+CASE 163 / 240 abstain-ko-42 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-43 675
+CASE 164 / 240 abstain-ko-43 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-44 654
+CASE 165 / 240 abstain-ko-44 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-45 675
+CASE 166 / 240 abstain-ko-45 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-46 654
+CASE 167 / 240 abstain-ko-46 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.04
+CASE_START abstain-ko-47 675
+CASE 168 / 240 abstain-ko-47 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-48 654
+CASE 169 / 240 abstain-ko-48 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-49 675
+CASE 170 / 240 abstain-ko-49 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START abstain-ko-50 654
+CASE 171 / 240 abstain-ko-50 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.13
+CASE_START abstain-ko-51 675
+CASE 172 / 240 abstain-ko-51 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-52 654
+CASE 173 / 240 abstain-ko-52 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-53 675
+CASE 174 / 240 abstain-ko-53 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-54 654
+CASE 175 / 240 abstain-ko-54 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-55 675
+CASE 176 / 240 abstain-ko-55 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-56 654
+CASE 177 / 240 abstain-ko-56 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-57 675
+CASE 178 / 240 abstain-ko-57 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.05
+CASE_START abstain-ko-58 654
+CASE 179 / 240 abstain-ko-58 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-59 675
+CASE 180 / 240 abstain-ko-59 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-60 654
+CASE 181 / 240 abstain-ko-60 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-61 675
+CASE 182 / 240 abstain-ko-61 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-62 654
+CASE 183 / 240 abstain-ko-62 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-63 675
+CASE 184 / 240 abstain-ko-63 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-64 654
+CASE 185 / 240 abstain-ko-64 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-65 675
+CASE 186 / 240 abstain-ko-65 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-66 654
+CASE 187 / 240 abstain-ko-66 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.13
+CASE_START abstain-ko-67 675
+CASE 188 / 240 abstain-ko-67 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-68 654
+CASE 189 / 240 abstain-ko-68 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-69 675
+CASE 190 / 240 abstain-ko-69 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-70 654
+CASE 191 / 240 abstain-ko-70 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-71 675
+CASE 192 / 240 abstain-ko-71 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-72 654
+CASE 193 / 240 abstain-ko-72 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-73 675
+CASE 194 / 240 abstain-ko-73 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-74 654
+CASE 195 / 240 abstain-ko-74 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-75 675
+CASE 196 / 240 abstain-ko-75 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-76 654
+CASE 197 / 240 abstain-ko-76 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-77 675
+CASE 198 / 240 abstain-ko-77 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-78 654
+CASE 199 / 240 abstain-ko-78 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-79 675
+CASE 200 / 240 abstain-ko-79 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START abstain-ko-80 654
+CASE 201 / 240 abstain-ko-80 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-81 675
+CASE 202 / 240 abstain-ko-81 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.13
+CASE_START abstain-ko-82 654
+CASE 203 / 240 abstain-ko-82 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-83 675
+CASE 204 / 240 abstain-ko-83 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-84 654
+CASE 205 / 240 abstain-ko-84 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-85 675
+CASE 206 / 240 abstain-ko-85 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-86 654
+CASE 207 / 240 abstain-ko-86 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-87 675
+CASE 208 / 240 abstain-ko-87 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-88 654
+CASE 209 / 240 abstain-ko-88 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-89 675
+CASE 210 / 240 abstain-ko-89 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-90 654
+CASE 211 / 240 abstain-ko-90 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-91 675
+CASE 212 / 240 abstain-ko-91 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-92 654
+CASE 213 / 240 abstain-ko-92 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.38
+CASE_START abstain-ko-93 675
+CASE 214 / 240 abstain-ko-93 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.09
+CASE_START abstain-ko-94 654
+CASE 215 / 240 abstain-ko-94 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-95 675
+CASE 216 / 240 abstain-ko-95 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-96 654
+CASE 217 / 240 abstain-ko-96 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-97 675
+CASE 218 / 240 abstain-ko-97 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-98 654
+CASE 219 / 240 abstain-ko-98 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.38
+CASE_START abstain-ko-99 675
+CASE 220 / 240 abstain-ko-99 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.14
+CASE_START abstain-ko-100 654
+CASE 221 / 240 abstain-ko-100 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-101 675
+CASE 222 / 240 abstain-ko-101 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-102 654
+CASE 223 / 240 abstain-ko-102 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-103 675
+CASE 224 / 240 abstain-ko-103 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-104 654
+CASE 225 / 240 abstain-ko-104 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-105 675
+CASE 226 / 240 abstain-ko-105 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-106 654
+CASE 227 / 240 abstain-ko-106 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.06
+CASE_START abstain-ko-107 675
+CASE 228 / 240 abstain-ko-107 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.07
+CASE_START abstain-ko-108 654
+CASE 229 / 240 abstain-ko-108 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-109 675
+CASE 230 / 240 abstain-ko-109 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-110 654
+CASE 231 / 240 abstain-ko-110 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-111 675
+CASE 232 / 240 abstain-ko-111 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-112 654
+CASE 233 / 240 abstain-ko-112 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-113 675
+CASE 234 / 240 abstain-ko-113 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+CASE_START abstain-ko-114 654
+CASE 235 / 240 abstain-ko-114 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-115 675
+CASE 236 / 240 abstain-ko-115 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.14
+CASE_START abstain-ko-116 654
+CASE 237 / 240 abstain-ko-116 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.05
+CASE_START abstain-ko-117 675
+CASE 238 / 240 abstain-ko-117 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.08
+CASE_START abstain-ko-118 654
+CASE 239 / 240 abstain-ko-118 {'strict': False, 'semantic': False, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 3.04
+CASE_START abstain-ko-119 675
+CASE 240 / 240 abstain-ko-119 {'strict': True, 'semantic': True, 'tool_choice': None, 'schema_valid': None, 'arguments_correct': None} truncated False seconds 2.06
+BEHAVIOR_COMPLETE {"Abstention and no-tool (strict)": {"passed": 129, "total": 240, "pass_rate": 0.5375}, "Abstention and no-tool (semantic)": {"passed": 129, "total": 240, "pass_rate": 0.5375}}

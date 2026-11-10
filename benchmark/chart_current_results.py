@@ -30,7 +30,7 @@ def bars(ax,labels,values,title,subtitle):
     for side,color in enumerate(COLORS):
         vals=[v[side] for v in values];offset=(-.18 if side==0 else .18)
         ax.barh(y+offset,vals,height,color=color,zorder=3)
-        for yy,value in zip(y+offset,vals):ax.text(value+1.4,yy,str(Decimal(str(value)).quantize(Decimal('0.1'),rounding=ROUND_HALF_UP))+'%',va='center',fontsize=9,fontweight='bold',color=TEXT)
+        for yy,value in zip(y+offset,vals):ax.text(value+1.4,yy,str(Decimal(str(round(value,10))).quantize(Decimal('0.1'),rounding=ROUND_HALF_UP))+'%',va='center',fontsize=9,fontweight='bold',color=TEXT)
     ax.set_yticks(y,labels);ax.invert_yaxis();ax.set_xlim(0,117)
     ax.set_xticks([0,25,50,75,100]);ax.set_xticklabels(['0','25','50','75','100'])
     ax.grid(axis='x',color='#dde5ed',linewidth=.7,zorder=0)
@@ -44,7 +44,7 @@ synthetics=[('Four-tool routing · n=480','Four-tool routing'),('Abstention / no
 fig=plt.figure(figsize=(18,13.5),dpi=180,facecolor='#f7fafc')
 gs=fig.add_gridspec(2,2,left=.18,right=.965,top=.81,bottom=.20,height_ratios=[2.0,1],wspace=.82,hspace=.62)
 fig.text(.045,.955,'Cortex v1.0 vs Qwen3-8B-Base',fontsize=26,fontweight='bold')
-fig.text(.045,.923,'CURRENT EVALUATION SNAPSHOT  |  Standard tasks and synthetic fixtures shown separately',fontsize=12,color=MUTED)
+fig.text(.045,.923,('COMPLETED SAMPLED EVALUATION' if data['status']=='completed' else 'CURRENT EVALUATION SNAPSHOT')+'  |  Standard tasks and synthetic fixtures shown separately',fontsize=12,color=MUTED)
 timestamp=datetime.fromtimestamp(data['updated_at']).astimezone().isoformat(timespec='minutes')
 remaining=next((j for j in data['jobs'] if j['status']!='completed'),None)
 status=f"{data['completed']}/{len(data['jobs'])} jobs completed"
@@ -63,6 +63,8 @@ notes=[
  'Descriptive snapshot only: no overall ranking or statistical significance claimed. Samples are not full official test splits. BF16 on NVIDIA DGX Spark.',
  f'Run: {data["run_id"]}  |  Snapshot: {timestamp}  |  Full subject scores are in the companion chart and CSV.'
 ]
+if not remaining:
+    notes.append(f'Cortex-only 64K extension (n=40): strict {score(MODELS[0],"Context 64K"):.1f}%; semantic {score(MODELS[0],"Context 64K",True):.1f}%. No paired Base comparison.')
 for i,note in enumerate(notes):fig.text(.045,.135-i*.023,note,fontsize=8.7,color=MUTED)
 for ext in ('png','svg'):fig.savefig(OUT/f'cortex-current-benchmark.{ext}',facecolor=fig.get_facecolor())
 plt.close(fig)

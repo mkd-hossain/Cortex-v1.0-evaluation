@@ -1,5 +1,11 @@
 # Cortex v1.0 evaluation
 
+## Completed evaluation — November 10, 2026
+
+All **39/39 jobs** completed, including the Cortex-only 64K extension. The plan evaluated 14,340 scenarios across both checkpoints. [Final run state](audit/full-budget-run/state.json), [final summary](audit/full-budget-run/summary-final-or-partial.json), [final overview figure](benchmark/output/cortex-current-benchmark.png), and [all standard subject scores](benchmark/output/cortex-current-results.csv) are available. Earlier progress/deadline statements below describe historical phases, not the final status.
+
+Results are descriptive sampled benchmarks and template-based synthetic diagnostics; they do not establish overall superiority or statistical significance. The extraction diagnostic contains answer leakage and is excluded from capability claims. Cortex-only 64K scored 0% strict and 20% semantic on 40 synthetic cases; no paired Base score is claimed. The prior pilots remain separate historical artifacts.
+
 Evaluation code, saved pilot outputs, charts, configuration audit and a proposed domain-focused protocol for **Keural Cortex 8B v1.0 versus Qwen3-8B-Base** on NVIDIA DGX Spark.
 
 **Read the audit before interpreting any chart.** Earlier Cortex pilots used an incompatible interpretation of its published positional configuration. Those results are preserved as provisional historical evidence, not a validated overall model ranking. A subsequent generation-default audit also limits the first 48-response smoke. The new run explicitly disables model-default inheritance.
