@@ -97,7 +97,7 @@ def build_report(data,path,allow_partial=False):
         'Tool arguments have deterministic checks. Clarification fields are checked for presence rather than full human-rated semantic quality. Multi-turn fixtures supply history rather than executing autonomous live workflows. No external tool actions occur. Cases are synthetic parameter-held-out fixtures, not independent holdout evidence.',
         '40 context cases per budget at 4K, 16K and 32K for each model; 40 Cortex-only 64K cases. Same source text in paired tests, actual input tokens recorded. The extension is unpaired. These are not RULER or LongBench results.',
         'GSM8K uses a verified explicit 512-token cap with greedy decoding and repetition penalty 1.0. Effective model configuration and generations are saved; Cortex RoPE translation is asserted before inference.',
-        'A hard wall-clock deadline stops the process group and preserves saved responses. Pending or interrupted work is not zero accuracy. Resume after deadline requires a new authorized budget. Raw outputs, manifests and uncertainty summaries remain available for audit. Training-data independence is unproven.',
+        'The original hard deadline saved partial coverage at 22 completed jobs. The user authorized continuation to finish remaining work without a new automatic deadline. Runtime-extension records preserve prior state and completed-artifact hashes. Pending or interrupted work is not zero accuracy. Raw outputs, manifests and uncertainty summaries remain available for audit. Training-data independence is unproven.',
     ]: story.append(p(text))
 
     for track,title,comparator in [('completion','All seven categories','Qwen3-8B-Base')]:

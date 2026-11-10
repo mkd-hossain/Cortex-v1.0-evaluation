@@ -1,0 +1,11 @@
+VERIFIED_RUNTIME mkd-hossain/Keural-Cortex-8B-v1.0 yarn
+generation_kwargs: {'max_gen_toks': 512, 'do_sample': False, 'repetition_penalty': 1.0} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+Overwriting default num_fewshot of winogrande from None to 0
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 106671.01it/s]
+Checking cached requests:   0%|          | 0/100 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 100/100 [00:00<00:00, 1422.07it/s]
+Tokenizing inputs:   0%|          | 0/100 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 100/100 [00:00<00:00, 12856.50it/s]
+Running loglikelihood requests:   0%|          | 0/100 [00:00<?, ?it/s]Passed argument batch_size = auto:1. Detecting largest batch size
+Determined largest batch size: 16
+Running loglikelihood requests:   1%|          | 1/100 [00:01<02:35,  1.57s/it]Running loglikelihood requests:  17%|█▋        | 17/100 [00:01<00:06, 13.18it/s]Running loglikelihood requests:  33%|███▎      | 33/100 [00:01<00:02, 26.63it/s]Running loglikelihood requests:  49%|████▉     | 49/100 [00:02<00:01, 40.45it/s]Running loglikelihood requests:  65%|██████▌   | 65/100 [00:02<00:00, 52.61it/s]Running loglikelihood requests:  81%|████████  | 81/100 [00:02<00:00, 63.54it/s]Running loglikelihood requests:  97%|█████████▋| 97/100 [00:02<00:00, 78.56it/s]Running loglikelihood requests: 100%|██████████| 100/100 [00:02<00:00, 40.52it/s]
+fatal: not a git repository (or any of the parent directories): .git
+STANDARD_COMPLETE winogrande

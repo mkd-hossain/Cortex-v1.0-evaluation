@@ -43,4 +43,14 @@ class FullTests(unittest.TestCase):
         requested=GenerationConfig(do_sample=False,repetition_penalty=1.0,max_new_tokens=128)
         effective,_=model._prepare_generation_config(requested,use_model_defaults=False,do_sample=False,repetition_penalty=1.0,max_new_tokens=128)
         self.assertIs(effective.do_sample,False);self.assertEqual(effective.repetition_penalty,1.0);self.assertEqual(effective.max_new_tokens,128)
+    def test_explicit_deadline_removal_allows_resume(self):
+        import os,tempfile,time
+        if os.name!='posix':self.skipTest('Linux controller')
+        from controller import Controller
+        with tempfile.TemporaryDirectory() as directory:
+            controller=Controller(directory,{'deadline_unix':time.time()-1,'deadline_disabled':True,'jobs':[]})
+            controller.control('resume')
+            self.assertIsNone(controller.deadline)
+            self.assertNotEqual(controller.state['status'],'budget_exhausted')
+            controller.control('pause')
 if __name__=='__main__':unittest.main()

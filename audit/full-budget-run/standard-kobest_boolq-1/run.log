@@ -1,0 +1,12 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:24<01:39, 24.75s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:44<01:05, 21.68s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:09<00:46, 23.43s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:27<00:20, 21.00s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:34<00:00, 16.21s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:34<00:00, 18.96s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+generation_kwargs: {'max_gen_toks': 512, 'do_sample': False, 'repetition_penalty': 1.0} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+Overwriting default num_fewshot of kobest_boolq from None to 0
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 4228.04it/s]
+Checking cached requests:   0%|          | 0/100 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 100/100 [00:00<00:00, 1533.96it/s]
+Tokenizing inputs:   0%|          | 0/100 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 100/100 [00:00<00:00, 4214.41it/s]
+Running loglikelihood requests:   0%|          | 0/100 [00:00<?, ?it/s]Passed argument batch_size = auto:1. Detecting largest batch size
+Determined largest batch size: 16
+Running loglikelihood requests:   1%|          | 1/100 [00:08<13:57,  8.46s/it]Running loglikelihood requests:  17%|█▋        | 17/100 [00:09<00:34,  2.39it/s]Running loglikelihood requests:  33%|███▎      | 33/100 [00:10<00:13,  4.84it/s]Running loglikelihood requests:  49%|████▉     | 49/100 [00:11<00:06,  7.46it/s]Running loglikelihood requests:  65%|██████▌   | 65/100 [00:11<00:03, 10.22it/s]Running loglikelihood requests:  81%|████████  | 81/100 [00:12<00:01, 13.09it/s]Running loglikelihood requests:  97%|█████████▋| 97/100 [00:12<00:00, 18.71it/s]Running loglikelihood requests: 100%|██████████| 100/100 [00:12<00:00,  7.99it/s]
+fatal: not a git repository (or any of the parent directories): .git
+STANDARD_COMPLETE kobest_boolq

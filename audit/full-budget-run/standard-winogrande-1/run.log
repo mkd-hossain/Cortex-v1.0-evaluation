@@ -1,0 +1,12 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:32<02:10, 32.63s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:55<01:21, 27.07s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:19<00:51, 25.63s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:40<00:23, 23.67s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 18.43s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 21.91s/it]
+VERIFIED_RUNTIME Qwen/Qwen3-8B-Base default
+generation_kwargs: {'max_gen_toks': 512, 'do_sample': False, 'repetition_penalty': 1.0} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+Overwriting default num_fewshot of winogrande from None to 0
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 107326.10it/s]
+Checking cached requests:   0%|          | 0/100 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 100/100 [00:00<00:00, 1746.53it/s]
+Tokenizing inputs:   0%|          | 0/100 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 100/100 [00:00<00:00, 12515.45it/s]
+Running loglikelihood requests:   0%|          | 0/100 [00:00<?, ?it/s]Passed argument batch_size = auto:1. Detecting largest batch size
+Determined largest batch size: 16
+Running loglikelihood requests:   1%|          | 1/100 [00:01<02:39,  1.61s/it]Running loglikelihood requests:  17%|█▋        | 17/100 [00:01<00:06, 12.89it/s]Running loglikelihood requests:  33%|███▎      | 33/100 [00:01<00:02, 26.01it/s]Running loglikelihood requests:  49%|████▉     | 49/100 [00:02<00:01, 39.14it/s]Running loglikelihood requests:  65%|██████▌   | 65/100 [00:02<00:00, 51.38it/s]Running loglikelihood requests:  81%|████████  | 81/100 [00:02<00:00, 62.89it/s]Running loglikelihood requests:  97%|█████████▋| 97/100 [00:02<00:00, 78.11it/s]Running loglikelihood requests: 100%|██████████| 100/100 [00:02<00:00, 39.74it/s]
+fatal: not a git repository (or any of the parent directories): .git
+STANDARD_COMPLETE winogrande

@@ -1,5 +1,7 @@
 # Fifteen-hour budgeted evaluation
 
+**November 10 continuation:** after 22 of 39 jobs completed and the original deadline stopped the run, the user authorized finishing the remaining 17 jobs. The controller's hard stop is now explicitly disabled. Completed artifacts and scoring/prompt/sample source hashes were checked unchanged. The interrupted job resumes its durable per-case responses. Runtime-extension events and the prior partial summary/checksums are archived under `runs-full-budget-v1/runtime-extensions/`. The numeric year-9999 field retained in `plan.json` is solely compatibility for the unchanged per-case worker; it is not a scheduled deadline. The dashboard's effective deadline is null. Manual Pause/Resume remains available; no scoring scope was expanded.
+
 This is a fixed-budget evaluation of Cortex v1 and Qwen3-8B-Base across all requested categories. It is **not an uncapped evaluation of all official test splits**. Standard tasks sample up to 50 seeded random examples per leaf task; smaller splits use all examples. The frozen manifest publishes exact counts and indices. Preserve the earlier development smoke as a different run.
 
 ## Preconditions

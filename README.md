@@ -6,6 +6,8 @@ Evaluation code, saved pilot outputs, charts, configuration audit and a proposed
 
 ## New 15-hour budgeted evaluation
 
+**Continuation authorized November 10, 12:09 KST:** the original deadline stopped the run after 22/39 jobs. The user then authorized completion of the remaining 17 jobs. Those jobs are resumed without a new hard stop. The 22 completed jobs and evaluation protocol hashes were verified unchanged. See [runtime extension records](audit/full-budget-run/runtime-extensions/) for the prior plan/state, preserved-artifact hashes and authorization. Earlier deadline statements below describe the original phase; they no longer stop this continuation.
+
 **Started November 10, 2026, at 09:56 KST.** The recovered math preflight passed with batch size one and recorded effective greedy settings. Both dashboards now serve `runs-full-budget-v1`. This repository contains an in-progress artifact snapshot, not completed results. [Current saved status](audit/full-budget-run/state.json) and [verified math generation calls](benchmark/full-budget/math-preflight-v3/generation-calls.jsonl) are included.
 
 - [Frozen plan](benchmark/full-budget/plan.json), [methodology](benchmark/full-budget/README.md), [standard dataset manifest](benchmark/full-budget/frozen-standard-manifest.json), and [dataset source references](benchmark/full-budget/dataset-source-references.json).

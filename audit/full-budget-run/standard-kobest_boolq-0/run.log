@@ -1,0 +1,11 @@
+VERIFIED_RUNTIME mkd-hossain/Keural-Cortex-8B-v1.0 yarn
+generation_kwargs: {'max_gen_toks': 512, 'do_sample': False, 'repetition_penalty': 1.0} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+Overwriting default num_fewshot of kobest_boolq from None to 0
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 4240.87it/s]
+Checking cached requests:   0%|          | 0/100 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 100/100 [00:00<00:00, 1175.88it/s]
+Tokenizing inputs:   0%|          | 0/100 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 100/100 [00:00<00:00, 4041.14it/s]
+Running loglikelihood requests:   0%|          | 0/100 [00:00<?, ?it/s]Passed argument batch_size = auto:1. Detecting largest batch size
+Determined largest batch size: 16
+Running loglikelihood requests:   1%|          | 1/100 [00:08<13:58,  8.47s/it]Running loglikelihood requests:  17%|█▋        | 17/100 [00:09<00:34,  2.37it/s]Running loglikelihood requests:  33%|███▎      | 33/100 [00:10<00:14,  4.78it/s]Running loglikelihood requests:  49%|████▉     | 49/100 [00:11<00:06,  7.32it/s]Running loglikelihood requests:  65%|██████▌   | 65/100 [00:11<00:03, 10.02it/s]Running loglikelihood requests:  81%|████████  | 81/100 [00:12<00:01, 12.77it/s]Running loglikelihood requests:  97%|█████████▋| 97/100 [00:12<00:00, 18.29it/s]Running loglikelihood requests: 100%|██████████| 100/100 [00:12<00:00,  7.88it/s]
+fatal: not a git repository (or any of the parent directories): .git
+STANDARD_COMPLETE kobest_boolq

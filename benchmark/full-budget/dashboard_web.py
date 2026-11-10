@@ -75,7 +75,7 @@ def main():
                     if not data['report_ready']:
                         return self.reply(409,b'{"error":"PDF export becomes available when all evaluation jobs finish"}')
                     from dashboard_report import build_report
-                    report=ROOT/'reports'/f"{data['run_id']}-complete.pdf"
+                    report=ROOT/'reports'/f"{data['run_id']}-{data['status']}-{data['completed']}.pdf"
                     with REPORT_LOCK:
                         if not report.exists():
                             report.parent.mkdir(exist_ok=True)

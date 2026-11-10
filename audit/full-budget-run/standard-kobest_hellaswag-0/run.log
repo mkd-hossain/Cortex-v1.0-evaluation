@@ -1,0 +1,13 @@
+VERIFIED_RUNTIME mkd-hossain/Keural-Cortex-8B-v1.0 yarn
+generation_kwargs: {'max_gen_toks': 512, 'do_sample': False, 'repetition_penalty': 1.0} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+Map:   0%|          | 0/2029 [00:00<?, ? examples/s]Map:   3%|▎         | 64/2029 [00:00<00:03, 535.92 examples/s]Map: 100%|██████████| 2029/2029 [00:00<00:00, 11449.44 examples/s]
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]Map: 100%|██████████| 500/500 [00:00<00:00, 36121.67 examples/s]
+Overwriting default num_fewshot of kobest_hellaswag from None to 0
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 5396.82it/s]
+Checking cached requests:   0%|          | 0/200 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 200/200 [00:00<00:00, 2011.18it/s]
+Tokenizing inputs:   0%|          | 0/200 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 200/200 [00:00<00:00, 6215.90it/s]
+Running loglikelihood requests:   0%|          | 0/200 [00:00<?, ?it/s]Passed argument batch_size = auto:1. Detecting largest batch size
+Determined largest batch size: 16
+Running loglikelihood requests:   0%|          | 1/200 [00:06<20:05,  6.06s/it]Running loglikelihood requests:   8%|▊         | 17/200 [00:06<00:55,  3.31it/s]Running loglikelihood requests:  16%|█▋        | 33/200 [00:07<00:25,  6.49it/s]Running loglikelihood requests:  24%|██▍       | 49/200 [00:08<00:15,  9.68it/s]Running loglikelihood requests:  32%|███▎      | 65/200 [00:08<00:10, 12.73it/s]Running loglikelihood requests:  40%|████      | 81/200 [00:09<00:07, 15.56it/s]Running loglikelihood requests:  48%|████▊     | 97/200 [00:10<00:05, 18.30it/s]Running loglikelihood requests:  56%|█████▋    | 113/200 [00:10<00:04, 21.10it/s]Running loglikelihood requests:  64%|██████▍   | 129/200 [00:11<00:02, 23.83it/s]Running loglikelihood requests:  72%|███████▎  | 145/200 [00:11<00:02, 26.43it/s]Running loglikelihood requests:  80%|████████  | 161/200 [00:12<00:01, 28.71it/s]Running loglikelihood requests:  88%|████████▊ | 177/200 [00:12<00:00, 30.43it/s]Running loglikelihood requests:  96%|█████████▋| 193/200 [00:12<00:00, 37.80it/s]Running loglikelihood requests: 100%|██████████| 200/200 [00:12<00:00, 15.79it/s]
+fatal: not a git repository (or any of the parent directories): .git
+STANDARD_COMPLETE kobest_hellaswag

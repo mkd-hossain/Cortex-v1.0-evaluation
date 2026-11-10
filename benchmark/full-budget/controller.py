@@ -61,11 +61,12 @@ class Controller:
             if job['status'] == 'running':
                 job['status'] = 'pending'
         self.state['status'] = 'paused' if self.state['status'] == 'paused' else 'ready'
-        self.state['deadline_unix']=plan['deadline_unix']
+        self.deadline=None if plan.get('deadline_disabled',False) else plan['deadline_unix']
+        self.state['deadline_unix']=self.deadline
         self.save()
         threading.Thread(target=self.worker, daemon=True).start()
-        self.deadline=plan['deadline_unix']
-        threading.Thread(target=self.watch_deadline,daemon=True).start()
+        if self.deadline is not None:
+            threading.Thread(target=self.watch_deadline,daemon=True).start()
 
     def watch_deadline(self):
         while True:
@@ -93,7 +94,7 @@ class Controller:
         temporary.replace(self.path)
 
     def control(self, action):
-        if action in ('start','resume') and time.time()>=self.deadline:
+        if action in ('start','resume') and self.deadline is not None and time.time()>=self.deadline:
             raise ValueError('The hard runtime budget has expired. Saved results are preserved. A new authorized budget is needed to continue.')
         if action in ('start','resume') and (self.directory/'recovery-required.json').exists():
             try:
