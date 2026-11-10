@@ -46,6 +46,45 @@ function renderAssistant(data){
  }));
 }
 function elapsed(data){const starts=data.jobs.map(j=>j.started).filter(Number.isFinite);if(!starts.length)return 'Not started';const ends=data.jobs.map(j=>j.ended).filter(Number.isFinite);const stop=['completed','budget_exhausted'].includes(data.status)?Math.max(...ends):Date.now()/1000;const seconds=Math.max(0,Math.floor(stop-Math.min(...starts)));return `${Math.floor(seconds/3600)}h ${Math.floor(seconds%3600/60)}m`}
+function graphPair(row){return row.cortex?.status==='completed'&&row.qwen?.status==='completed'&&Number.isFinite(row.cortex.value)&&Number.isFinite(row.qwen.value)&&row.cortex.value>=0&&row.cortex.value<=1&&row.qwen.value>=0&&row.qwen.value<=1&&row.cortex.metric===row.qwen.metric&&!row.extension&&!(row.cortex.warnings?.length||row.qwen.warnings?.length)}
+function graphRows(data,options={}){
+ const query=(options.search||'').trim().toLowerCase();
+ const rows=(data.comparisons?.completion||[]).filter(row=>{
+  const semantic=String(row.task).endsWith(' (semantic)');
+  if(options.score==='semantic'?!semantic:semantic)return false;
+  if(options.category&&row.category!==options.category)return false;
+  if(query&&!`${human(row.task)} ${row.benchmark} ${row.category}`.toLowerCase().includes(query))return false;
+  return !options.paired||graphPair(row);
+ });
+ const delta=row=>graphPair(row)?row.cortex.value-row.qwen.value:null;
+ if(options.order==='cortex'||options.order==='qwen')rows.sort((a,b)=>{const x=delta(a),y=delta(b);if(x===null)return y===null?0:1;if(y===null)return -1;return options.order==='cortex'?y-x:x-y});
+ return rows;
+}
+function renderGraphs(data){
+ if(!$('graphs')||$('graphs').hidden)return;
+ const scrollTop=$('graph-chart').scrollTop;
+ const rows=graphRows(data,{category:$('graph-category').value,search:$('graph-search').value,score:$('graph-score').value,order:$('graph-order').value,paired:$('graph-paired').checked});
+ const pairs=rows.filter(graphPair);let cortex=0,qwen=0,ties=0;
+ for(const row of pairs){const delta=row.cortex.value-row.qwen.value;if(Math.abs(delta)<1e-10)ties++;else if(delta>0)cortex++;else qwen++;}
+ $('graph-summary').replaceChildren(...[['Displayed paired rows',pairs.length],['Cortex higher',cortex],['Qwen higher',qwen],['Tied',ties]].map(([label,value])=>{const card=element('div');card.append(element('small',label),element('strong',String(value)));return card}));
+ $('graph-updated').textContent=`${rows.length} rows · updated ${new Date(data.updated_at*1000).toLocaleTimeString()}`;
+ $('graph-empty').hidden=rows.length>0;
+ $('graph-chart').replaceChildren(...rows.map(row=>{
+  const item=element('article',undefined,'benchmark-graph');const header=element('div',undefined,'graph-row-heading');const label=element('div');label.append(element('strong',human(row.task)),element('small',row.category+(row.extension?' · Cortex-only extension':'')));header.append(label);
+  if(graphPair(row)){const difference=(row.cortex.value-row.qwen.value)*100;header.append(element('span',(difference>0?'+':'')+difference.toFixed(1)+' pp','graph-difference'));}else header.append(element('span',row.extension?'Unpaired extension':'Pair not complete / comparable','graph-pending'));
+  item.append(header);
+  const axis=element('div',undefined,'graph-axis');axis.append(element('span',''),...['0%','25%','50%','75%','100%'].map(x=>element('span',x)));item.append(axis);
+  for(const [side,name] of [['cortex','Cortex'],['qwen','Qwen Base']]){
+   const entry=row[side],line=element('div',undefined,'graph-bar-line');line.append(element('span',name,'graph-model-label'));
+   const track=element('div',undefined,'graph-bar-track');const known=entry?.status==='completed'&&Number.isFinite(entry.value)&&entry.value>=0&&entry.value<=1;
+   if(known){const bar=element('div',undefined,'graph-bar '+side);bar.style.width=(entry.value*100)+'%';track.append(bar);track.setAttribute('role','img');track.setAttribute('aria-label',`${name}: ${(entry.value*100).toFixed(1)} percent`);}else track.append(element('small',entry?.status==='not-applicable'?'Not in matched test':entry?.status||'Pending','graph-pending'));
+   line.append(track,element('strong',known?(entry.value*100).toFixed(1)+'%':'—','graph-value'));item.append(line);
+  }
+  const rawMetric=row.cortex?.metric||row.qwen?.metric||'';const metric=rawMetric.startsWith('acc_norm')?'Normalized accuracy':rawMetric.startsWith('acc,')?'Accuracy':rawMetric.startsWith('exact_match')?'Exact match':rawMetric==='pass_rate'?'Synthetic fixture pass rate':'Awaiting results';const c=row.cortex?.n,q=row.qwen?.n;
+  item.append(element('small',`${metric} · samples Cortex ${c??'pending'} / Base ${row.extension?'not applicable':q??'pending'}${row.cortex?.warnings?.length||row.qwen?.warnings?.length?' · audit warning: inspect table and methodology':''}`,'graph-row-note'));return item;
+ }));
+ $('graph-chart').scrollTop=scrollTop;
+}
 function render(data){
  const total=data.jobs.length,count=data.completed,percent=total?Math.round(count/total*100):0;
  $('job-count').textContent=`${count} / ${total}`;$('progress').value=percent;$('percentage').textContent=percent+'%';
@@ -71,6 +110,7 @@ function render(data){
  $('queue').replaceChildren(...data.jobs.map(job=>{const row=element('tr');const model=element('td');model.append(element('strong',job.model.split('/').pop()),element('small',job.track));const title=element('td',job.task);const status=element('td');status.append(pill(job.status));const settings=element('td');settings.textContent=job.runner==='standard-audited'?`${job.sample_count} seeded samples; ${job.fewshot}-shot; BF16`:job.runner==='behavior-full'?`${job.sample_count} fixtures; ${job.track}; 128-token cap`:job.runner==='diagnostics'?(job.suite==='assistant'?'24 bilingual development cases':`2 cases; ${job.context/1024}K context budget`):`${job.limit} per subtask; ${job.fewshot}-shot; BF16`;if(job.warnings?.length)settings.append(element('small',job.warnings.join(' ')));row.append(model,title,status,settings);return row}));
  if(privateMode){$('controls').hidden=false;$('start').disabled=data.status!=='ready'||data.completed>0||!data.environment_ready;$('pause').disabled=data.status!=='running';$('resume').disabled=!['paused','ready','failed','blocked','interrupted'].includes(data.status)||data.completed===data.jobs.length||!data.environment_ready;}
  renderComparison(data);
+ renderGraphs(data);
 }
 function showLog(){if(!state.logs)return;const key=state.log==='evaluation'?'log':state.log==='environment'?'setup_log':'downloads_log';$('log-text').textContent=(state.logs[key]||'No output yet.')+(state.log==='downloads'?'\n\n'+(state.logs['assistant-download_log']||''):'')}
 async function refreshLogs(){if($('log-panel').hidden)return;const response=await fetch('/api/details');if(!response.ok)throw Error('Live logs temporarily unavailable');state.logs=await response.json();showLog()}
@@ -82,4 +122,11 @@ document.querySelectorAll('[data-log]').forEach(button=>button.addEventListener(
 $('toggle-logs').addEventListener('click',async()=>{$('log-panel').hidden=!$('log-panel').hidden;const expanded=!$('log-panel').hidden;$('toggle-logs').setAttribute('aria-expanded',String(expanded));$('toggle-logs').textContent=expanded?'Hide details':'Show details';try{await refreshLogs()}catch(error){$('log-text').textContent=error.message}});
 $('export').addEventListener('click',()=>{if(state.data?.report_ready)window.location.assign('/api/report.pdf')});
 if(privateMode){$('mode').textContent='Private · Operator';$('footer-mode').textContent='Private operator dashboard';['start','pause','resume'].forEach(action=>$(action).addEventListener('click',()=>control(action)))}
+if($('graph-nav')){
+ $('graph-nav').addEventListener('click',event=>{event.preventDefault();$('graphs').hidden=false;$('graph-nav').setAttribute('aria-expanded','true');if(state.data)renderGraphs(state.data);$('graphs').scrollIntoView({block:'start'});});
+ $('close-graphs').addEventListener('click',()=>{$('graphs').hidden=true;$('graph-nav').setAttribute('aria-expanded','false');$('graph-nav').focus();});
+ for(const id of ['graph-category','graph-score','graph-order','graph-paired'])$(id).addEventListener('change',()=>{if(state.data)renderGraphs(state.data)});
+ $('graph-search').addEventListener('input',()=>{if(state.data)renderGraphs(state.data)});
+ if(window.location.hash==='#graphs'){$('graphs').hidden=false;$('graph-nav').setAttribute('aria-expanded','true');}
+}
 refresh();setInterval(refresh,5000);

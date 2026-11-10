@@ -75,6 +75,8 @@ Model loading is cache-only: pre-download the two revisions using Hugging Face t
 
 ## Live dashboard
 
+Select **Graphs** next to **Live logs** for live side-by-side score charts, category/search filters and separate strict/semantic views. [Open the graph panel](https://cortex-benchmark-spark.tail73fbf3.ts.net/#graphs). Missing results are not plotted as zero; unpaired extension tests never count as a baseline loss. The frontend-only update does not interrupt evaluation.
+
 [Public read-only dashboard](https://cortex-benchmark-spark.tail73fbf3.ts.net/). Availability depends on Spark and its network. Public control requests are rejected. Operator access stays private through Tailscale. The repository is a dated artifact snapshot, not automatically synchronized live state.
 
 ## What is included and excluded
