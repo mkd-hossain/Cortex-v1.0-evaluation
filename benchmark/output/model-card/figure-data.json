@@ -1,0 +1,176 @@
+{
+  "run_id": "runs-full-budget-v1",
+  "completed_jobs": 39,
+  "figures": [
+    {
+      "file": "korean-benchmarks.png",
+      "title": "Korean benchmark samples",
+      "labels": [
+        "KMMLU\n45-subject mean",
+        "HAE-RAE\n5-subtask mean",
+        "KoBEST BoolQ",
+        "KoBEST COPA",
+        "KoBEST HellaSwag",
+        "KoBEST SentiNeg"
+      ],
+      "values": [
+        [
+          56.93333333333334,
+          57.244444444444454
+        ],
+        [
+          64.0,
+          64.4
+        ],
+        [
+          40.0,
+          48.0
+        ],
+        [
+          74.0,
+          68.0
+        ],
+        [
+          66.0,
+          62.0
+        ],
+        [
+          92.0,
+          86.0
+        ]
+      ],
+      "caption": "Sampled scores, not full test splits. Subject means use equal-sized samples.",
+      "rendered_width_target": 750,
+      "label_font_pt": 14
+    },
+    {
+      "file": "english-math-benchmarks.png",
+      "title": "English and math samples",
+      "labels": [
+        "MMLU\n57-subject mean",
+        "HellaSwag",
+        "ARC-Challenge",
+        "WinoGrande",
+        "GSM8K"
+      ],
+      "values": [
+        [
+          78.94736842105263,
+          78.63157894736842
+        ],
+        [
+          66.0,
+          66.0
+        ],
+        [
+          52.0,
+          57.99999999999999
+        ],
+        [
+          74.0,
+          76.0
+        ],
+        [
+          86.0,
+          84.0
+        ]
+      ],
+      "caption": "50 questions per subtask. GSM8K: exact match, greedy decoding, 512-token cap.",
+      "rendered_width_target": 750,
+      "label_font_pt": 14
+    },
+    {
+      "file": "application-diagnostics.png",
+      "title": "Application diagnostics",
+      "labels": [
+        "Four-tool routing\n480 cases",
+        "Abstention / no-tool\n240 cases",
+        "Supplied-history state\n160 cases",
+        "Exact-output constraints\n160 cases"
+      ],
+      "values": [
+        [
+          96.25,
+          0.0
+        ],
+        [
+          51.24999999999999,
+          53.75
+        ],
+        [
+          100.0,
+          50.0
+        ],
+        [
+          95.0,
+          99.375
+        ]
+      ],
+      "caption": "Native Cortex chat vs Base plain transcript. Leaky extraction test excluded.",
+      "rendered_width_target": 750,
+      "label_font_pt": 14
+    },
+    {
+      "file": "context-strict.png",
+      "title": "Context: strict output contract",
+      "labels": [
+        "4K",
+        "16K",
+        "32K",
+        "64K\nCortex only"
+      ],
+      "values": [
+        [
+          52.5,
+          0.0
+        ],
+        [
+          22.5,
+          7.5
+        ],
+        [
+          52.5,
+          0.0
+        ],
+        [
+          0.0,
+          null
+        ]
+      ],
+      "caption": "Correct content and requested format required. 64K is Cortex-only.",
+      "rendered_width_target": 750,
+      "label_font_pt": 14
+    },
+    {
+      "file": "context-semantic.png",
+      "title": "Context: semantic JSON content",
+      "labels": [
+        "4K",
+        "16K",
+        "32K",
+        "64K\nCortex only"
+      ],
+      "values": [
+        [
+          100.0,
+          100.0
+        ],
+        [
+          45.0,
+          95.0
+        ],
+        [
+          75.0,
+          77.5
+        ],
+        [
+          20.0,
+          null
+        ]
+      ],
+      "caption": "Same cases as strict scoring; JSON fences accepted. 64K is unpaired.",
+      "rendered_width_target": 750,
+      "label_font_pt": 14
+    }
+  ]
+}

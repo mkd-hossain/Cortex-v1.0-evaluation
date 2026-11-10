@@ -2,6 +2,8 @@
 
 ## Completed evaluation — November 10, 2026
 
+[Readable model-card figures](benchmark/output/model-card/) separate Korean, English/math, application diagnostics, strict context and semantic context into five panels. Each uses large labels designed for normal Hugging Face model-card width. [Plotting source](benchmark/chart_model_card.py) and exact figure values are included; scores are unchanged from the completed run.
+
 All **39/39 jobs** completed, including the Cortex-only 64K extension. The plan evaluated 14,340 scenarios across both checkpoints. [Final run state](audit/full-budget-run/state.json), [final summary](audit/full-budget-run/summary-final-or-partial.json), [final overview figure](benchmark/output/cortex-current-benchmark.png), and [all standard subject scores](benchmark/output/cortex-current-results.csv) are available. Earlier progress/deadline statements below describe historical phases, not the final status.
 
 Results are descriptive sampled benchmarks and template-based synthetic diagnostics; they do not establish overall superiority or statistical significance. The extraction diagnostic contains answer leakage and is excluded from capability claims. Cortex-only 64K scored 0% strict and 20% semantic on 40 synthetic cases; no paired Base score is claimed. The prior pilots remain separate historical artifacts.
