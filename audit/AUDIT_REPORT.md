@@ -27,6 +27,10 @@ A base model can continue a prompt into JSON or a tool-like string. This does no
 
 ## Publication recommendation
 
+### Grounding fixture answer leakage (verified November 10)
+
+All 240 responses per model in the supplied-tool-result extraction fixture matched the expected JSON, with no truncations. However, the fixture generator sets the ticket number equal to the requested allocation, so the answer is present in the initial user ticket ID as well as in the tool result; the required citation is explicitly supplied. Therefore the 100%/100% result does not isolate grounding or native tool-calling ability. Preserve the original result files and task identifiers, but label figures as **simple extraction with answer leakage** and exclude these scores from capability claims. A follow-up needs independent identifiers/answer values, distractors, missing/conflicting evidence, and frozen scoring. Do not modify this run's cases or retroactively substitute follow-up results.
+
 ### Follow-up generation-default audit
 
 The full-run development calibration on Spark emitted a Transformers warning that model-specific defaults could replace library-default-valued settings in a separately supplied `GenerationConfig`, including `do_sample` and repetition penalty. Consequently, requested greedy settings alone are insufficient evidence that the first 48-response smoke used the intended effective decoding. Preserve that smoke as provisional integration evidence. The new budgeted runner sets `use_model_defaults=False`, passes `do_sample=False`, repetition penalty 1.0 and the token cap explicitly, and checks the effective generation preparation path. A regression test reproduces a model with sampling-enabled repository defaults and verifies those settings cannot override the requested full-run values. Revised calibration outputs are separate from the first calibration and first smoke; no prior scores are overwritten.
