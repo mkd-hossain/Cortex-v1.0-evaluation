@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10152d"/><stop offset="1" stop-color="#30205a"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#8768f8"/><stop offset="1" stop-color="#43d7de"/></linearGradient></defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <text x="70" y="82" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">Keural Cortex Foundation Model (8B)</text>
+  <text x="70" y="120" fill="#bec5e4" font-family="Arial, sans-serif" font-size="18">Local deployment · bilingual chat · tool-call capable</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="70" y="220" width="210" height="120" rx="18" fill="#1e2851" stroke="#7b71ed" stroke-width="2"/><text x="175" y="270" fill="white" font-size="22" font-weight="700">User context</text><text x="175" y="301" fill="#b9c5e5" font-size="16">Korean + English</text>
+    <path d="M300 280h95" stroke="url(#g)" stroke-width="8"/><path d="M380 264l24 16-24 16" fill="none" stroke="#43d7de" stroke-width="8"/>
+    <rect x="420" y="185" width="360" height="190" rx="22" fill="#272055" stroke="#9b83ff" stroke-width="3"/><text x="600" y="242" fill="white" font-size="27" font-weight="700">Cortex 8B</text><text x="600" y="280" fill="#d3ccff" font-size="18">Local bilingual language model</text><text x="600" y="311" fill="#d3ccff" font-size="18">36 layers · 4,096 hidden</text><text x="600" y="342" fill="#d3ccff" font-size="18">65,536-token design context</text>
+    <path d="M800 280h95" stroke="url(#g)" stroke-width="8"/><path d="M880 264l24 16-24 16" fill="none" stroke="#43d7de" stroke-width="8"/>
+    <rect x="920" y="160" width="210" height="240" rx="18" fill="#1e2851" stroke="#7b71ed" stroke-width="2"/><text x="1025" y="224" fill="white" font-size="22" font-weight="700">Outputs</text><text x="1025" y="266" fill="#b9c5e5" font-size="16">Plain chat</text><text x="1025" y="300" fill="#b9c5e5" font-size="16">Structured tool calls</text><text x="1025" y="334" fill="#b9c5e5" font-size="16">Grounded follow-up</text>
+  </g>
+  <text x="70" y="470" fill="#8f9bc5" font-family="Arial, sans-serif" font-size="15">Public release: v1.0 · evaluate for your deployment and safety requirements.</text>
+</svg>

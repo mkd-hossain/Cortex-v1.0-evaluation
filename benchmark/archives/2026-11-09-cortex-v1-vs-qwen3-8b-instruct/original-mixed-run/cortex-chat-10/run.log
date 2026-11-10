@@ -1,29 +1,0 @@
-2026-11-09:14:31:52 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
-2026-11-09:14:31:52 INFO     [config.evaluate_config:307] Using default fewshot_as_multiturn=True.
-2026-11-09:14:31:55 INFO     [_cli.run:388] Selected Tasks: ['gsm8k']
-2026-11-09:14:31:56 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
-2026-11-09:14:31:56 WARNING  [evaluator:226] generation_kwargs: {'max_gen_toks': 512, 'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
-2026-11-09:14:31:56 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}
-2026-11-09:14:31:57 INFO     [models.huggingface:286] Using device 'cuda:0'
-2026-11-09:14:31:58 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
-2026-11-09:14:33:34 INFO     [evaluator_utils:446] Selected tasks:
-2026-11-09:14:33:34 INFO     [evaluator_utils:480] Task: gsm8k (gsm8k/gsm8k.yaml)
-2026-11-09:14:33:34 INFO     [evaluator:314] gsm8k: Using gen_kwargs: {'until': ['Question:', '</s>', '<|im_end|>'], 'do_sample': False, 'temperature': 0.0, 'max_gen_toks': 512}
-2026-11-09:14:33:34 WARNING  [evaluator:333] Overwriting default num_fewshot of gsm8k from 5 to 5
-2026-11-09:14:33:34 INFO     [api.task:312] Building contexts for gsm8k on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 491.18it/s]
-2026-11-09:14:33:34 INFO     [evaluator:585] Running generate_until requests
-Running generate_until requests:   0%|          | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Both `max_new_tokens` (=2048) and `max_length`(=1669) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Running generate_until requests:  10%|█         | 1/10 [04:30<40:38, 270.89s/it]Both `max_new_tokens` (=2048) and `max_length`(=1608) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Running generate_until requests:  50%|█████     | 5/10 [04:51<03:43, 44.74s/it] Both `max_new_tokens` (=2048) and `max_length`(=1370) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
-Running generate_until requests:  90%|█████████ | 9/10 [05:07<00:22, 22.41s/it]Running generate_until requests: 100%|██████████| 10/10 [05:07<00:00, 30.77s/it]
-fatal: not a git repository (or any of the parent directories): .git
-2026-11-09:14:38:43 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
-2026-11-09:14:38:43 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-chat-10/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
-hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}), gen_kwargs: ({'max_gen_toks': 512, 'do_sample': False}), limit: 10.0, num_fewshot: 5, batch_size: 4
-|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
-|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
-|gsm8k|      3|flexible-extract|     5|exact_match|↑  |  0.7|±  |0.1528|
-|     |       |strict-match    |     5|exact_match|↑  |  0.7|±  |0.1528|
-

@@ -1,10 +1,11 @@
 __pycache__/
 *.pyc
 .venv/
-.config-venv/
 .env
 .env.*
 *.pem
 *.key
-training-source/
-runs/
+id_ed25519*
+*.safetensors
+*.bin
+.DS_Store

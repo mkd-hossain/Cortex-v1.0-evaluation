@@ -1,33 +1,0 @@
-2026-11-09:13:48:23 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
-2026-11-09:13:48:25 INFO     [_cli.run:388] Selected Tasks: ['kmmlu_computer_science', 'kmmlu_korean_history', 'kmmlu_economics']
-2026-11-09:13:48:26 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
-2026-11-09:13:48:26 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}
-2026-11-09:13:48:27 INFO     [models.huggingface:286] Using device 'cuda:0'
-2026-11-09:13:48:28 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
-Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:29<01:59, 29.76s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:54<01:20, 26.75s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:18<00:51, 25.57s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:40<00:23, 23.96s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 18.65s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:49<00:00, 21.86s/it]
-2026-11-09:13:50:24 INFO     [evaluator_utils:446] Selected tasks:
-2026-11-09:13:50:24 INFO     [evaluator_utils:480] Task: kmmlu_computer_science (kmmlu/default/kmmlu_computer_science.yaml)
-2026-11-09:13:50:24 INFO     [evaluator_utils:480] Task: kmmlu_economics (kmmlu/default/kmmlu_economics.yaml)
-2026-11-09:13:50:24 INFO     [evaluator_utils:480] Task: kmmlu_korean_history (kmmlu/default/kmmlu_korean_history.yaml)
-2026-11-09:13:50:24 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_computer_science from None to 5
-2026-11-09:13:50:24 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_korean_history from None to 5
-2026-11-09:13:50:24 WARNING  [evaluator:333] Overwriting default num_fewshot of kmmlu_economics from None to 5
-2026-11-09:13:50:24 INFO     [api.task:312] Building contexts for kmmlu_computer_science on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 434.98it/s]
-2026-11-09:13:50:24 INFO     [api.task:312] Building contexts for kmmlu_korean_history on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 452.59it/s]
-2026-11-09:13:50:24 INFO     [api.task:312] Building contexts for kmmlu_economics on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 457.85it/s]
-2026-11-09:13:50:24 INFO     [evaluator:585] Running loglikelihood requests
-Tokenizing inputs:   0%|          | 0/120 [00:00<?, ?it/s]Tokenizing inputs:  82%|████████▏ | 98/120 [00:00<00:00, 979.32it/s]Tokenizing inputs: 100%|██████████| 120/120 [00:00<00:00, 999.58it/s]
-Running loglikelihood requests:   0%|          | 0/120 [00:00<?, ?it/s]Running loglikelihood requests:   1%|          | 1/120 [00:03<06:33,  3.30s/it]Running loglikelihood requests:  28%|██▊       | 33/120 [00:05<00:13,  6.57it/s]Running loglikelihood requests:  54%|█████▍    | 65/120 [00:07<00:05, 10.15it/s]Running loglikelihood requests:  81%|████████  | 97/120 [00:08<00:01, 14.95it/s]Running loglikelihood requests: 100%|██████████| 120/120 [00:08<00:00, 13.61it/s]
-fatal: not a git repository (or any of the parent directories): .git
-2026-11-09:13:50:33 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
-2026-11-09:13:50:33 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/base-completion-00/results/Qwen__Qwen3-8B-Base/*.jsonl
-hf ({'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 5, batch_size: 8
-|        Tasks         |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
-|----------------------|------:|------|-----:|------|---|----:|---|-----:|
-|kmmlu_computer_science|      2|none  |     5|acc   |↑  |  0.8|±  |0.1333|
-|kmmlu_economics       |      2|none  |     5|acc   |↑  |  0.7|±  |0.1528|
-|kmmlu_korean_history  |      2|none  |     5|acc   |↑  |  0.5|±  |0.1667|
-

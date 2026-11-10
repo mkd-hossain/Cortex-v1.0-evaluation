@@ -1,8 +1,0 @@
-Loading mkd-hossain/Keural-Cortex-8B-v1.0 in BF16, native chat template. 0/2 cases already saved.
-`torch_dtype` is deprecated! Use `dtype` instead!
-CASE 1/2 [Long context] context-16384-depth-0 starting
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-CASE 1/2 context-16384-depth-0: FAIL; input=15670 output=2 time=5.7s; Exact/constraint-based scoring
-CASE 2/2 [Long context] context-16384-depth-1 starting
-CASE 2/2 context-16384-depth-1: FAIL; input=15670 output=1 time=5.1s; Exact/constraint-based scoring
-DIAGNOSTICS_COMPLETE {"Long context": {"passed": 0, "total": 2, "pass_rate": 0.0}}

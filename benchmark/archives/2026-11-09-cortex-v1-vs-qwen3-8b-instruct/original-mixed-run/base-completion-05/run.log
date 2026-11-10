@@ -1,24 +1,0 @@
-2026-11-09:13:58:48 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
-2026-11-09:13:58:51 INFO     [_cli.run:388] Selected Tasks: ['kobest_sentineg']
-2026-11-09:13:58:51 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
-2026-11-09:13:58:51 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}
-2026-11-09:13:58:53 INFO     [models.huggingface:286] Using device 'cuda:0'
-2026-11-09:13:58:54 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
-Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:29<01:58, 29.52s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:52<01:16, 25.56s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:15<00:48, 24.46s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:35<00:22, 22.80s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:45<00:00, 18.04s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:45<00:00, 21.06s/it]
-2026-11-09:14:00:44 INFO     [evaluator_utils:446] Selected tasks:
-2026-11-09:14:00:44 INFO     [evaluator_utils:480] Task: kobest_sentineg (kobest/kobest_sentineg.yaml)
-2026-11-09:14:00:44 WARNING  [evaluator:333] Overwriting default num_fewshot of kobest_sentineg from None to 0
-2026-11-09:14:00:44 INFO     [api.task:312] Building contexts for kobest_sentineg on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 7787.42it/s]
-2026-11-09:14:00:44 INFO     [evaluator:585] Running loglikelihood requests
-Tokenizing inputs:   0%|          | 0/20 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 20/20 [00:00<00:00, 13460.54it/s]
-Running loglikelihood requests:   0%|          | 0/20 [00:00<?, ?it/s]Running loglikelihood requests:   5%|▌         | 1/20 [00:00<00:10,  1.82it/s]Running loglikelihood requests:  45%|████▌     | 9/20 [00:00<00:00, 17.24it/s]Running loglikelihood requests:  85%|████████▌ | 17/20 [00:00<00:00, 30.79it/s]Running loglikelihood requests: 100%|██████████| 20/20 [00:00<00:00, 25.82it/s]
-fatal: not a git repository (or any of the parent directories): .git
-2026-11-09:14:00:45 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
-2026-11-09:14:00:45 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/base-completion-05/results/Qwen__Qwen3-8B-Base/*.jsonl
-hf ({'pretrained': 'Qwen/Qwen3-8B-Base', 'revision': '49e3418fbbbca6ecbdf9608b4d22e5a407081db4', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
-|     Tasks     |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
-|---------------|------:|------|-----:|------|---|-----:|---|------|
-|kobest_sentineg|      1|none  |     0|acc   |↑  |0.7000|±  |0.1528|
-|               |       |none  |     0|f1    |↑  |0.6703|±  |   N/A|
-

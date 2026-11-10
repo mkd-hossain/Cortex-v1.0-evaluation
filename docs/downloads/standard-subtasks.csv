@@ -1,0 +1,116 @@
+suite,task,label,metric,n,cortex,base
+kmmlu,kmmlu_biology,biology,"acc,none",50,56.00000000000001,50.0
+kmmlu,kmmlu_chemical_engineering,chemical engineering,"acc,none",50,70.0,68.0
+kmmlu,kmmlu_chemistry,chemistry,"acc,none",50,56.00000000000001,57.99999999999999
+kmmlu,kmmlu_civil_engineering,civil engineering,"acc,none",50,44.0,46.0
+kmmlu,kmmlu_computer_science,computer science,"acc,none",50,82.0,84.0
+kmmlu,kmmlu_ecology,ecology,"acc,none",50,66.0,62.0
+kmmlu,kmmlu_electrical_engineering,electrical engineering,"acc,none",50,50.0,48.0
+kmmlu,kmmlu_information_technology,information technology,"acc,none",50,90.0,92.0
+kmmlu,kmmlu_materials_engineering,materials engineering,"acc,none",50,57.99999999999999,56.00000000000001
+kmmlu,kmmlu_math,math,"acc,none",50,50.0,42.0
+kmmlu,kmmlu_mechanical_engineering,mechanical engineering,"acc,none",50,62.0,64.0
+kmmlu,kmmlu_agricultural_sciences,agricultural sciences,"acc,none",50,54.0,50.0
+kmmlu,kmmlu_construction,construction,"acc,none",50,40.0,42.0
+kmmlu,kmmlu_fashion,fashion,"acc,none",50,54.0,50.0
+kmmlu,kmmlu_food_processing,food processing,"acc,none",50,57.99999999999999,56.00000000000001
+kmmlu,kmmlu_health,health,"acc,none",50,57.99999999999999,64.0
+kmmlu,kmmlu_interior_architecture_and_design,interior architecture and design,"acc,none",50,70.0,70.0
+kmmlu,kmmlu_marketing,marketing,"acc,none",50,84.0,86.0
+kmmlu,kmmlu_patent,patent,"acc,none",50,46.0,54.0
+kmmlu,kmmlu_public_safety,public safety,"acc,none",50,42.0,40.0
+kmmlu,kmmlu_real_estate,real estate,"acc,none",50,56.00000000000001,62.0
+kmmlu,kmmlu_refrigerating_machinery,refrigerating machinery,"acc,none",50,66.0,64.0
+kmmlu,kmmlu_aviation_engineering_and_maintenance,aviation engineering and maintenance,"acc,none",50,52.0,50.0
+kmmlu,kmmlu_electronics_engineering,electronics engineering,"acc,none",50,72.0,70.0
+kmmlu,kmmlu_energy_management,energy management,"acc,none",50,40.0,42.0
+kmmlu,kmmlu_environmental_science,environmental science,"acc,none",50,42.0,44.0
+kmmlu,kmmlu_gas_technology_and_engineering,gas technology and engineering,"acc,none",50,46.0,48.0
+kmmlu,kmmlu_geomatics,geomatics,"acc,none",50,50.0,50.0
+kmmlu,kmmlu_industrial_engineer,industrial engineer,"acc,none",50,50.0,52.0
+kmmlu,kmmlu_machine_design_and_manufacturing,machine design and manufacturing,"acc,none",50,56.00000000000001,54.0
+kmmlu,kmmlu_maritime_engineering,maritime engineering,"acc,none",50,46.0,54.0
+kmmlu,kmmlu_nondestructive_testing,nondestructive testing,"acc,none",50,62.0,60.0
+kmmlu,kmmlu_railway_and_automotive_engineering,railway and automotive engineering,"acc,none",50,42.0,46.0
+kmmlu,kmmlu_telecommunications_and_wireless_technology,telecommunications and wireless technology,"acc,none",50,60.0,56.00000000000001
+kmmlu,kmmlu_accounting,accounting,"acc,none",50,52.0,52.0
+kmmlu,kmmlu_criminal_law,criminal law,"acc,none",50,50.0,44.0
+kmmlu,kmmlu_economics,economics,"acc,none",50,66.0,70.0
+kmmlu,kmmlu_education,education,"acc,none",50,82.0,86.0
+kmmlu,kmmlu_korean_history,korean history,"acc,none",50,36.0,34.0
+kmmlu,kmmlu_law,law,"acc,none",50,42.0,40.0
+kmmlu,kmmlu_management,management,"acc,none",50,60.0,64.0
+kmmlu,kmmlu_political_science_and_sociology,political science and sociology,"acc,none",50,60.0,56.00000000000001
+kmmlu,kmmlu_psychology,psychology,"acc,none",50,57.99999999999999,60.0
+kmmlu,kmmlu_social_welfare,social welfare,"acc,none",50,80.0,88.0
+kmmlu,kmmlu_taxation,taxation,"acc,none",50,46.0,48.0
+haerae,haerae_general_knowledge,HAE-RAE / general knowledge,"acc_norm,none",50,38.0,38.0
+haerae,haerae_history,HAE-RAE / history,"acc_norm,none",50,50.0,54.0
+haerae,haerae_loan_word,HAE-RAE / loan word,"acc_norm,none",50,82.0,80.0
+haerae,haerae_rare_word,HAE-RAE / rare word,"acc_norm,none",50,70.0,72.0
+haerae,haerae_standard_nomenclature,HAE-RAE / standard nomenclature,"acc_norm,none",50,80.0,78.0
+kobest_boolq,kobest_boolq,kobest boolq,"acc,none",50,40.0,48.0
+kobest_copa,kobest_copa,kobest copa,"acc,none",50,74.0,68.0
+kobest_hellaswag,kobest_hellaswag,kobest hellaswag,"acc_norm,none",50,66.0,62.0
+kobest_sentineg,kobest_sentineg,kobest sentineg,"acc,none",50,92.0,86.0
+mmlu,mmlu_abstract_algebra,abstract algebra,"acc,none",50,64.0,64.0
+mmlu,mmlu_anatomy,anatomy,"acc,none",50,76.0,78.0
+mmlu,mmlu_astronomy,astronomy,"acc,none",50,88.0,90.0
+mmlu,mmlu_college_biology,college biology,"acc,none",50,96.0,92.0
+mmlu,mmlu_college_chemistry,college chemistry,"acc,none",50,57.99999999999999,56.00000000000001
+mmlu,mmlu_college_computer_science,college computer science,"acc,none",50,70.0,64.0
+mmlu,mmlu_college_mathematics,college mathematics,"acc,none",50,62.0,62.0
+mmlu,mmlu_college_physics,college physics,"acc,none",50,56.00000000000001,57.99999999999999
+mmlu,mmlu_computer_security,computer security,"acc,none",50,80.0,84.0
+mmlu,mmlu_conceptual_physics,conceptual physics,"acc,none",50,88.0,88.0
+mmlu,mmlu_electrical_engineering,electrical engineering,"acc,none",50,76.0,76.0
+mmlu,mmlu_elementary_mathematics,elementary mathematics,"acc,none",50,84.0,84.0
+mmlu,mmlu_high_school_biology,high school biology,"acc,none",50,96.0,94.0
+mmlu,mmlu_high_school_chemistry,high school chemistry,"acc,none",50,68.0,64.0
+mmlu,mmlu_high_school_computer_science,high school computer science,"acc,none",50,92.0,92.0
+mmlu,mmlu_high_school_mathematics,high school mathematics,"acc,none",50,57.99999999999999,56.00000000000001
+mmlu,mmlu_high_school_physics,high school physics,"acc,none",50,76.0,74.0
+mmlu,mmlu_high_school_statistics,high school statistics,"acc,none",50,84.0,82.0
+mmlu,mmlu_machine_learning,machine learning,"acc,none",50,72.0,70.0
+mmlu,mmlu_business_ethics,business ethics,"acc,none",50,76.0,74.0
+mmlu,mmlu_clinical_knowledge,clinical knowledge,"acc,none",50,74.0,74.0
+mmlu,mmlu_college_medicine,college medicine,"acc,none",50,84.0,80.0
+mmlu,mmlu_global_facts,global facts,"acc,none",50,46.0,46.0
+mmlu,mmlu_human_aging,human aging,"acc,none",50,86.0,84.0
+mmlu,mmlu_management,management,"acc,none",50,92.0,88.0
+mmlu,mmlu_marketing,marketing,"acc,none",50,96.0,96.0
+mmlu,mmlu_medical_genetics,medical genetics,"acc,none",50,90.0,88.0
+mmlu,mmlu_miscellaneous,miscellaneous,"acc,none",50,92.0,92.0
+mmlu,mmlu_nutrition,nutrition,"acc,none",50,90.0,86.0
+mmlu,mmlu_professional_accounting,professional accounting,"acc,none",50,57.99999999999999,56.00000000000001
+mmlu,mmlu_professional_medicine,professional medicine,"acc,none",50,80.0,80.0
+mmlu,mmlu_virology,virology,"acc,none",50,64.0,64.0
+mmlu,mmlu_econometrics,econometrics,"acc,none",50,62.0,64.0
+mmlu,mmlu_high_school_geography,high school geography,"acc,none",50,94.0,90.0
+mmlu,mmlu_high_school_government_and_politics,high school government and politics,"acc,none",50,94.0,94.0
+mmlu,mmlu_high_school_macroeconomics,high school macroeconomics,"acc,none",50,88.0,82.0
+mmlu,mmlu_high_school_microeconomics,high school microeconomics,"acc,none",50,98.0,98.0
+mmlu,mmlu_high_school_psychology,high school psychology,"acc,none",50,84.0,86.0
+mmlu,mmlu_human_sexuality,human sexuality,"acc,none",50,82.0,78.0
+mmlu,mmlu_professional_psychology,professional psychology,"acc,none",50,86.0,90.0
+mmlu,mmlu_public_relations,public relations,"acc,none",50,64.0,66.0
+mmlu,mmlu_security_studies,security studies,"acc,none",50,70.0,70.0
+mmlu,mmlu_sociology,sociology,"acc,none",50,84.0,86.0
+mmlu,mmlu_us_foreign_policy,us foreign policy,"acc,none",50,94.0,94.0
+mmlu,mmlu_formal_logic,formal logic,"acc,none",50,68.0,66.0
+mmlu,mmlu_high_school_european_history,high school european history,"acc,none",50,82.0,82.0
+mmlu,mmlu_high_school_us_history,high school us history,"acc,none",50,92.0,94.0
+mmlu,mmlu_high_school_world_history,high school world history,"acc,none",50,92.0,94.0
+mmlu,mmlu_international_law,international law,"acc,none",50,78.0,82.0
+mmlu,mmlu_jurisprudence,jurisprudence,"acc,none",50,86.0,86.0
+mmlu,mmlu_logical_fallacies,logical fallacies,"acc,none",50,86.0,90.0
+mmlu,mmlu_moral_disputes,moral disputes,"acc,none",50,82.0,90.0
+mmlu,mmlu_moral_scenarios,moral scenarios,"acc,none",50,57.99999999999999,56.00000000000001
+mmlu,mmlu_philosophy,philosophy,"acc,none",50,84.0,82.0
+mmlu,mmlu_prehistory,prehistory,"acc,none",50,90.0,90.0
+mmlu,mmlu_professional_law,professional law,"acc,none",50,52.0,56.00000000000001
+mmlu,mmlu_world_religions,world religions,"acc,none",50,78.0,80.0
+hellaswag,hellaswag,hellaswag,"acc_norm,none",50,66.0,66.0
+arc_challenge,arc_challenge,arc challenge,"acc_norm,none",50,52.0,57.99999999999999
+winogrande,winogrande,winogrande,"acc,none",50,74.0,76.0
+gsm8k,gsm8k,gsm8k,"exact_match,strict-match",50,86.0,84.0

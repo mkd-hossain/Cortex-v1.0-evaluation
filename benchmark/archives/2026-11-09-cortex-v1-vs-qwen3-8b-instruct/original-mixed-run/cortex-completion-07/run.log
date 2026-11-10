@@ -1,28 +1,0 @@
-2026-11-09:13:31:01 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
-2026-11-09:13:31:04 INFO     [_cli.run:388] Selected Tasks: ['hellaswag']
-2026-11-09:13:31:04 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
-2026-11-09:13:31:04 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}
-2026-11-09:13:31:06 INFO     [models.huggingface:286] Using device 'cuda:0'
-2026-11-09:13:31:07 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
-Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 711674.32 examples/s]
-Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 717337.28 examples/s]
-Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 784839.58 examples/s]
-Map:   0%|          | 0/39905 [00:00<?, ? examples/s]Map:   7%|▋         | 2827/39905 [00:00<00:01, 27973.57 examples/s]Map:  17%|█▋        | 6960/39905 [00:00<00:01, 27463.27 examples/s]Map:  28%|██▊       | 11000/39905 [00:00<00:01, 26382.45 examples/s]Map:  35%|███▍      | 13931/39905 [00:00<00:00, 27292.76 examples/s]Map:  44%|████▎     | 17442/39905 [00:00<00:01, 18884.77 examples/s]Map:  50%|████▉     | 19944/39905 [00:00<00:00, 20224.69 examples/s]Map:  59%|█████▉    | 23456/39905 [00:01<00:00, 20820.89 examples/s]Map:  65%|██████▍   | 25926/39905 [00:01<00:00, 21710.08 examples/s]Map:  74%|███████▍  | 29503/39905 [00:01<00:00, 22105.88 examples/s]Map:  80%|████████  | 31996/39905 [00:01<00:00, 22772.97 examples/s]Map:  87%|████████▋ | 34774/39905 [00:01<00:00, 17182.17 examples/s]Map:  93%|█████████▎| 37233/39905 [00:01<00:00, 18276.93 examples/s]Map: 100%|█████████▉| 39724/39905 [00:01<00:00, 19751.73 examples/s]Map: 100%|██████████| 39905/39905 [00:01<00:00, 20381.69 examples/s]
-Map:   0%|          | 0/10042 [00:00<?, ? examples/s]Map:  28%|██▊       | 2836/10042 [00:00<00:00, 28221.75 examples/s]Map:  65%|██████▍   | 6519/10042 [00:00<00:00, 25098.73 examples/s]Map: 100%|██████████| 10042/10042 [00:00<00:00, 23635.42 examples/s]Map: 100%|██████████| 10042/10042 [00:00<00:00, 24131.16 examples/s]
-2026-11-09:13:33:12 INFO     [evaluator_utils:446] Selected tasks:
-2026-11-09:13:33:12 INFO     [evaluator_utils:480] Task: hellaswag (hellaswag/hellaswag.yaml)
-2026-11-09:13:33:12 WARNING  [evaluator:333] Overwriting default num_fewshot of hellaswag from None to 0
-2026-11-09:13:33:12 INFO     [api.task:312] Building contexts for hellaswag on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 4634.08it/s]
-2026-11-09:13:33:12 INFO     [evaluator:585] Running loglikelihood requests
-Tokenizing inputs:   0%|          | 0/40 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 40/40 [00:00<00:00, 9218.76it/s]
-Running loglikelihood requests:   0%|          | 0/40 [00:00<?, ?it/s]Running loglikelihood requests:   2%|▎         | 1/40 [00:00<00:22,  1.76it/s]Running loglikelihood requests:  22%|██▎       | 9/40 [00:00<00:01, 16.06it/s]Running loglikelihood requests:  42%|████▎     | 17/40 [00:00<00:00, 26.48it/s]Running loglikelihood requests:  62%|██████▎   | 25/40 [00:00<00:00, 35.97it/s]Running loglikelihood requests:  82%|████████▎ | 33/40 [00:01<00:00, 43.09it/s]Running loglikelihood requests: 100%|██████████| 40/40 [00:01<00:00, 35.77it/s]
-fatal: not a git repository (or any of the parent directories): .git
-2026-11-09:13:33:14 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
-2026-11-09:13:33:14 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-completion-07/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
-hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
-|  Tasks  |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
-|---------|------:|------|-----:|--------|---|----:|---|-----:|
-|hellaswag|      1|none  |     0|acc     |↑  |  0.4|±  |0.1633|
-|         |       |none  |     0|acc_norm|↑  |  0.5|±  |0.1667|
-

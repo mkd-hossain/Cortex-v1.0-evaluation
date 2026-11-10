@@ -1,23 +1,0 @@
-2026-11-09:14:29:49 WARNING  [config.evaluate_config:287] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
-2026-11-09:14:29:49 INFO     [config.evaluate_config:307] Using default fewshot_as_multiturn=True.
-2026-11-09:14:29:51 INFO     [_cli.run:388] Selected Tasks: ['winogrande']
-2026-11-09:14:29:52 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
-2026-11-09:14:29:52 INFO     [evaluator:239] Initializing hf model, with arguments: {'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}
-2026-11-09:14:29:53 INFO     [models.huggingface:286] Using device 'cuda:0'
-2026-11-09:14:29:54 INFO     [models.huggingface:579] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
-2026-11-09:14:31:50 INFO     [evaluator_utils:446] Selected tasks:
-2026-11-09:14:31:50 INFO     [evaluator_utils:480] Task: winogrande (winogrande/default.yaml)
-2026-11-09:14:31:50 WARNING  [evaluator:333] Overwriting default num_fewshot of winogrande from None to 0
-2026-11-09:14:31:50 INFO     [api.task:312] Building contexts for winogrande on rank 0...
-  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 1133.20it/s]
-2026-11-09:14:31:50 INFO     [evaluator:585] Running loglikelihood requests
-Tokenizing inputs:   0%|          | 0/20 [00:00<?, ?it/s]Tokenizing inputs: 100%|██████████| 20/20 [00:00<00:00, 8450.30it/s]
-Running loglikelihood requests:   0%|          | 0/20 [00:00<?, ?it/s]Running loglikelihood requests:   5%|▌         | 1/20 [00:00<00:10,  1.82it/s]Running loglikelihood requests:  45%|████▌     | 9/20 [00:00<00:00, 16.73it/s]Running loglikelihood requests: 100%|██████████| 20/20 [00:00<00:00, 25.69it/s]
-fatal: not a git repository (or any of the parent directories): .git
-2026-11-09:14:31:51 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
-2026-11-09:14:31:51 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to runs-short-all-v1/cortex-chat-09/results/mkd-hossain__Keural-Cortex-8B-v1.0/*.jsonl
-hf ({'pretrained': 'mkd-hossain/Keural-Cortex-8B-v1.0', 'revision': 'a592a43fe940299b5a025e5b719459cda97ae1e6', 'dtype': 'bfloat16', 'max_length': 32768, 'enable_thinking': False}), gen_kwargs: ({}), limit: 10.0, num_fewshot: 0, batch_size: 8
-|  Tasks   |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
-|----------|------:|------|-----:|------|---|----:|---|-----:|
-|winogrande|      1|none  |     0|acc   |↑  |  0.6|±  |0.1633|
-
