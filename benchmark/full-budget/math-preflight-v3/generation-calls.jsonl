@@ -1,0 +1,2 @@
+{"input_batch_tokens": 1090, "batch_size": 1, "effective_max_new_tokens": 512, "do_sample": false, "repetition_penalty": 1.0, "use_model_defaults": false}
+{"input_batch_tokens": 1042, "batch_size": 1, "effective_max_new_tokens": 512, "do_sample": false, "repetition_penalty": 1.0, "use_model_defaults": false}

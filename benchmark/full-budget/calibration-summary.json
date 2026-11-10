@@ -1,0 +1,16 @@
+{
+  "mkd-hossain/Keural-Cortex-8B-v1.0": {
+    "cases": 4,
+    "terminated": 4,
+    "truncated": 0,
+    "seconds": 11.807324647903442,
+    "output_tokens": 63
+  },
+  "Qwen/Qwen3-8B-Base": {
+    "cases": 4,
+    "terminated": 4,
+    "truncated": 0,
+    "seconds": 22.55598497390747,
+    "output_tokens": 194
+  }
+}

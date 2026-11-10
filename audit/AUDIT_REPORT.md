@@ -27,6 +27,16 @@ A base model can continue a prompt into JSON or a tool-like string. This does no
 
 ## Publication recommendation
 
+### Follow-up generation-default audit
+
+The full-run development calibration on Spark emitted a Transformers warning that model-specific defaults could replace library-default-valued settings in a separately supplied `GenerationConfig`, including `do_sample` and repetition penalty. Consequently, requested greedy settings alone are insufficient evidence that the first 48-response smoke used the intended effective decoding. Preserve that smoke as provisional integration evidence. The new budgeted runner sets `use_model_defaults=False`, passes `do_sample=False`, repetition penalty 1.0 and the token cap explicitly, and checks the effective generation preparation path. A regression test reproduces a model with sampling-enabled repository defaults and verifies those settings cannot override the requested full-run values. Revised calibration outputs are separate from the first calibration and first smoke; no prior scores are overwritten.
+
+### Full-window automatic generation probe
+
+The budgeted-run preflight exposed a separate harness issue: automatic batch detection for generation calls `_detect_batch_size()` without request lengths, so it probes the full configured 32,768-token window, repeats forward/log-softmax passes five times, and starts from the maximum batch size. This is much larger than the short math prompts. Spark reached approximately 105 GiB used memory with swap activity and became unresponsive to SSH/dashboard requests. The launch service was asked to stop; remote termination could not be confirmed while the host was unresponsive. No scored full-run job had started. The corrected runner uses a fixed math-generation batch of two, retaining automatic batching only for multiple-choice requests where the probe receives actual request lengths. Resume requires host recovery and rerunning the corrected math preflight. Preserve the failed preflight separately; it is not a model accuracy result.
+
+After recovery on November 10, the two-question generation preflight failed cleanly because its padding creates a non-null attention mask unsupported by the forced flash kernel. The final generation setting is therefore **batch size one** for both models, with a separate `math-preflight-v3` artifact directory. The standard classification path retains its already tested automatic batch policy. These are operational changes before scored inference, not edits to model outputs or accuracy scores.
+
 ### Confirmed local configuration reproduction
 
 An isolated CPU-only Transformers 4.57.6 environment loaded the pinned downloaded Cortex configuration with `AutoConfig`. It returned `rope_theta=10000.0`, `rope_scaling=null`, while preserving the newer `rope_parameters` as a separate attribute. See `evidence/local-config-check.json` and `check_local_config.py`. Combined with that version's rotary implementation reading `rope_scaling`, this confirms an incompatible interpretation in the reproduced configuration path. It does not substitute for inspecting the remote inference process or proving its constructor supplied no overrides. Treat earlier Cortex comparisons as provisional until that path is verified and corrected.

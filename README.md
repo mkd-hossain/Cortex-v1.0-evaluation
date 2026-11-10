@@ -2,7 +2,22 @@
 
 Evaluation code, saved pilot outputs, charts, configuration audit and a proposed domain-focused protocol for **Keural Cortex 8B v1.0 versus Qwen3-8B-Base** on NVIDIA DGX Spark.
 
-**Read the audit before interpreting any chart.** Earlier Cortex pilots used an incompatible interpretation of its published positional configuration. Those results are preserved as provisional historical evidence, not a validated overall model ranking. The current run is a small development integration test, not the full benchmark.
+**Read the audit before interpreting any chart.** Earlier Cortex pilots used an incompatible interpretation of its published positional configuration. Those results are preserved as provisional historical evidence, not a validated overall model ranking. A subsequent generation-default audit also limits the first 48-response smoke. The new run explicitly disables model-default inheritance.
+
+## New 15-hour budgeted evaluation
+
+**Started November 10, 2026, at 09:56 KST.** The recovered math preflight passed with batch size one and recorded effective greedy settings. Both dashboards now serve `runs-full-budget-v1`. This repository contains an in-progress artifact snapshot, not completed results. [Current saved status](audit/full-budget-run/state.json) and [verified math generation calls](benchmark/full-budget/math-preflight-v3/generation-calls.jsonl) are included.
+
+- [Frozen plan](benchmark/full-budget/plan.json), [methodology](benchmark/full-budget/README.md), [standard dataset manifest](benchmark/full-budget/frozen-standard-manifest.json), and [dataset source references](benchmark/full-budget/dataset-source-references.json).
+- [Standard runner](benchmark/full-budget/standard.py), [deployment runner](benchmark/full-budget/behavior.py), [public synthetic cases](benchmark/full-budget/domain-cases.json), [calibration](benchmark/full-budget/calibration-summary.json), and [environment/model checksums](benchmark/full-budget/environment-provenance.json).
+- Planned **39 jobs / 14,340 scored scenarios**: 5,750 standard samples, 1,280 bilingual domain fixtures and 120 paired context cases per model, plus 40 Cortex-only 64K cases.
+- Covers 45 installed KMMLU subjects and 57 MMLU subjects, plus HAE-RAE, KoBEST, HellaSwag, ARC-Challenge, WinoGrande and GSM8K. Standard tasks use up to 50 seeded random examples per leaf task, not all official full splits.
+- Hard stop: **2026-11-10 11:48:14 KST**. Preparation started on November 9. The cap bounds runtime, not a guarantee every scenario completes. Manual pauses consume wall-clock time; incomplete coverage remains explicitly incomplete.
+- Scored work begins only after the frozen-data, stopping, matched-completion and math-budget preflights pass. The live dashboard and saved run state are authoritative; preparation/calibration outputs are not final benchmark scores.
+
+Recovery note (November 10): the initial math auto-batch preflight caused severe host memory pressure; scored work had not started then. Spark recovered, and the corrected runner uses a fixed math generation batch of one. The original 11:48 AM KST deadline remains, leaving approximately two hours at recovery. Planned coverage can therefore remain incomplete. See the audit and recovery notes; no failed preflight is a model accuracy result.
+
+Standard tasks use matched completion. Deployment fixtures use Cortex native chat versus a Base plain transcript with the same demonstrations and declared stop boundaries. The synthetic cases are not independently authored holdout; no broad superiority claim is supported by their selection alone. Exact greedy settings, generation caps and RoPE behavior are asserted and recorded. Previous runs stay separate.
 
 ## Start here
 
@@ -26,7 +41,7 @@ Evaluation code, saved pilot outputs, charts, configuration audit and a proposed
 
 The current runner rejects other checkpoints. Historical archives include an explicitly separate Qwen3-8B instruction-tuned comparison. Do not merge its results with the Base comparator.
 
-## Current development validation
+## Preserved development validation
 
 24 bilingual cases per model: 16 four-tool cases and 8 direct/grounded-answer cases. Each tool family appears in Korean and English. No real external tools execute. Cortex uses its native chat template; the Base model uses a documented plain transcript. Requests, schemas, greedy decoding, repetition penalty 1.0 and the 192-token cap match; **serialization and model-specific stop tokens differ**.
 
